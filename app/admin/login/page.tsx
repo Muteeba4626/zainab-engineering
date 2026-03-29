@@ -121,10 +121,10 @@ export default function AdminLogin() {
           </div>
         </div>
 
-        {/* Demo Credentials */}
-        <div className="mt-4 p-4 bg-yellow-50 dark:bg-yellow-900/20 rounded-lg border border-yellow-200 dark:border-yellow-700">
-          <p className="text-sm text-yellow-800 dark:text-yellow-200 text-center">
-            <strong>Demo:</strong> admin@zainabengineering.com / admin123
+        {/* Info */}
+        <div className="mt-4 p-4 bg-blue-50 dark:bg-blue-900/20 rounded-lg border border-blue-200 dark:border-blue-700">
+          <p className="text-sm text-blue-800 dark:text-blue-200 text-center">
+            Use your Supabase Auth credentials to login
           </p>
         </div>
       </div>
