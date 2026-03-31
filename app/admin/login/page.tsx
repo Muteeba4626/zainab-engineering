@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
+import Link from 'next/link'
 
 export default function AdminLogin() {
   const [email, setEmail] = useState('')
@@ -29,12 +30,11 @@ export default function AdminLogin() {
         return
       }
 
-      // Store admin session
       localStorage.setItem('adminToken', data.token)
       localStorage.setItem('adminUser', JSON.stringify(data.user))
       
       router.push('/admin/dashboard')
-    } catch (err) {
+    } catch {
       setError('Something went wrong. Please try again.')
     } finally {
       setLoading(false)
@@ -42,89 +42,104 @@ export default function AdminLogin() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+    <div className="min-h-screen flex items-center justify-center bg-surface kinetic-grid-bg">
       <div className="max-w-md w-full mx-4">
-        <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8">
+        <div className="bg-surface-container-lowest rounded-3xl shadow-2xl p-10 border border-outline-variant/10">
           {/* Logo */}
-          <div className="text-center mb-8">
-            <h1 className="text-2xl font-bold text-gray-900 dark:text-white">
-              Zainab Engineering
+          <div className="text-center mb-10">
+            <div className="w-16 h-16 bg-primary-container/10 rounded-2xl flex items-center justify-center mx-auto mb-6">
+              <span className="material-symbols-outlined text-primary text-4xl">admin_panel_settings</span>
+            </div>
+            <h1 className="text-3xl font-headline font-bold text-on-surface tracking-tight">
+              Admin Portal
             </h1>
-            <p className="text-gray-600 dark:text-gray-400 mt-2">
-              Admin Panel Login
+            <p className="text-on-surface-variant mt-2 font-headline">
+              Zainab Engineering Control Center
             </p>
           </div>
 
           {/* Error Message */}
           {error && (
-            <div className="mb-4 p-3 bg-red-100 dark:bg-red-900/30 border border-red-400 dark:border-red-600 text-red-700 dark:text-red-400 rounded-lg text-sm">
+            <div className="mb-6 p-4 bg-error-container/20 border border-error/30 text-error rounded-xl text-sm flex items-center gap-3">
+              <span className="material-symbols-outlined">error</span>
               {error}
             </div>
           )}
 
           {/* Login Form */}
           <form onSubmit={handleSubmit} className="space-y-6">
-            <div>
-              <label htmlFor="email" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                Email Address
-              </label>
+            <div className="relative group">
               <input
                 id="email"
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 required
-                className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700 dark:text-white transition-colors"
-                placeholder="admin@zainabengineering.com"
+                placeholder=" "
+                className="glass-input block w-full px-4 pt-6 pb-2 text-on-surface border-0 border-b-2 border-outline-variant focus:border-primary-container focus:ring-0 peer rounded-t-lg transition-all"
               />
+              <label
+                htmlFor="email"
+                className="absolute text-sm text-outline duration-300 transform -translate-y-4 scale-75 top-4 z-10 origin-[0] left-4 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4 peer-focus:text-primary-container"
+              >
+                Email Address
+              </label>
             </div>
 
-            <div>
-              <label htmlFor="password" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                Password
-              </label>
+            <div className="relative group">
               <input
                 id="password"
                 type="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
                 required
-                className="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent dark:bg-gray-700 dark:text-white transition-colors"
-                placeholder="••••••••"
+                placeholder=" "
+                className="glass-input block w-full px-4 pt-6 pb-2 text-on-surface border-0 border-b-2 border-outline-variant focus:border-primary-container focus:ring-0 peer rounded-t-lg transition-all"
               />
+              <label
+                htmlFor="password"
+                className="absolute text-sm text-outline duration-300 transform -translate-y-4 scale-75 top-4 z-10 origin-[0] left-4 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4 peer-focus:text-primary-container"
+              >
+                Password
+              </label>
             </div>
 
             <button
               type="submit"
               disabled={loading}
-              className="w-full py-3 px-4 bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white font-medium rounded-lg transition-colors duration-200 flex items-center justify-center"
+              className="w-full bg-gradient-to-r from-primary to-primary-container text-white py-4 rounded-full font-headline font-bold text-lg shadow-xl shadow-primary/20 hover:shadow-primary/40 transition-all disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-3"
             >
               {loading ? (
                 <>
-                  <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                  </svg>
-                  Signing in...
+                  <span className="material-symbols-outlined animate-spin">sync</span>
+                  Authenticating...
                 </>
               ) : (
-                'Sign In'
+                <>
+                  <span className="material-symbols-outlined">login</span>
+                  Sign In
+                </>
               )}
             </button>
           </form>
 
           {/* Back to Home */}
-          <div className="mt-6 text-center">
-            <a href="/" className="text-sm text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300">
-              ← Back to Website
-            </a>
+          <div className="mt-8 text-center">
+            <Link 
+              href="/" 
+              className="inline-flex items-center gap-2 text-sm text-primary hover:text-primary-container transition-colors font-headline"
+            >
+              <span className="material-symbols-outlined text-sm">arrow_back</span>
+              Back to Website
+            </Link>
           </div>
         </div>
 
         {/* Info */}
-        <div className="mt-4 p-4 bg-blue-50 dark:bg-blue-900/20 rounded-lg border border-blue-200 dark:border-blue-700">
-          <p className="text-sm text-blue-800 dark:text-blue-200 text-center">
-            Use your Supabase Auth credentials to login
+        <div className="mt-6 p-4 bg-secondary-fixed/30 rounded-xl border border-secondary-fixed-dim/20 text-center">
+          <p className="text-sm text-on-secondary-fixed-variant font-headline">
+            <span className="material-symbols-outlined text-sm align-middle mr-1">info</span>
+            Use your admin credentials to access the dashboard
           </p>
         </div>
       </div>

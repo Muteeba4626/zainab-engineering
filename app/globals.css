@@ -1,26 +1,154 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Primary Colors - Electric Blue */
+  --color-primary: #0050cb;
+  --color-primary-container: #0066ff;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #f8f7ff;
+  --color-primary-fixed: #dae1ff;
+  --color-primary-fixed-dim: #b3c5ff;
+  --color-on-primary-fixed: #001849;
+  --color-on-primary-fixed-variant: #003fa4;
+  
+  /* Secondary Colors - Cyan */
+  --color-secondary: #00677e;
+  --color-secondary-container: #00d2fd;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-container: #005669;
+  --color-secondary-fixed: #b4ebff;
+  --color-secondary-fixed-dim: #3cd7ff;
+  --color-on-secondary-fixed: #001f27;
+  --color-on-secondary-fixed-variant: #004e5f;
+  
+  /* Tertiary Colors - Solar Orange */
+  --color-tertiary: #a33200;
+  --color-tertiary-container: #c9450e;
+  --color-on-tertiary: #ffffff;
+  --color-on-tertiary-container: #fff6f4;
+  --color-tertiary-fixed: #ffdbd0;
+  --color-tertiary-fixed-dim: #ffb59d;
+  --color-on-tertiary-fixed: #390c00;
+  --color-on-tertiary-fixed-variant: #832600;
+  
+  /* Surface Colors */
+  --color-surface: #f9f9ff;
+  --color-surface-dim: #cfdaf3;
+  --color-surface-bright: #f9f9ff;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f0f3ff;
+  --color-surface-container: #e7eeff;
+  --color-surface-container-high: #dfe8ff;
+  --color-surface-container-highest: #d7e3fc;
+  --color-surface-variant: #d7e3fc;
+  --color-surface-tint: #0054d6;
+  
+  /* On Surface Colors */
+  --color-on-surface: #101c2e;
+  --color-on-surface-variant: #424656;
+  --color-background: #f9f9ff;
+  --color-on-background: #101c2e;
+  
+  /* Other Colors */
+  --color-outline: #727687;
+  --color-outline-variant: #c2c6d8;
+  --color-inverse-surface: #253144;
+  --color-inverse-on-surface: #ecf0ff;
+  --color-inverse-primary: #b3c5ff;
+  --color-error: #ba1a1a;
+  --color-error-container: #ffdad6;
+  --color-on-error: #ffffff;
+  --color-on-error-container: #93000a;
+  
+  /* Fonts */
+  --font-headline: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-label: "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-surface);
+  color: var(--color-on-surface);
+  font-family: var(--font-body);
+}
+
+/* Material Symbols */
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+/* Custom Styles from Stitch Design */
+.kinetic-grid {
+  background-image: 
+    linear-gradient(to right, rgba(0, 102, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 102, 255, 0.05) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+.kinetic-grid-bg {
+  background-image: radial-gradient(circle at 2px 2px, rgba(0, 102, 255, 0.05) 1px, transparent 0);
+  background-size: 40px 40px;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.glass-input {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-input:focus {
+  box-shadow: 0 0 15px rgba(0, 212, 255, 0.3);
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.electric-glow:hover {
+  box-shadow: 0 0 20px rgba(0, 210, 253, 0.4);
+}
+
+.holographic-glow:hover {
+  box-shadow: 0 0 20px rgba(0, 210, 253, 0.4), inset 0 0 15px rgba(255, 255, 255, 0.5);
+}
+
+.solar-gradient {
+  background: linear-gradient(135deg, #c9450e 0%, #ffb59d 100%);
+}
+
+.electric-trace {
+  background-image: linear-gradient(90deg, transparent 0%, #00d2fd 50%, transparent 100%);
+  height: 1px;
+  width: 100%;
+  opacity: 0.3;
+}
+
+.text-glow {
+  text-shadow: 0 0 15px rgba(0, 212, 255, 0.3);
+}
+
+.power-trace {
+  background: linear-gradient(90deg, transparent, var(--color-primary-container), transparent);
+  height: 1px;
+  width: 100%;
+}
+
+/* Selection */
+::selection {
+  background: var(--color-primary-container);
+  color: var(--color-on-primary-container);
 }
