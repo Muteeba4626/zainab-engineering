@@ -5,7 +5,7 @@ import NewsletterSubscribe from '../sections/NewsletterSubscribe';
 
 export default function Footer() {
   return (
-    <footer className="bg-slate-900 w-full rounded-t-[1.5rem] sm:rounded-t-[2rem] lg:rounded-t-[4rem] overflow-hidden">
+    <footer className="bg-slate-900 w-full overflow-hidden">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 px-5 sm:px-8 lg:px-12 py-12 sm:py-16 lg:py-20 max-w-screen-2xl mx-auto">
         {/* Company Info */}
         <div className="sm:col-span-2 lg:col-span-1">
