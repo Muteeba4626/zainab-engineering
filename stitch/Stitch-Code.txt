@@ -1,0 +1,1638 @@
+// home page
+
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Zainab Engineering | Powering Pakistan's Future</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Inter:wght@300;400;500;600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              colors: {
+                "tertiary": "#a33200",
+                "on-tertiary-fixed-variant": "#832600",
+                "primary-fixed-dim": "#b3c5ff",
+                "surface-variant": "#d7e3fc",
+                "on-surface-variant": "#424656",
+                "tertiary-fixed-dim": "#ffb59d",
+                "on-primary-container": "#f8f7ff",
+                "outline": "#727687",
+                "background": "#f9f9ff",
+                "outline-variant": "#c2c6d8",
+                "primary-container": "#0066ff",
+                "on-surface": "#101c2e",
+                "surface-container-highest": "#d7e3fc",
+                "surface-container": "#e7eeff",
+                "secondary": "#00677e",
+                "inverse-on-surface": "#ecf0ff",
+                "on-secondary": "#ffffff",
+                "surface-tint": "#0054d6",
+                "inverse-primary": "#b3c5ff",
+                "surface-dim": "#cfdaf3",
+                "on-tertiary-container": "#fff6f4",
+                "on-tertiary": "#ffffff",
+                "tertiary-container": "#c9450e",
+                "on-tertiary-fixed": "#390c00",
+                "on-error-container": "#93000a",
+                "tertiary-fixed": "#ffdbd0",
+                "on-secondary-fixed-variant": "#004e5f",
+                "on-error": "#ffffff",
+                "inverse-surface": "#253144",
+                "surface-container-low": "#f0f3ff",
+                "secondary-container": "#00d2fd",
+                "on-primary": "#ffffff",
+                "surface-container-high": "#dfe8ff",
+                "on-secondary-fixed": "#001f27",
+                "secondary-fixed": "#b4ebff",
+                "surface-bright": "#f9f9ff",
+                "error-container": "#ffdad6",
+                "primary": "#0050cb",
+                "on-secondary-container": "#005669",
+                "primary-fixed": "#dae1ff",
+                "surface": "#f9f9ff",
+                "secondary-fixed-dim": "#3cd7ff",
+                "on-primary-fixed-variant": "#003fa4",
+                "error": "#ba1a1a",
+                "on-background": "#101c2e",
+                "surface-container-lowest": "#ffffff",
+                "on-primary-fixed": "#001849"
+              },
+              fontFamily: {
+                "headline": ["Space Grotesk"],
+                "body": ["Inter"],
+                "label": ["Inter"]
+              },
+              borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+            },
+          },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .kinetic-grid {
+            background-image: 
+                linear-gradient(to right, rgba(0, 102, 255, 0.05) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(0, 102, 255, 0.05) 1px, transparent 1px);
+            background-size: 50px 50px;
+            perspective: 1000px;
+            transform: rotateX(20deg);
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+        .electric-glow:hover {
+            box-shadow: 0 0 20px rgba(0, 210, 253, 0.4);
+        }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface selection:bg-primary-container selection:text-on-primary-container">
+<!-- Top Navigation Bar -->
+<nav class="fixed top-0 w-full z-50 bg-white/70 dark:bg-slate-900/70 backdrop-blur-xl shadow-[0_20px_40px_rgba(16,28,46,0.06)]">
+<div class="flex justify-between items-center px-8 py-4 max-w-screen-2xl mx-auto">
+<div class="text-2xl font-bold tracking-tighter text-slate-900 dark:text-slate-50 font-headline uppercase">
+                Zainab Engineering
+            </div>
+<div class="hidden md:flex items-center space-x-10 font-headline font-medium tracking-tight">
+<a class="text-blue-600 dark:text-blue-400 font-bold border-b-2 border-blue-600 transition-all duration-300" href="#">Solutions</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-500 hover:opacity-80 transition-all duration-300" href="#">Technology</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-500 hover:opacity-80 transition-all duration-300" href="#">Projects</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-500 hover:opacity-80 transition-all duration-300" href="#">Sustainability</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-500 hover:opacity-80 transition-all duration-300" href="#">Insights</a>
+</div>
+<button class="bg-primary hover:bg-primary-container text-white px-6 py-2 rounded-full font-headline font-semibold scale-95 active:scale-90 transition-transform shadow-lg shadow-primary/20">
+                Request Quote
+            </button>
+</div>
+</nav>
+<main class="relative overflow-hidden pt-20">
+<!-- Kinetic Grid Background -->
+<div class="absolute inset-0 kinetic-grid -z-10 opacity-40 h-[200%] pointer-events-none"></div>
+<!-- Hero Section -->
+<section class="relative min-h-[921px] flex items-center px-8 lg:px-20 max-w-screen-2xl mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-10 gap-16 w-full items-center">
+<!-- Hero Content Left (60%) -->
+<div class="lg:col-span-6 space-y-8">
+<div class="inline-flex items-center space-x-2 bg-secondary-fixed/30 text-on-secondary-fixed-variant px-4 py-1.5 rounded-full border border-secondary-fixed-dim/20">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">bolt</span>
+<span class="text-xs font-bold tracking-widest uppercase">The Next Industrial Era</span>
+</div>
+<h1 class="text-6xl md:text-8xl font-headline font-bold text-on-surface leading-[0.9] tracking-tighter">
+                        POWERING <br/>
+<span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary-container">PAKISTAN'S</span> <br/>
+                        FUTURE.
+                    </h1>
+<p class="text-xl text-on-surface-variant max-w-xl leading-relaxed">
+                        Redefining electrical infrastructure with high-precision engineering and sustainable energy architectures for 2050 and beyond.
+                    </p>
+<div class="flex flex-wrap gap-4 pt-4">
+<button class="bg-gradient-to-r from-primary to-primary-container text-white px-10 py-4 rounded-full font-headline font-bold text-lg shadow-xl shadow-primary/30 hover:shadow-primary/50 transition-all">
+                            Explore Solutions
+                        </button>
+<button class="glass-card border border-outline-variant/30 text-on-surface px-10 py-4 rounded-full font-headline font-bold text-lg hover:bg-surface-container-high transition-all">
+                            Technical Specs
+                        </button>
+</div>
+</div>
+<!-- Hero Image Right (40%) -->
+<div class="lg:col-span-4 relative group">
+<div class="absolute -inset-4 bg-primary/10 blur-3xl rounded-full opacity-20 group-hover:opacity-40 transition-opacity"></div>
+<div class="relative rounded-2xl overflow-hidden shadow-2xl shadow-on-background/10 transform -rotate-3 hover:rotate-0 transition-transform duration-700 bg-surface-container-lowest border border-outline-variant/15 p-2">
+<img class="rounded-xl w-full aspect-[4/5] object-cover grayscale-[0.2] hover:grayscale-0 transition-all duration-500" data-alt="Close-up of a high-tech electrical control panel with glowing blue indicator lights and complex circuit architecture in a clean industrial lab" src="https://lh3.googleusercontent.com/aida-public/AB6AXuALewx4TLkm2p-7XLqa4ZukbmCIOmqmAyLvw3QDA_KuLVNeB7tC-5gtz7cDJjBFH8YfWLyWZi1Gi9MzjJ1UsGGmCdNBrEZLvExFUFEAUM1LXfvlmzIpI8b93bWgpBkEvg1nXoBF5B7GHlmqNfRXZSuPaFfPGHd86TW_qKZlQkMGSd9rJT44eWIEHGJIzz_5LgZl5iMSg5r3zWwQgHckk5q2yn4rDO5Ffj-2ERASoV8k41DJS-yYVVOdBtUKDcqNI3zIuMnENGFLvV4"/>
+<div class="absolute bottom-6 left-6 right-6 glass-card p-6 rounded-xl border border-white/20">
+<div class="flex justify-between items-end">
+<div>
+<div class="text-xs uppercase tracking-tighter font-bold text-primary mb-1">System Status</div>
+<div class="text-lg font-headline font-bold text-on-surface">Grid-Active Alpha</div>
+</div>
+<div class="text-right">
+<div class="text-2xl font-black text-secondary-container">99.9%</div>
+<div class="text-[10px] uppercase font-bold text-on-surface-variant">Efficiency</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Stats Grid (High Intensity) -->
+<section class="py-24 px-8 max-w-screen-2xl mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="p-8 rounded-2xl bg-surface-container-low border border-outline-variant/10 relative overflow-hidden group">
+<div class="absolute top-0 right-0 p-4 text-primary/5 group-hover:text-primary/20 transition-colors">
+<span class="material-symbols-outlined text-8xl">history</span>
+</div>
+<div class="text-5xl font-headline font-bold text-on-surface mb-2 tracking-tighter">30+</div>
+<div class="text-sm font-label uppercase tracking-widest text-on-surface-variant font-bold">Years of Engineering Excellence</div>
+</div>
+<div class="p-8 rounded-2xl bg-surface-container-low border border-outline-variant/10 relative overflow-hidden group">
+<div class="absolute top-0 right-0 p-4 text-primary/5 group-hover:text-primary/20 transition-colors">
+<span class="material-symbols-outlined text-8xl">precision_manufacturing</span>
+</div>
+<div class="text-5xl font-headline font-bold text-on-surface mb-2 tracking-tighter">500+</div>
+<div class="text-sm font-label uppercase tracking-widest text-on-surface-variant font-bold">Mega-Scale Projects Completed</div>
+</div>
+<div class="p-8 rounded-2xl bg-surface-container-low border border-outline-variant/10 relative overflow-hidden group">
+<div class="absolute top-0 right-0 p-4 text-tertiary/5 group-hover:text-tertiary/20 transition-colors">
+<span class="material-symbols-outlined text-8xl">solar_power</span>
+</div>
+<div class="text-5xl font-headline font-bold text-on-surface mb-2 tracking-tighter">1.2GW</div>
+<div class="text-sm font-label uppercase tracking-widest text-on-surface-variant font-bold">Renewable Energy Managed</div>
+</div>
+<div class="p-8 rounded-2xl bg-surface-container-low border border-outline-variant/10 relative overflow-hidden group">
+<div class="absolute top-0 right-0 p-4 text-primary/5 group-hover:text-primary/20 transition-colors">
+<span class="material-symbols-outlined text-8xl">engineering</span>
+</div>
+<div class="text-5xl font-headline font-bold text-on-surface mb-2 tracking-tighter">150+</div>
+<div class="text-sm font-label uppercase tracking-widest text-on-surface-variant font-bold">Certified Specialized Engineers</div>
+</div>
+</div>
+</section>
+<!-- Core Solutions Bento Grid -->
+<section class="py-24 px-8 max-w-screen-2xl mx-auto space-y-16">
+<div class="flex flex-col md:flex-row justify-between items-end gap-6">
+<div class="max-w-2xl">
+<h2 class="text-4xl md:text-6xl font-headline font-bold text-on-surface tracking-tighter leading-none mb-6">ENGINEERING <br/>THE IMPOSSIBLE.</h2>
+<p class="text-on-surface-variant text-lg leading-relaxed">From smart-grid integration to custom solar deployments, our solutions are the backbone of Pakistan's industrial modernization.</p>
+</div>
+<div class="flex gap-4">
+<span class="text-xs font-bold uppercase tracking-tighter py-2 border-b-2 border-primary text-primary cursor-pointer">Technical Overview</span>
+<span class="text-xs font-bold uppercase tracking-tighter py-2 border-b-2 border-transparent text-on-surface-variant cursor-pointer hover:text-primary transition-colors">Sustainability Report</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8">
+<!-- Large Featured Card -->
+<div class="md:col-span-2 lg:col-span-2 row-span-2 rounded-2xl overflow-hidden relative group electric-glow transition-all duration-500 bg-black">
+<img class="w-full h-full object-cover opacity-60 group-hover:scale-110 transition-transform duration-1000" data-alt="A wide cinematic shot of a modern industrial substation at twilight with blue accent lighting and high-voltage transmission towers" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA9piPFsv08GKhwvEM42JoU8zQ5Te4vaisMtKMxKVIBYne7iwbcDNqzweof2XiTnJw13cW6zA-GZnzZzkf8ZhicBOfSPvaD5FBxMrPOMl4IFq-cn4odDeOrROAOcCCP1edB-e99NmNzMAQz9GytMxyO6REN3Dm9nt1jolMemcvJojVkVKUoFjWXtoZepDEySe0FwwWvAbKLCeiMg_WXF5OmvQBZvTUZkJAvJ-RKEyb8ZOyDeHc5ZHqNSSOp_i_ShlStdq39Z0yJzZ4"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-80"></div>
+<div class="absolute bottom-0 left-0 p-10 space-y-4">
+<div class="inline-block px-3 py-1 rounded bg-primary text-[10px] font-bold tracking-widest text-white uppercase">Featured Technology</div>
+<h3 class="text-4xl font-headline font-bold text-white tracking-tighter leading-tight">Advanced Grid <br/>Infrastructures</h3>
+<p class="text-slate-300 max-w-md">Our high-voltage solutions provide the stability and scalability required for national-scale industrial clusters.</p>
+<button class="flex items-center space-x-2 text-white font-bold group/btn">
+<span class="underline decoration-primary decoration-2 underline-offset-4">Technical Specifications</span>
+<span class="material-symbols-outlined group-hover/btn:translate-x-2 transition-transform">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Secondary Cards -->
+<div class="lg:col-span-2 bg-surface-container-highest rounded-2xl p-8 flex flex-col justify-between group hover:bg-primary transition-all duration-500">
+<div class="flex justify-between items-start">
+<div class="w-16 h-16 rounded-full bg-white flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-primary text-3xl">solar_power</span>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:text-white transition-colors">north_east</span>
+</div>
+<div class="mt-12">
+<h3 class="text-2xl font-headline font-bold text-on-surface group-hover:text-white mb-2 tracking-tight transition-colors">Solar Integration</h3>
+<p class="text-on-surface-variant group-hover:text-white/80 transition-colors">Precision-engineered solar parks with adaptive storage architectures for maximum yield.</p>
+</div>
+</div>
+<div class="lg:col-span-1 bg-surface-container-low rounded-2xl p-8 flex flex-col justify-between group electric-glow transition-all duration-300">
+<span class="material-symbols-outlined text-tertiary text-4xl mb-4">settings_input_component</span>
+<div>
+<h3 class="text-xl font-headline font-bold text-on-surface mb-2 tracking-tight">Technical Audits</h3>
+<p class="text-sm text-on-surface-variant">Comprehensive efficiency mapping for aging industrial facilities.</p>
+</div>
+</div>
+<div class="lg:col-span-1 bg-surface-container-low rounded-2xl p-8 flex flex-col justify-between group electric-glow transition-all duration-300">
+<span class="material-symbols-outlined text-primary text-4xl mb-4">memory</span>
+<div>
+<h3 class="text-xl font-headline font-bold text-on-surface mb-2 tracking-tight">Smart Monitoring</h3>
+<p class="text-sm text-on-surface-variant">IoT-driven real-time power analytics and predictive maintenance.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section (Industrial Gradient) -->
+<section class="py-32">
+<div class="max-w-screen-2xl mx-auto px-8">
+<div class="relative rounded-3xl overflow-hidden bg-on-background py-24 px-12 lg:px-24">
+<div class="absolute inset-0 kinetic-grid opacity-10 pointer-events-none"></div>
+<div class="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+<div class="space-y-8">
+<h2 class="text-5xl lg:text-7xl font-headline font-bold text-white tracking-tighter leading-none">READY FOR THE POWER SHIFT?</h2>
+<p class="text-slate-400 text-xl leading-relaxed max-w-md">Partner with the leaders of Pakistan's industrial revolution. Precision, performance, and future-proof design are just a consultation away.</p>
+</div>
+<div class="flex flex-col sm:flex-row gap-6 lg:justify-end">
+<button class="bg-white text-on-background px-12 py-5 rounded-full font-headline font-bold text-xl hover:bg-primary-fixed transition-colors">
+                                Start Your Project
+                            </button>
+<button class="border border-white/20 text-white px-12 py-5 rounded-full font-headline font-bold text-xl hover:bg-white/10 transition-colors">
+                                View Portfolio
+                            </button>
+</div>
+</div>
+<!-- Decorative Element -->
+<div class="absolute -bottom-12 -right-12 w-64 h-64 bg-primary rounded-full blur-[120px] opacity-30"></div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer Section -->
+<footer class="bg-slate-900 dark:bg-black w-full relative overflow-hidden">
+<div class="absolute inset-0 kinetic-grid opacity-5 pointer-events-none"></div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-12 py-20 w-full relative z-10 max-w-screen-2xl mx-auto">
+<!-- Brand Section -->
+<div class="space-y-6">
+<div class="text-xl font-black text-white font-headline uppercase tracking-tighter">Zainab Engineering</div>
+<p class="text-slate-400 text-sm leading-relaxed font-body">Precision in Motion. Since 1994, we've been building the electrical infrastructure that powers a nation.</p>
+<div class="flex space-x-4">
+<a class="w-10 h-10 rounded-full border border-slate-700 flex items-center justify-center text-slate-400 hover:text-white hover:border-white transition-all" href="#">
+<span class="material-symbols-outlined text-lg">public</span>
+</a>
+<a class="w-10 h-10 rounded-full border border-slate-700 flex items-center justify-center text-slate-400 hover:text-white hover:border-white transition-all" href="#">
+<span class="material-symbols-outlined text-lg">mail</span>
+</a>
+</div>
+</div>
+<!-- Links Column 1 -->
+<div>
+<h4 class="text-white font-headline font-bold uppercase tracking-widest text-xs mb-8">Navigation</h4>
+<ul class="space-y-4">
+<li><a class="text-slate-400 hover:text-blue-300 text-sm font-['Space_Grotesk'] tracking-wide hover:translate-x-1 transition-transform duration-200 block" href="#">Global Operations</a></li>
+<li><a class="text-slate-400 hover:text-blue-300 text-sm font-['Space_Grotesk'] tracking-wide hover:translate-x-1 transition-transform duration-200 block" href="#">Technical Specs</a></li>
+<li><a class="text-slate-400 hover:text-blue-300 text-sm font-['Space_Grotesk'] tracking-wide hover:translate-x-1 transition-transform duration-200 block" href="#">Case Studies</a></li>
+<li><a class="text-slate-400 hover:text-blue-300 text-sm font-['Space_Grotesk'] tracking-wide hover:translate-x-1 transition-transform duration-200 block" href="#">R&amp;D Lab</a></li>
+</ul>
+</div>
+<!-- Links Column 2 -->
+<div>
+<h4 class="text-white font-headline font-bold uppercase tracking-widest text-xs mb-8">Corporate</h4>
+<ul class="space-y-4">
+<li><a class="text-slate-400 hover:text-blue-300 text-sm font-['Space_Grotesk'] tracking-wide hover:translate-x-1 transition-transform duration-200 block" href="#">Legal Disclosure</a></li>
+<li><a class="text-slate-400 hover:text-blue-300 text-sm font-['Space_Grotesk'] tracking-wide hover:translate-x-1 transition-transform duration-200 block" href="#">Privacy Policy</a></li>
+<li><a class="text-slate-400 hover:text-blue-300 text-sm font-['Space_Grotesk'] tracking-wide hover:translate-x-1 transition-transform duration-200 block" href="#">Investor Relations</a></li>
+<li><a class="text-slate-400 hover:text-blue-300 text-sm font-['Space_Grotesk'] tracking-wide hover:translate-x-1 transition-transform duration-200 block" href="#">Career Portal</a></li>
+</ul>
+</div>
+<!-- Contact -->
+<div class="space-y-6">
+<h4 class="text-white font-headline font-bold uppercase tracking-widest text-xs mb-8">Technical HQ</h4>
+<div class="text-slate-400 text-sm font-body">
+                    Plot 42, Engineering Sector<br/>
+                    Industrial Area, Karachi<br/>
+                    Pakistan
+                </div>
+<div class="text-white font-bold font-headline">
+                    +92 (21) 3456 7890
+                </div>
+<div class="inline-block px-4 py-2 border border-blue-500 text-blue-500 text-xs font-bold rounded-full uppercase tracking-tighter">
+                    Emergency Response 24/7
+                </div>
+</div>
+</div>
+<!-- Copyright Bar -->
+<div class="w-full border-t border-slate-800/50 py-8 px-12 flex flex-col md:flex-row justify-between items-center max-w-screen-2xl mx-auto relative z-10">
+<div class="text-slate-500 text-xs font-['Space_Grotesk'] tracking-wide">
+                © 2024 Zainab Engineering. Precision in Motion.
+            </div>
+<div class="flex space-x-6 mt-4 md:mt-0">
+<span class="text-[10px] text-slate-600 uppercase tracking-widest font-bold">ISO 9001:2015 Certified</span>
+<span class="text-[10px] text-slate-600 uppercase tracking-widest font-bold">PEC Reg. #10294</span>
+</div>
+</div>
+</footer>
+</body></html>
+
+// about page
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Inter:wght@300;400;500;600&amp;family=Outfit:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-container-lowest": "#ffffff",
+              "on-error": "#ffffff",
+              "on-tertiary-fixed": "#390c00",
+              "outline": "#727687",
+              "on-tertiary-container": "#fff6f4",
+              "on-secondary-container": "#005669",
+              "surface-container": "#e7eeff",
+              "primary": "#0050cb",
+              "inverse-on-surface": "#ecf0ff",
+              "surface-bright": "#f9f9ff",
+              "on-error-container": "#93000a",
+              "secondary-fixed": "#b4ebff",
+              "surface-container-low": "#f0f3ff",
+              "tertiary": "#a33200",
+              "on-background": "#101c2e",
+              "tertiary-container": "#c9450e",
+              "surface-tint": "#0054d6",
+              "surface-dim": "#cfdaf3",
+              "on-tertiary-fixed-variant": "#832600",
+              "on-secondary": "#ffffff",
+              "on-secondary-fixed": "#001f27",
+              "background": "#f9f9ff",
+              "inverse-surface": "#253144",
+              "primary-fixed-dim": "#b3c5ff",
+              "on-primary-container": "#f8f7ff",
+              "on-primary-fixed": "#001849",
+              "secondary-fixed-dim": "#3cd7ff",
+              "on-primary": "#ffffff",
+              "surface-container-high": "#dfe8ff",
+              "inverse-primary": "#b3c5ff",
+              "surface-variant": "#d7e3fc",
+              "on-tertiary": "#ffffff",
+              "tertiary-fixed": "#ffdbd0",
+              "surface-container-highest": "#d7e3fc",
+              "primary-fixed": "#dae1ff",
+              "on-surface": "#101c2e",
+              "secondary": "#00677e",
+              "on-secondary-fixed-variant": "#004e5f",
+              "primary-container": "#0066ff",
+              "on-surface-variant": "#424656",
+              "tertiary-fixed-dim": "#ffb59d",
+              "surface": "#f9f9ff",
+              "secondary-container": "#00d2fd",
+              "outline-variant": "#c2c6d8",
+              "error-container": "#ffdad6",
+              "error": "#ba1a1a",
+              "on-primary-fixed-variant": "#003fa4"
+            },
+            fontFamily: {
+              "headline": ["Space Grotesk"],
+              "body": ["Inter"],
+              "label": ["Inter"],
+              "display": ["Outfit"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      }
+      .glass-card {
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+      }
+      .power-trace {
+        background: linear-gradient(90deg, transparent, #00d2fd, transparent);
+        height: 1px;
+        width: 100%;
+        opacity: 0.3;
+      }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface selection:bg-primary-fixed selection:text-on-primary-fixed">
+<!-- Top Navigation Bar -->
+<nav class="sticky top-0 w-full z-50 bg-white/70 backdrop-blur-xl shadow-[0_20px_40px_rgba(16,28,46,0.06)]">
+<div class="flex justify-between items-center px-8 py-4 max-w-screen-2xl mx-auto">
+<div class="text-2xl font-black text-slate-900 tracking-tighter font-headline">KINETIC_GRID</div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-slate-600 hover:text-blue-500 transition-colors font-headline font-bold tracking-tight uppercase" href="#">Solutions</a>
+<a class="text-slate-600 hover:text-blue-500 transition-colors font-headline font-bold tracking-tight uppercase" href="#">Engineering</a>
+<a class="text-slate-600 hover:text-blue-500 transition-colors font-headline font-bold tracking-tight uppercase" href="#">Projects</a>
+<a class="text-slate-600 hover:text-blue-500 transition-colors font-headline font-bold tracking-tight uppercase" href="#">Sustainability</a>
+<a class="text-slate-600 hover:text-blue-500 transition-colors font-headline font-bold tracking-tight uppercase" href="#">Insights</a>
+</div>
+<div class="flex items-center gap-6">
+<div class="hidden lg:block relative">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-sm" data-icon="search">search</span>
+<input class="bg-surface-container-low border-none rounded-full py-2 pl-10 pr-4 text-sm focus:ring-2 focus:ring-primary-container w-48 transition-all" placeholder="Search parameters..." type="text"/>
+</div>
+<button class="bg-primary-container text-on-primary-container px-6 py-2 rounded-full font-headline font-bold tracking-tight uppercase hover:opacity-80 transition-all duration-300 active:scale-95">Request Quote</button>
+</div>
+</div>
+</nav>
+<main>
+<!-- Hero Section -->
+<section class="relative h-[870px] flex items-center justify-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img alt="Engineering Facility" class="w-full h-full object-cover grayscale brightness-50" data-alt="dramatic wide shot of a modern clean high-tech industrial factory floor with blue ambient lighting and precision machinery" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCslwh5BoaBpLtOP1LC081cR0Sm5h0c_1Z6pOcPJU01bJWZe54z1UycP6kHJoPRCg_u8WeMVUjhW8mn71LizXIw-65kZyYml4ky9S5lGMeb2hvnMpNw-hhDlMUKd5nMOhCwc6iZO_ADKB49U-1gpoa7vTfZhW6dno171mc9MbEBmCSqIAvpTJS8o7JV-sO4ViC2K3ncTKT_jJwNHXRZfWpd3-ZLkDQd1L7VBHuubcbcXiLsKHw6rCl1OvhVHVSZqwL7OanL-rGpXmw"/>
+<div class="absolute inset-0 bg-gradient-to-b from-transparent via-on-background/20 to-surface"></div>
+</div>
+<div class="relative z-10 max-w-screen-xl mx-auto px-8 w-full">
+<div class="glass-card p-12 md:p-20 rounded-[2rem] max-w-3xl border border-white/20">
+<span class="text-primary font-headline font-bold tracking-widest uppercase mb-4 block">Our Heritage</span>
+<h1 class="text-5xl md:text-7xl font-display font-bold text-on-background leading-tight mb-8 tracking-tighter">Engineering Excellence Since 1991</h1>
+<p class="text-xl text-on-surface-variant max-w-xl leading-relaxed">
+                        For over three decades, Kinetic Grid has been the architectural backbone of energy transformation, merging industrial precision with futuristic innovation.
+                    </p>
+</div>
+</div>
+</section>
+<!-- Company Overview -->
+<section class="py-24 bg-surface">
+<div class="max-w-screen-2xl mx-auto px-8 grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+<div class="space-y-8 order-2 lg:order-1">
+<h2 class="text-4xl md:text-5xl font-display font-bold text-on-background tracking-tight">The Faisalabad Nexus</h2>
+<div class="space-y-6 text-on-surface-variant text-lg leading-relaxed">
+<p>Our flagship facility in Faisalabad serves as a global hub for power systems engineering. Spanning over 50,000 square feet, this center integrates R&amp;D labs with high-capacity production lines.</p>
+<p>We believe that sustainable energy is the foundation of progress. Our mission is to provide the critical infrastructure that allows industries to operate with zero downtime while reducing their environmental footprint.</p>
+</div>
+<div class="flex gap-12 pt-8">
+<div>
+<div class="text-4xl font-display font-black text-primary mb-1">32+</div>
+<div class="text-sm font-headline uppercase tracking-widest text-outline">Years Experience</div>
+</div>
+<div>
+<div class="text-4xl font-display font-black text-primary mb-1">500+</div>
+<div class="text-sm font-headline uppercase tracking-widest text-outline">Global Projects</div>
+</div>
+</div>
+</div>
+<div class="relative order-1 lg:order-2">
+<div class="rounded-[2rem] overflow-hidden shadow-2xl transform rotate-1 translate-x-4">
+<img alt="Faisalabad Facility" class="w-full aspect-[4/3] object-cover" data-alt="modern industrial building exterior at dusk with architectural lighting and clean glass facade representing Faisalabad facility" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDe4ACSlGUyvxOw2Fzg0D_S5yIy1ioD1Ci1MJTLTyAZ1H7pDJ_86HdcUlWSk8fH4bQJQ74RTnuMA6N8BlfX65jlHp3s4INi6IUd1YvdZNCIxvoiHW5W-mHovs9V_DTl58-nsBNG7jFjAnymtf-2F_zd0rXKiVni9cWGFeYg0G2zN8-opjLWAI3IloO7ZbYbMhob-iWM-Jum_vgBgeDrv8fB7H4MUWR98jnKgofskw7_eC8UWdiZbLnH5kEXBkCcy38BSTt6gefera8"/>
+</div>
+<div class="absolute -bottom-8 -left-8 w-64 h-64 rounded-2xl overflow-hidden shadow-2xl hidden md:block transform -rotate-2">
+<img alt="Engineering Detail" class="w-full h-full object-cover" data-alt="close-up of electronic components and circuit boards being assembled with high precision equipment" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCsmCZQA7HTfB54czLBWi6ghu_V1Aivvyn60mwVNWe5OWZ1qbBCnLAmfqCOZt1g6-noekB6C65nUUHdJeMpfFZoEa_0MV1g3w0jpwDv7UNbXfmGt5m4Rj04pgPIefRrGlQr4xq0KCNsySnrhGwmRRFz7bd00TDeVP4L7SsjZenwnJhLMJh0Ufevb_PnHTKn4C73EV7AwrJyIfjRcvAydHFIFVnPh42E61ALVZpUNvB3QcxeJMruXxC2XpSEwFBa5nnNwCkafPD-RaQ"/>
+</div>
+</div>
+</div>
+</section>
+<!-- Values Section -->
+<section class="py-32 bg-surface-container-low relative overflow-hidden">
+<div class="power-trace absolute top-0 left-0"></div>
+<div class="max-w-screen-2xl mx-auto px-8">
+<div class="text-center mb-20">
+<span class="text-tertiary font-headline font-bold tracking-widest uppercase mb-4 block">Core Principles</span>
+<h2 class="text-4xl md:text-5xl font-display font-bold text-on-background tracking-tight">The Grid Values</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<!-- Value 1 -->
+<div class="group bg-surface p-10 rounded-3xl hover:translate-y-[-8px] transition-all duration-500 hover:shadow-[0_20px_40px_rgba(0,102,255,0.08)]">
+<div class="w-14 h-14 bg-primary-container/10 text-primary rounded-xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-3xl" data-icon="verified">verified</span>
+</div>
+<h3 class="text-xl font-display font-bold mb-4">Quality First</h3>
+<p class="text-on-surface-variant">Uncompromising standards in every junction, conduit, and control system we engineer.</p>
+</div>
+<!-- Value 2 -->
+<div class="group bg-surface p-10 rounded-3xl hover:translate-y-[-8px] transition-all duration-500 hover:shadow-[0_20px_40px_rgba(0,102,255,0.08)]">
+<div class="w-14 h-14 bg-secondary-container/10 text-secondary rounded-xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-3xl" data-icon="lightbulb">lightbulb</span>
+</div>
+<h3 class="text-xl font-display font-bold mb-4">Innovation</h3>
+<p class="text-on-surface-variant">Pushing the boundaries of energy storage and distribution through active R&amp;D.</p>
+</div>
+<!-- Value 3 -->
+<div class="group bg-surface p-10 rounded-3xl hover:translate-y-[-8px] transition-all duration-500 hover:shadow-[0_20px_40px_rgba(0,102,255,0.08)]">
+<div class="w-14 h-14 bg-tertiary-container/10 text-tertiary rounded-xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-3xl" data-icon="security">security</span>
+</div>
+<h3 class="text-xl font-display font-bold mb-4">Reliability</h3>
+<p class="text-on-surface-variant">Building systems designed to withstand the most demanding industrial environments.</p>
+</div>
+<!-- Value 4 -->
+<div class="group bg-surface p-10 rounded-3xl hover:translate-y-[-8px] transition-all duration-500 hover:shadow-[0_20px_40px_rgba(0,102,255,0.08)]">
+<div class="w-14 h-14 bg-primary-container/10 text-primary rounded-xl flex items-center justify-center mb-8 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-3xl" data-icon="handshake">handshake</span>
+</div>
+<h3 class="text-xl font-display font-bold mb-4">Customer Focus</h3>
+<p class="text-on-surface-variant">Tailored engineering solutions that speak directly to our clients' operational needs.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Facility Gallery -->
+<section class="py-32 bg-surface">
+<div class="max-w-screen-2xl mx-auto px-8">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
+<div class="max-w-2xl">
+<h2 class="text-4xl md:text-5xl font-display font-bold text-on-background tracking-tight mb-6">Production Integrity</h2>
+<p class="text-on-surface-variant text-lg">Our workspace is an extension of our philosophy: clean, organized, and technologically superior.</p>
+</div>
+<div class="flex gap-4">
+<button class="w-12 h-12 rounded-full border border-outline-variant flex items-center justify-center hover:bg-primary-container hover:text-white transition-all group">
+<span class="material-symbols-outlined" data-icon="chevron_left">chevron_left</span>
+</button>
+<button class="w-12 h-12 rounded-full border border-outline-variant flex items-center justify-center hover:bg-primary-container hover:text-white transition-all group">
+<span class="material-symbols-outlined" data-icon="chevron_right">chevron_right</span>
+</button>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="relative group h-[500px] rounded-[2.5rem] overflow-hidden">
+<img alt="R&amp;D Lab" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="high-tech laboratory with researchers working on electronic testing and power grid simulation equipment" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAX8_22iRgdatZaAp_c6A6Qc0t9Z07lIPfBxwzM8Cij-BkOe4Nu5FTUmUI5BgvVB3aPAhzGxmluteAaATNhk3PoBa1Dfullbkr04M9TlKoDO2lF4jcYQNDYOlabRRXvHS1iBoJbw61R89Ad3O1wUJ4s6OLI83HOnElHIz_3cUmtzwKCN_LqKOZdwHbHOgDO5YYEOiJE-MuV060FSCLvpclrBY6W9mh-qQaOvIqKD9JyAKeWhIwEYgqGy7k6QEal-kFjd45tVLXLp6k"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-background/80 to-transparent flex flex-col justify-end p-10">
+<h4 class="text-white text-2xl font-display font-bold">R&amp;D Laboratory</h4>
+<p class="text-white/70 mt-2">Where the next generation of energy architecture is born.</p>
+</div>
+</div>
+<div class="relative group h-[500px] rounded-[2.5rem] overflow-hidden">
+<img alt="Assembly Line" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="bright and clean assembly line showing high-voltage electrical panels being constructed by technicians" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBwDYUpYZ8yK273BtK0QESYClKWNQQ4AIwrqmlgyYVI49BogTpC9GRf0hGwaqkBr9AmIDsJMitLTio89zRGMCoq9lJt75uboTgiQwhxwXShDm0jL3d0eu5Vm1Bkux4F784CHobUC-hLfEIX9bmideDumlSyELuNHcLHB5tUmftSK-JB3dJi9rOg0J3j_IwNVGis6IrlvRnNi5BsbNAVLnTO6VaPhbOeYEzQHBy5lvkdAEmVkNHNqRBhsLaXWD4DnNHuIluTb6voNVc"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-background/80 to-transparent flex flex-col justify-end p-10">
+<h4 class="text-white text-2xl font-display font-bold">Precision Assembly</h4>
+<p class="text-white/70 mt-2">Robotic accuracy paired with expert craftsmanship.</p>
+</div>
+</div>
+<div class="relative group h-[500px] rounded-[2.5rem] overflow-hidden">
+<img alt="Control Center" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="ultra-modern server room with glowing blue lights representing the digital heart of energy management" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWppjrPoJtJyj0qbUU8wPRWrucOnvXbkYHCl9qEOGA2ttaNr3xvbNSyYlaFvhgBgjZrditVvAhOwpa7nghNb9e_HnXtX3gtzSxi4nKZ3s1ZDRHIGnCrVE-_8hzgMnMWmxrsI3gcKXpCiDvWzSB6uwyecPfXneaJr_YxgHdKt_P4omWxEVq4M6zGjX1b7CSl1VkgN9-OTBHhiB1FiW8BfyLf0JmBvDL7vkwI5iZ5Jd1FPMhblcFZTuZRt_QqBt3r648GPUYXZUFTQA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-background/80 to-transparent flex flex-col justify-end p-10">
+<h4 class="text-white text-2xl font-display font-bold">Logistics Center</h4>
+<p class="text-white/70 mt-2">Global distribution network management.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Team Section -->
+<section class="py-32 bg-surface-container">
+<div class="max-w-screen-2xl mx-auto px-8">
+<div class="flex flex-col lg:flex-row gap-20 items-start">
+<div class="lg:w-1/3 sticky top-32">
+<h2 class="text-4xl md:text-5xl font-display font-bold text-on-background tracking-tight mb-8">Human Intelligence</h2>
+<p class="text-on-surface-variant text-lg leading-relaxed mb-12">Behind every megawatt is a team of 40+ dedicated specialists. Our engineers, technicians, and strategists are the pulse of Kinetic Grid.</p>
+<button class="group flex items-center gap-4 text-primary font-headline font-bold uppercase tracking-widest">
+                            Join the team
+                            <span class="w-10 h-10 rounded-full border border-primary flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-all">
+<span class="material-symbols-outlined text-sm" data-icon="arrow_forward">arrow_forward</span>
+</span>
+</button>
+</div>
+<div class="lg:w-2/3 grid grid-cols-1 sm:grid-cols-2 gap-6">
+<div class="bg-surface p-8 rounded-3xl shadow-sm border border-outline-variant/10">
+<div class="text-primary-container mb-6"><span class="material-symbols-outlined text-4xl" data-icon="engineering" data-weight="fill">engineering</span></div>
+<h4 class="text-xl font-display font-bold mb-2">Systems Engineering</h4>
+<p class="text-on-surface-variant text-sm">Designers of complex grid architectures and power distribution networks.</p>
+</div>
+<div class="bg-surface p-8 rounded-3xl shadow-sm border border-outline-variant/10">
+<div class="text-secondary mb-6"><span class="material-symbols-outlined text-4xl" data-icon="terminal" data-weight="fill">terminal</span></div>
+<h4 class="text-xl font-display font-bold mb-2">R&amp;D Department</h4>
+<p class="text-on-surface-variant text-sm">Pioneering tomorrow's sustainable energy tech through rigorous testing.</p>
+</div>
+<div class="bg-surface p-8 rounded-3xl shadow-sm border border-outline-variant/10">
+<div class="text-tertiary mb-6"><span class="material-symbols-outlined text-4xl" data-icon="precision_manufacturing" data-weight="fill">precision_manufacturing</span></div>
+<h4 class="text-xl font-display font-bold mb-2">Production Experts</h4>
+<p class="text-on-surface-variant text-sm">Specialized technicians managing our high-precision assembly lines.</p>
+</div>
+<div class="bg-surface p-8 rounded-3xl shadow-sm border border-outline-variant/10">
+<div class="text-primary mb-6"><span class="material-symbols-outlined text-4xl" data-icon="support_agent" data-weight="fill">support_agent</span></div>
+<h4 class="text-xl font-display font-bold mb-2">Client Success</h4>
+<p class="text-on-surface-variant text-sm">Dedicated account managers ensuring project timelines and satisfaction.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-slate-900 w-full rounded-t-[2rem] md:rounded-t-[4rem] overflow-hidden">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-12 py-20 max-w-screen-2xl mx-auto">
+<div class="col-span-1 md:col-span-1">
+<div class="text-xl font-bold text-white mb-8">KINETIC_GRID</div>
+<p class="text-slate-400 font-['Space_Grotesk'] text-sm leading-relaxed">Pioneering the future of industrial energy architecture through precision and innovation.</p>
+</div>
+<div>
+<h5 class="text-white font-headline font-bold uppercase tracking-widest text-xs mb-8">Quick Links</h5>
+<ul class="space-y-4">
+<li><a class="text-slate-400 hover:text-white transition-all text-sm font-['Space_Grotesk'] hover:translate-x-1 inline-block" href="#">Solutions</a></li>
+<li><a class="text-slate-400 hover:text-white transition-all text-sm font-['Space_Grotesk'] hover:translate-x-1 inline-block" href="#">Sustainability</a></li>
+<li><a class="text-slate-400 hover:text-white transition-all text-sm font-['Space_Grotesk'] hover:translate-x-1 inline-block" href="#">Global Locations</a></li>
+<li><a class="text-slate-400 hover:text-white transition-all text-sm font-['Space_Grotesk'] hover:translate-x-1 inline-block" href="#">Technical Support</a></li>
+</ul>
+</div>
+<div>
+<h5 class="text-white font-headline font-bold uppercase tracking-widest text-xs mb-8">Legal</h5>
+<ul class="space-y-4">
+<li><a class="text-slate-400 hover:text-white transition-all text-sm font-['Space_Grotesk'] hover:translate-x-1 inline-block" href="#">Privacy Policy</a></li>
+<li><a class="text-slate-400 hover:text-white transition-all text-sm font-['Space_Grotesk'] hover:translate-x-1 inline-block" href="#">Terms of Service</a></li>
+<li><a class="text-slate-400 hover:text-white transition-all text-sm font-['Space_Grotesk'] hover:translate-x-1 inline-block" href="#">Careers</a></li>
+</ul>
+</div>
+<div>
+<h5 class="text-white font-headline font-bold uppercase tracking-widest text-xs mb-8">Contact</h5>
+<div class="text-slate-400 font-['Space_Grotesk'] text-sm space-y-4">
+<p>Faisalabad Industrial Zone, Sector 4</p>
+<p>contact@kineticgrid.com</p>
+<p>+92 (41) 000 0000</p>
+</div>
+</div>
+</div>
+<div class="px-12 py-8 border-t border-white/5 max-w-screen-2xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-slate-500 font-['Space_Grotesk'] text-xs uppercase tracking-widest">© 2024 Kinetic Grid Energy Architects. Engineering the Future.</p>
+<div class="flex gap-6">
+<a class="text-slate-500 hover:text-blue-400 transition-colors" href="#"><span class="material-symbols-outlined text-lg" data-icon="public">public</span></a>
+<a class="text-slate-500 hover:text-blue-400 transition-colors" href="#"><span class="material-symbols-outlined text-lg" data-icon="shield">shield</span></a>
+</div>
+</div>
+</footer>
+</body></html>
+
+// services page 
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Services | Zainab Engineering</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              colors: {
+                "tertiary": "#a33200",
+                "on-tertiary-fixed-variant": "#832600",
+                "primary-fixed-dim": "#b3c5ff",
+                "surface-variant": "#d7e3fc",
+                "on-surface-variant": "#424656",
+                "tertiary-fixed-dim": "#ffb59d",
+                "on-primary-container": "#f8f7ff",
+                "outline": "#727687",
+                "background": "#f9f9ff",
+                "outline-variant": "#c2c6d8",
+                "primary-container": "#0066ff",
+                "on-surface": "#101c2e",
+                "surface-container-highest": "#d7e3fc",
+                "surface-container": "#e7eeff",
+                "secondary": "#00677e",
+                "inverse-on-surface": "#ecf0ff",
+                "on-secondary": "#ffffff",
+                "surface-tint": "#0054d6",
+                "inverse-primary": "#b3c5ff",
+                "surface-dim": "#cfdaf3",
+                "on-tertiary-container": "#fff6f4",
+                "on-tertiary": "#ffffff",
+                "tertiary-container": "#c9450e",
+                "on-tertiary-fixed": "#390c00",
+                "on-error-container": "#93000a",
+                "tertiary-fixed": "#ffdbd0",
+                "on-secondary-fixed-variant": "#004e5f",
+                "on-error": "#ffffff",
+                "inverse-surface": "#253144",
+                "surface-container-low": "#f0f3ff",
+                "secondary-container": "#00d2fd",
+                "on-primary": "#ffffff",
+                "surface-container-high": "#dfe8ff",
+                "on-secondary-fixed": "#001f27",
+                "secondary-fixed": "#b4ebff",
+                "surface-bright": "#f9f9ff",
+                "error-container": "#ffdad6",
+                "primary": "#0050cb",
+                "on-secondary-container": "#005669",
+                "primary-fixed": "#dae1ff",
+                "surface": "#f9f9ff",
+                "secondary-fixed-dim": "#3cd7ff",
+                "on-primary-fixed-variant": "#003fa4",
+                "error": "#ba1a1a",
+                "on-background": "#101c2e",
+                "surface-container-lowest": "#ffffff",
+                "on-primary-fixed": "#001849"
+              },
+              fontFamily: {
+                "headline": ["Space Grotesk"],
+                "body": ["Inter"],
+                "label": ["Inter"]
+              },
+              borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+            },
+          },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .kinetic-grid-bg {
+            background-image: radial-gradient(circle at 2px 2px, rgba(0, 102, 255, 0.05) 1px, transparent 0);
+            background-size: 40px 40px;
+        }
+        .text-glow {
+            text-shadow: 0 0 15px rgba(0, 212, 255, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
+<!-- Top Navigation Shell -->
+<nav class="fixed top-0 w-full z-50 bg-white/70 dark:bg-slate-900/70 backdrop-blur-xl shadow-[0_20px_40px_rgba(16,28,46,0.06)] tonal-transition via-surface-container-low">
+<div class="flex justify-between items-center px-8 py-4 max-w-screen-2xl mx-auto font-['Space_Grotesk'] font-medium tracking-tight">
+<div class="text-2xl font-bold tracking-tighter text-slate-900 dark:text-slate-50">Zainab Engineering</div>
+<div class="hidden md:flex items-center gap-10">
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-500 hover:opacity-80 transition-all duration-300" href="#">Solutions</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-500 hover:opacity-80 transition-all duration-300" href="#">Technology</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-500 hover:opacity-80 transition-all duration-300" href="#">Projects</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-500 hover:opacity-80 transition-all duration-300" href="#">Sustainability</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-500 hover:opacity-80 transition-all duration-300" href="#">Insights</a>
+</div>
+<button class="bg-primary hover:bg-primary-container text-white px-6 py-2.5 rounded-full font-headline font-bold scale-95 active:scale-90 transition-transform shadow-lg shadow-primary/20">
+                Request Quote
+            </button>
+</div>
+</nav>
+<main class="pt-24 kinetic-grid-bg">
+<!-- Hero Section -->
+<section class="relative min-h-[716px] flex items-center px-8 lg:px-24 py-20 overflow-hidden">
+<div class="max-w-4xl z-10">
+<span class="inline-block py-1 px-4 mb-6 bg-secondary-fixed text-on-secondary-container text-xs font-bold tracking-widest uppercase rounded-full">
+                    Advanced Engineering Solutions
+                </span>
+<h1 class="font-headline text-6xl md:text-8xl font-bold text-on-surface leading-[0.9] tracking-tighter mb-8">
+                    Precision <br/><span class="text-primary">In Motion.</span>
+</h1>
+<p class="text-xl text-on-surface-variant max-w-xl leading-relaxed font-light">
+                    We architect high-efficiency systems for the next industrial era. From grid-scale solar to precision mechanical installation.
+                </p>
+</div>
+<div class="absolute right-0 top-0 w-1/2 h-full hidden lg:block">
+<div class="w-full h-full bg-surface-container-highest relative">
+<img class="w-full h-full object-cover mix-blend-multiply opacity-80 grayscale hover:grayscale-0 transition-all duration-700" data-alt="high-tech industrial robotic arm with glowing blue circuits in a clean white laboratory setting with shallow depth of field" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQR2AGOm52_hXQiQT5P4Q-SzGCZwkR6fY4jgbH5zg4Jz6vcvOysYkh9Pvldx8P0XwAQieO7GULuRLjSplgnrtXexC7Z-ist1rCEmX2ko4_xqZ8Wga_-zv_3gq4i95qbJ3ziWP7YtB8Shbyr8ebQyAJNktgmdX71rUhUkXxJWxhQ8bXHEu7GaYnOkAvb22o2BIHJFgUliGWWa6yPAfElDloyamiSFa8nHQgB0_L4MMqZbuw-9qS3n7aTc3d_BHMFCNyiWmjIPzhzvc"/>
+<div class="absolute inset-0 bg-gradient-to-l from-transparent via-surface/40 to-surface"></div>
+</div>
+</div>
+</section></main>
+<!-- Capabilities Bento Grid -->
+<section class="px-8 lg:px-24 py-32 bg-surface-container-low">
+<div class="mb-20 flex flex-col md:flex-row justify-between items-end gap-8">
+<div>
+<h2 class="font-headline text-4xl md:text-5xl font-extrabold text-on-background tracking-tight mb-4">Core Capabilities</h2>
+<p class="text-on-surface-variant max-w-md">Engineering excellence delivered through six specialized technical verticals.</p>
+</div>
+<div class="h-[2px] flex-grow mx-12 bg-outline-variant/30 hidden md:block"></div>
+<div class="text-primary font-bold font-headline text-xl">01 / 06</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-6 grid-rows-2 gap-6 h-auto md:h-[800px]">
+<!-- Project Management -->
+<div class="md:col-span-3 bg-surface-container-lowest p-10 rounded-xl shadow-sm flex flex-col justify-between group hover:shadow-xl transition-all border border-outline-variant/10">
+<div>
+<span class="material-symbols-outlined text-4xl text-primary mb-6">account_tree</span>
+<h3 class="text-3xl font-headline font-bold mb-4">Project Management</h3>
+<p class="text-on-surface-variant leading-relaxed">End-to-end oversight ensuring timeline precision and resource optimization for complex industrial deployments.</p>
+</div>
+<div class="mt-8 overflow-hidden rounded-lg h-48 bg-slate-200">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="engineering team looking at blueprinted architectural diagrams on a large tablet in a modern office" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBwzzdrcTOs7k8wAb9rYyDRiMtD4dm3F5mRPl8gh3sPx9DoJL7qoQQ5QXBuoe1mVusBVkOM8waxCT1v7-8jKipdUIQ-tgi6uQy9-8I3gyy0DjB1uDAL9goTBe9rXZXnA6f7Jf1PA4A7fEdkfzFZ2fKgcAuE5qmX84Z9Z2kcq-7gUfQ3ycB0XN5F6p0lMTc85ABqQ7T9d8jbA5anot-dmkLm6aJ0FzvMR7YjLywd_VELi9qLvplXABfr96FPy4Lkw5uCT9yPvKLnB8c"/>
+</div>
+</div>
+<!-- Design -->
+<div class="md:col-span-3 bg-inverse-surface text-inverse-on-surface p-10 rounded-xl shadow-sm flex flex-col justify-center relative overflow-hidden group">
+<div class="relative z-10">
+<span class="material-symbols-outlined text-4xl text-secondary-container mb-6">polyline</span>
+<h3 class="text-3xl font-headline font-bold mb-4">Technical Design</h3>
+<p class="text-surface-variant leading-relaxed max-w-sm">BIM modeling and CAD precision at the molecular level. We design for future scalability.</p>
+</div>
+<div class="absolute right-[-10%] bottom-[-10%] opacity-10 group-hover:opacity-20 transition-opacity">
+<span class="material-symbols-outlined text-[300px]" style="font-variation-settings: 'FILL' 1;">architecture</span>
+</div>
+</div>
+<!-- Installation -->
+<div class="md:col-span-2 bg-surface-container-highest p-8 rounded-xl flex flex-col justify-between border border-outline-variant/10">
+<span class="material-symbols-outlined text-primary text-3xl">build</span>
+<h3 class="text-2xl font-headline font-bold mt-12 mb-2">Installation</h3>
+<p class="text-sm text-on-surface-variant mb-6">Precision mechanical assembly and high-voltage grid integration.</p>
+<div class="flex items-center text-primary font-bold text-sm gap-2">
+                        View Case Study <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</div>
+</div>
+<!-- Maintenance -->
+<div class="md:col-span-2 bg-surface-container-lowest p-8 rounded-xl flex flex-col justify-between border border-outline-variant/10">
+<span class="material-symbols-outlined text-primary text-3xl">settings_suggest</span>
+<h3 class="text-2xl font-headline font-bold mt-12 mb-2">Maintenance</h3>
+<p class="text-sm text-on-surface-variant mb-6">Predictive servicing using IoT sensors and real-time diagnostic reporting.</p>
+<div class="flex items-center text-primary font-bold text-sm gap-2">
+                        View Plans <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</div>
+</div>
+<!-- Solar -->
+<div class="md:col-span-2 bg-gradient-to-br from-tertiary-container to-tertiary-fixed-dim p-8 rounded-xl flex flex-col justify-between text-white shadow-lg shadow-tertiary/20">
+<span class="material-symbols-outlined text-4xl" style="font-variation-settings: 'FILL' 1;">solar_power</span>
+<div>
+<h3 class="text-2xl font-headline font-bold mb-2">Solar Integration</h3>
+<p class="text-sm text-white/80 leading-snug">Utility-scale PV infrastructure and battery storage solutions.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- 6-Stage Process Pipeline -->
+<section class="py-32 bg-white overflow-hidden relative">
+<!-- Background Power Trace -->
+<div class="absolute top-1/2 left-0 w-full h-[1px] bg-primary-container/20 -translate-y-1/2 hidden lg:block"></div>
+<div class="px-8 lg:px-24 mb-20">
+<h2 class="font-headline text-4xl md:text-5xl font-extrabold text-on-background tracking-tight mb-4">The Precision Pipeline</h2>
+<p class="text-on-surface-variant">Our methodical approach to every engineering challenge.</p>
+</div>
+<div class="px-8 lg:px-24 flex flex-col lg:flex-row gap-8 lg:gap-0 justify-between items-start relative">
+<!-- Stage 1 -->
+<div class="lg:w-1/6 group relative">
+<div class="w-12 h-12 rounded-full bg-primary text-white flex items-center justify-center font-headline font-bold mb-6 relative z-10 group-hover:scale-110 transition-transform shadow-lg shadow-primary/30">
+                        01
+                    </div>
+<h4 class="font-headline font-bold text-xl mb-3 group-hover:text-primary transition-colors">Consultation</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed">Requirement gathering and feasibility analysis through deep technical audits.</p>
+</div>
+<!-- Stage 2 -->
+<div class="lg:w-1/6 group relative">
+<div class="w-12 h-12 rounded-full bg-surface-container-highest text-primary flex items-center justify-center font-headline font-bold mb-6 relative z-10 group-hover:bg-primary group-hover:text-white transition-all">
+                        02
+                    </div>
+<h4 class="font-headline font-bold text-xl mb-3 group-hover:text-primary transition-colors">Strategic Design</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed">Developing tailored engineering blueprints using generative AI and BIM tools.</p>
+</div>
+<!-- Stage 3 -->
+<div class="lg:w-1/6 group relative">
+<div class="w-12 h-12 rounded-full bg-surface-container-highest text-primary flex items-center justify-center font-headline font-bold mb-6 relative z-10 group-hover:bg-primary group-hover:text-white transition-all">
+                        03
+                    </div>
+<h4 class="font-headline font-bold text-xl mb-3 group-hover:text-primary transition-colors">Procurement</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed">Sourcing high-spec industrial components from our global partner network.</p>
+</div>
+<!-- Stage 4 -->
+<div class="lg:w-1/6 group relative">
+<div class="w-12 h-12 rounded-full bg-surface-container-highest text-primary flex items-center justify-center font-headline font-bold mb-6 relative z-10 group-hover:bg-primary group-hover:text-white transition-all">
+                        04
+                    </div>
+<h4 class="font-headline font-bold text-xl mb-3 group-hover:text-primary transition-colors">Installation</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed">On-site execution by certified engineers following ISO 9001 protocols.</p>
+</div>
+<!-- Stage 5 -->
+<div class="lg:w-1/6 group relative">
+<div class="w-12 h-12 rounded-full bg-surface-container-highest text-primary flex items-center justify-center font-headline font-bold mb-6 relative z-10 group-hover:bg-primary group-hover:text-white transition-all">
+                        05
+                    </div>
+<h4 class="font-headline font-bold text-xl mb-3 group-hover:text-primary transition-colors">Inspection</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed">Rigorous multi-point testing to ensure maximum operational safety.</p>
+</div>
+<!-- Stage 6 -->
+<div class="lg:w-1/6 group relative">
+<div class="w-12 h-12 rounded-full bg-surface-container-highest text-primary flex items-center justify-center font-headline font-bold mb-6 relative z-10 group-hover:bg-primary group-hover:text-white transition-all">
+                        06
+                    </div>
+<h4 class="font-headline font-bold text-xl mb-3 group-hover:text-primary transition-colors">Support</h4>
+<p class="text-sm text-on-surface-variant leading-relaxed">Continuous performance monitoring and rapid-response technical support.</p>
+</div>
+</div>
+</section>
+<!-- Technical Overlays & CTA -->
+<section class="relative px-8 lg:px-24 py-32 bg-on-background text-white overflow-hidden rounded-t-[4rem]">
+<div class="absolute inset-0 opacity-10">
+<img class="w-full h-full object-cover" data-alt="abstract geometric ceiling of a modern corporate building with strong perspective lines and cold blue lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCMwh_XRrDO4Xzb_vmIZb4uXkHv34dOsiYT-hYg9YoYkCgiwNqCSp4zMWBAOPzNlezTbQFjk6c0amghOVpJhmplbe3_QhLRoTOghb78Rekp3-4lPkDveEGJ3SRIZyTi0KXAVgBLaF_lKgx8otnCIlhQL_mnqM22sYZwvRRXDKwu1oAhxQxGe3Xv0falChxcQP0fv00nxahw4G_MZ7EDt2SktVo_nHzSeVjYD-H_IjOCqGZHaxGv2wFeqnqLtuY5NWvWanypodHCu-w"/>
+</div>
+<div class="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+<div>
+<h2 class="font-headline text-5xl md:text-7xl font-bold tracking-tighter mb-8">Ready to <br/><span class="text-secondary-container">re-engineer</span> your efficiency?</h2>
+<p class="text-xl text-surface-variant/80 mb-12 max-w-lg leading-relaxed">
+                        Join 200+ global enterprises that trust Zainab Engineering for their critical infrastructure needs.
+                    </p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-primary-container text-white px-10 py-4 rounded-full font-headline font-bold hover:bg-primary transition-all shadow-xl shadow-primary/30 active:scale-95">
+                            Start Consultation
+                        </button>
+<button class="bg-white/10 backdrop-blur-md border border-white/20 px-10 py-4 rounded-full font-headline font-bold hover:bg-white/20 transition-all active:scale-95">
+                            Download Specs
+                        </button>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-white/5 backdrop-blur-sm p-8 rounded-2xl border border-white/10">
+<div class="text-4xl font-headline font-black text-secondary-container mb-2">99.9%</div>
+<div class="text-sm text-surface-variant/60 uppercase tracking-widest font-bold">Uptime Efficiency</div>
+</div>
+<div class="bg-white/5 backdrop-blur-sm p-8 rounded-2xl border border-white/10">
+<div class="text-4xl font-headline font-black text-secondary-container mb-2">150+</div>
+<div class="text-sm text-surface-variant/60 uppercase tracking-widest font-bold">Patents Filed</div>
+</div>
+<div class="bg-white/5 backdrop-blur-sm p-8 rounded-2xl border border-white/10">
+<div class="text-4xl font-headline font-black text-secondary-container mb-2">24/7</div>
+<div class="text-sm text-surface-variant/60 uppercase tracking-widest font-bold">Monitoring</div>
+</div>
+<div class="bg-white/5 backdrop-blur-sm p-8 rounded-2xl border border-white/10">
+<div class="text-4xl font-headline font-black text-secondary-container mb-2">Zero</div>
+<div class="text-sm text-surface-variant/60 uppercase tracking-widest font-bold">Safety Incidents</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-slate-900 dark:bg-black text-slate-400 font-['Space_Grotesk'] text-sm tracking-wide">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-12 py-20 w-full">
+<div>
+<div class="text-xl font-black text-white mb-6">Zainab Engineering</div>
+<p class="text-slate-500 leading-relaxed mb-8">Engineering tomorrow's industrial landscape with precision and sustainable innovation.</p>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-white/50 hover:text-blue-500 cursor-pointer transition-colors">share</span>
+<span class="material-symbols-outlined text-white/50 hover:text-blue-500 cursor-pointer transition-colors">mail</span>
+<span class="material-symbols-outlined text-white/50 hover:text-blue-500 cursor-pointer transition-colors">public</span>
+</div>
+</div>
+<div>
+<h5 class="text-white font-bold mb-6">Navigation</h5>
+<ul class="space-y-4">
+<li><a class="hover:text-blue-300 hover:translate-x-1 transition-transform inline-block" href="#">Global Operations</a></li>
+<li><a class="hover:text-blue-300 hover:translate-x-1 transition-transform inline-block" href="#">Technical Specs</a></li>
+<li><a class="hover:text-blue-300 hover:translate-x-1 transition-transform inline-block" href="#">Active Projects</a></li>
+<li><a class="hover:text-blue-300 hover:translate-x-1 transition-transform inline-block" href="#">Sustainability Report</a></li>
+</ul>
+</div>
+<div>
+<h5 class="text-white font-bold mb-6">Legal</h5>
+<ul class="space-y-4">
+<li><a class="hover:text-blue-300 hover:translate-x-1 transition-transform inline-block" href="#">Legal Disclosure</a></li>
+<li><a class="hover:text-blue-300 hover:translate-x-1 transition-transform inline-block" href="#">Privacy Policy</a></li>
+<li><a class="hover:text-blue-300 hover:translate-x-1 transition-transform inline-block" href="#">Terms of Service</a></li>
+<li><a class="hover:text-blue-300 hover:translate-x-1 transition-transform inline-block" href="#">Ethics Hotline</a></li>
+</ul>
+</div>
+<div>
+<h5 class="text-white font-bold mb-6">Global Headquarters</h5>
+<p class="leading-relaxed mb-4">Innovation Drive, Tech District<br/>Singapore, SG 104522</p>
+<div class="p-4 bg-white/5 rounded-lg border border-white/10">
+<div class="text-xs text-blue-500 font-bold mb-1">CURRENT STATUS:</div>
+<div class="flex items-center gap-2 text-white">
+<span class="w-2 h-2 rounded-full bg-green-500"></span>
+                        Grid Operations Stable
+                    </div>
+</div>
+</div>
+</div>
+<div class="px-12 py-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
+<div>© 2024 Zainab Engineering. Precision in Motion.</div>
+<div class="flex gap-8">
+<span class="material-symbols-outlined">shield_with_heart</span>
+<span class="material-symbols-outlined">workspace_premium</span>
+<span class="material-symbols-outlined">precision_manufacturing</span>
+</div>
+</div>
+</footer>
+</body></html>
+
+// products
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Products Overview | Zainab Engineering</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Inter:wght@300;400;500;600&amp;family=JetBrains+Mono&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "tertiary": "#a33200",
+                        "on-tertiary-fixed-variant": "#832600",
+                        "primary-fixed-dim": "#b3c5ff",
+                        "surface-variant": "#d7e3fc",
+                        "on-surface-variant": "#424656",
+                        "tertiary-fixed-dim": "#ffb59d",
+                        "on-primary-container": "#f8f7ff",
+                        "outline": "#727687",
+                        "background": "#f9f9ff",
+                        "outline-variant": "#c2c6d8",
+                        "primary-container": "#0066ff",
+                        "on-surface": "#101c2e",
+                        "surface-container-highest": "#d7e3fc",
+                        "surface-container": "#e7eeff",
+                        "secondary": "#00677e",
+                        "inverse-on-surface": "#ecf0ff",
+                        "on-secondary": "#ffffff",
+                        "surface-tint": "#0054d6",
+                        "inverse-primary": "#b3c5ff",
+                        "surface-dim": "#cfdaf3",
+                        "on-tertiary-container": "#fff6f4",
+                        "on-tertiary": "#ffffff",
+                        "tertiary-container": "#c9450e",
+                        "on-tertiary-fixed": "#390c00",
+                        "on-error-container": "#93000a",
+                        "tertiary-fixed": "#ffdbd0",
+                        "on-secondary-fixed-variant": "#004e5f",
+                        "on-error": "#ffffff",
+                        "inverse-surface": "#253144",
+                        "surface-container-low": "#f0f3ff",
+                        "secondary-container": "#00d2fd",
+                        "on-primary": "#ffffff",
+                        "surface-container-high": "#dfe8ff",
+                        "on-secondary-fixed": "#001f27",
+                        "secondary-fixed": "#b4ebff",
+                        "surface-bright": "#f9f9ff",
+                        "error-container": "#ffdad6",
+                        "primary": "#0050cb",
+                        "on-secondary-container": "#005669",
+                        "primary-fixed": "#dae1ff",
+                        "surface": "#f9f9ff",
+                        "secondary-fixed-dim": "#3cd7ff",
+                        "on-primary-fixed-variant": "#003fa4",
+                        "error": "#ba1a1a",
+                        "on-background": "#101c2e",
+                        "surface-container-lowest": "#ffffff",
+                        "on-primary-fixed": "#001849"
+                    },
+                    fontFamily: {
+                        "headline": ["Space Grotesk"],
+                        "body": ["Inter"],
+                        "label": ["Inter"],
+                        "mono": ["JetBrains Mono"]
+                    },
+                    borderRadius: { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+        }
+        .holographic-glow:hover {
+            box-shadow: 0 0 20px rgba(0, 210, 253, 0.4), inset 0 0 15px rgba(255, 255, 255, 0.5);
+        }
+        .solar-gradient {
+            background: linear-gradient(135deg, #c9450e 0%, #ffb59d 100%);
+        }
+        .electric-trace {
+            background-image: linear-gradient(90deg, transparent 0%, #00d2fd 50%, transparent 100%);
+            height: 1px;
+            width: 100%;
+            opacity: 0.3;
+        }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface antialiased">
+<!-- Top Navigation Shell -->
+<nav class="fixed top-0 w-full z-50 bg-white/70 dark:bg-slate-900/70 backdrop-blur-xl shadow-[0_20px_40px_rgba(16,28,46,0.06)] tonal-transition via-surface-container-low">
+<div class="flex justify-between items-center px-8 py-4 max-w-screen-2xl mx-auto">
+<div class="text-2xl font-bold tracking-tighter text-slate-900 dark:text-slate-50 font-headline">
+                Zainab Engineering
+            </div>
+<div class="hidden md:flex space-x-8 font-['Space_Grotesk'] font-medium tracking-tight">
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-500 transition-all duration-300" href="#">Solutions</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-500 transition-all duration-300" href="#">Technology</a>
+<a class="text-blue-600 dark:text-blue-400 font-bold border-b-2 border-blue-600" href="#">Projects</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-500 transition-all duration-300" href="#">Sustainability</a>
+<a class="text-slate-600 dark:text-slate-400 hover:text-blue-500 transition-all duration-300" href="#">Insights</a>
+</div>
+<button class="bg-primary hover:opacity-80 transition-all duration-300 text-white px-6 py-2 rounded-full font-headline font-bold scale-95 active:scale-90">
+                Request Quote
+            </button>
+</div>
+</nav>
+<main class="pt-24">
+<!-- Hero Section: High-Fidelity Engineering -->
+<section class="relative min-h-[716px] flex items-center px-8 md:px-20 overflow-hidden bg-surface">
+<div class="absolute inset-0 z-0">
+<div class="absolute inset-0 bg-gradient-to-r from-surface via-surface/80 to-transparent z-10"></div>
+<img alt="Industrial Engineering" class="w-full h-full object-cover opacity-30 grayscale" data-alt="high-resolution close-up of complex electrical wiring and metallic components in an industrial setting with blue ambient lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRflbPt4ToAIuHa_fHNZTf2p6feJnZcx8rDYN9oCUd2N636RP2hLK3N_o5lFFcSO67aNqItkDjUayU5IOzGltPAsw_MDA3JYjQhwMS_V_vuGcqTRrfcEdZcLqZF2on-lV48uD4CndGT5AU1DkRpug7zO_iO3r6QJaUw-8KOT3mGDmnb2layhuhyw_kB34SemU2ZOuloCaY_JKAZxYbMY-QL7-NraIrTY4ktgAzFnSSv5A2ogg3_etQUlCi0uI7JSATNzWvPXuDDgQ"/>
+</div>
+<div class="relative z-20 max-w-4xl">
+<span class="inline-block px-4 py-1 mb-6 rounded-full bg-secondary-fixed text-on-secondary-container text-xs font-bold tracking-widest uppercase font-label">Precision Infrastructure</span>
+<h1 class="text-6xl md:text-8xl font-headline font-bold tracking-tighter text-on-surface mb-8">
+                    The Kinetic <br/><span class="text-primary">Grid.</span>
+</h1>
+<p class="text-xl text-on-surface-variant max-w-2xl leading-relaxed mb-10">
+                    Engineered for high-velocity energy distribution. We redefine industrial power with technical precision, moving beyond utility into architectural performance.
+                </p>
+<div class="flex items-center space-x-4">
+<div class="h-px w-20 bg-primary-container"></div>
+<span class="text-sm font-mono text-outline uppercase tracking-widest">Scroll to Explore Components</span>
+</div>
+</div>
+</section>
+<!-- Product Category: Electrical Panels -->
+<section class="py-24 px-8 md:px-20 bg-surface-container-low">
+<div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
+<div>
+<h2 class="text-4xl font-headline font-bold tracking-tight text-on-surface mb-4">Electrical Panels</h2>
+<p class="text-on-surface-variant max-w-lg">Advanced control systems housed in high-durability enclosures, designed for mission-critical industrial stability.</p>
+</div>
+<span class="text-8xl font-headline font-black opacity-5 pointer-events-none">EP-01</span>
+</div>
+<!-- Bento Grid for Electrical Panels -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+<div class="md:col-span-8 group relative overflow-hidden rounded-xl glass-panel holographic-glow transition-all duration-500 cursor-pointer">
+<img alt="Main Switchgear" class="w-full h-96 object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Modern electrical switchgear panel with colorful cables and circuit breakers in a clean laboratory setting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDgyBEtp5lMn7x9aN6ipuqTpFUKEIPDCsETGniYZZ88DL2gH6GRZ2ZzNYijeGJqTV_baxdd9m3ZKUW1R6a8ppC23RK7MASf8UFJWrG_qmj783wPRJrv8EceN1fgXVI2NcIyLVgwxH7USAe3MJfXhKQq36LC-_Kvak71Iq3GySEZyYK4c7CaWOmvxY8ppQsvrOGPqWyLYk6VdnxarGBVk9jFjKHP_wjPk-pclMpquYYTJsBj9S4ZUCpS0Xhf3qirHXSxx63as99fjgo"/>
+<div class="absolute inset-0 bg-gradient-to-t from-on-background/80 to-transparent p-10 flex flex-col justify-end">
+<div class="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
+<h3 class="text-3xl font-headline font-bold text-white mb-2">Main Power Switchgear</h3>
+<div class="flex items-center space-x-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+<span class="bg-primary-container text-white px-3 py-1 text-xs font-bold rounded-full">4000A RATING</span>
+<span class="text-primary-fixed-dim text-sm font-mono">STABILITY: 99.99%</span>
+</div>
+</div>
+</div>
+</div>
+<div class="md:col-span-4 flex flex-col gap-8">
+<div class="flex-1 p-8 rounded-xl bg-surface-container-highest border border-outline-variant/15 flex flex-col justify-between group hover:shadow-xl transition-all">
+<div class="material-symbols-outlined text-primary text-4xl" data-icon="settings_input_component">settings_input_component</div>
+<div>
+<h4 class="text-xl font-headline font-bold mb-2">MCC Panels</h4>
+<p class="text-sm text-on-surface-variant">Motor Control Centers with modular withdrawal units for easy maintenance.</p>
+</div>
+</div>
+<div class="flex-1 p-8 rounded-xl bg-surface-container-lowest border border-outline-variant/15 flex flex-col justify-between group hover:shadow-xl transition-all">
+<div class="material-symbols-outlined text-secondary text-4xl" data-icon="developer_board">developer_board</div>
+<div>
+<h4 class="text-xl font-headline font-bold mb-2">PFC Panels</h4>
+<p class="text-sm text-on-surface-variant">Power Factor Correction units to optimize energy efficiency and reduce costs.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Technical Specs: Monospace Grid -->
+<section class="py-24 px-8 md:px-20 bg-on-background text-white">
+<div class="mb-16">
+<h3 class="text-sm font-mono text-secondary-container uppercase tracking-widest mb-4">// Technical_Specifications_Matrix</h3>
+<div class="electric-trace"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-px bg-outline/20">
+<div class="p-8 bg-on-background">
+<span class="text-xs font-mono text-outline-variant block mb-4">COMPLIANCE</span>
+<p class="font-headline text-2xl">IEC 61439-1</p>
+<p class="text-xs text-outline mt-2 font-mono">Global Safety Standard</p>
+</div>
+<div class="p-8 bg-on-background">
+<span class="text-xs font-mono text-outline-variant block mb-4">MAX VOLTAGE</span>
+<p class="font-headline text-2xl">1000V AC</p>
+<p class="text-xs text-outline mt-2 font-mono">Rated Insulation Voltage</p>
+</div>
+<div class="p-8 bg-on-background">
+<span class="text-xs font-mono text-outline-variant block mb-4">INGRESS PROT</span>
+<p class="font-headline text-2xl">IP 54 / IP 65</p>
+<p class="text-xs text-outline mt-2 font-mono">Dust &amp; Water Resistance</p>
+</div>
+<div class="p-8 bg-on-background">
+<span class="text-xs font-mono text-outline-variant block mb-4">FRAME TYPE</span>
+<p class="font-headline text-2xl">Alu-Zinc</p>
+<p class="text-xs text-outline mt-2 font-mono">Anti-Corrosive Alloy</p>
+</div>
+</div>
+</section>
+<!-- Product Category: Solar Solutions -->
+<section class="py-32 px-8 md:px-20 relative overflow-hidden bg-surface-container">
+<!-- Animated Sun Element (CSS representation) -->
+<div class="absolute -right-20 -top-20 w-96 h-96 rounded-full solar-gradient opacity-20 blur-3xl animate-pulse"></div>
+<div class="absolute right-40 top-40 w-12 h-12 bg-tertiary-fixed-dim rounded-full blur-xl opacity-40"></div>
+<div class="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
+<div class="order-2 md:order-1">
+<span class="text-tertiary font-bold font-mono text-sm tracking-widest uppercase mb-4 block">New Energy Systems</span>
+<h2 class="text-5xl md:text-6xl font-headline font-bold text-on-surface mb-8">Solar <br/>Architecture.</h2>
+<p class="text-lg text-on-surface-variant mb-12 leading-relaxed">
+                        Beyond panels. We design integrated solar ecosystems that harness maximum yield through AI-driven tracking and high-density storage modules.
+                    </p>
+<ul class="space-y-6">
+<li class="flex items-start space-x-4">
+<span class="material-symbols-outlined text-tertiary" data-icon="wb_sunny">wb_sunny</span>
+<div>
+<h5 class="font-bold text-on-surface">Photovoltaic Integration</h5>
+<p class="text-sm text-outline">Seamless building-integrated designs for industrial facilities.</p>
+</div>
+</li>
+<li class="flex items-start space-x-4">
+<span class="material-symbols-outlined text-tertiary" data-icon="battery_charging_full">battery_charging_full</span>
+<div>
+<h5 class="font-bold text-on-surface">Grid-Scale Storage</h5>
+<p class="text-sm text-outline">BESS (Battery Energy Storage Systems) for peak shaving and backup.</p>
+</div>
+</li>
+</ul>
+</div>
+<div class="order-1 md:order-2 relative h-[500px] group">
+<div class="absolute inset-0 bg-tertiary/10 rounded-full scale-110 blur-2xl group-hover:bg-tertiary/20 transition-all duration-700"></div>
+<div class="relative h-full w-full rounded-2xl overflow-hidden shadow-2xl transition-transform duration-700 group-hover:-translate-y-4">
+<img alt="Solar Farm" class="w-full h-full object-cover" data-alt="Modern solar panels aligned in a vast field during sunrise with warm orange light reflecting off the glass surfaces" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHfsa6Mlg-yOLiE8VSUs7ikG_-zIvvHfvQplY750OW5mgYqH1dZVTg8AFM8hEkqwajoT3iTk6irRlFugZ0iNCYrMUu88xiEBMTLzH4U_nfNhwvoA9Scks8UJTmA2eRZziAa21-dGrqERYfO4RIq-b_virdAmjySwfVn24dNR5dzEY0ZmCDBCf6_88FczjYyE2U0huDeIQ2hfnX_KZIIUjWAlrQyR75eaXXyfFciKaQkR7uRtNx5ftQ38D3mHhlROF6Qdi2i5ptcEM"/>
+<div class="absolute inset-0 solar-gradient mix-blend-overlay opacity-30"></div>
+<div class="absolute bottom-8 left-8 p-6 glass-panel rounded-xl max-w-xs">
+<p class="text-xs font-mono text-tertiary font-bold mb-2">REAL-TIME DATA</p>
+<p class="text-xl font-headline font-bold text-on-surface">+24.8% Efficiency Gain</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Product Category: Distribution Boards -->
+<section class="py-24 px-8 md:px-20 bg-surface">
+<div class="text-center mb-20">
+<h2 class="text-4xl md:text-5xl font-headline font-bold mb-4">Technical Distribution</h2>
+<div class="h-1 w-24 bg-primary mx-auto rounded-full"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<!-- DB Card 1 -->
+<div class="group">
+<div class="aspect-square bg-surface-container-high rounded-2xl mb-6 overflow-hidden relative border border-outline-variant/10">
+<img alt="Distribution Board" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" data-alt="Close-up of a neatly organized industrial distribution board with various wires and circuit breakers" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCdJrFCn49NnfqBywPaNm7EMKYwrYWwgihapiHNII78iHC675zLrI9qMkYiifkdi-tEp2S64d2y7EVMlEIjzf55Jjmq7BU91IcntUbZPa8APeosnylGvmy8rN9ISp9ExSOAK0uKyB2JeeZOd_N1t5rUVPLaejkkWY-oS1-lLV-uypXSuSG_YySLon5mFbmMTXfkuvtfc6-xKSPbyscLhgh_ZQwJIO2PztpLKWtgM-Jwpd8plLGXFm90NLsvqKBAGhgBzL5vf6kNGv4"/>
+<div class="absolute top-4 right-4 bg-white/90 px-3 py-1 rounded-full text-[10px] font-bold tracking-widest text-primary shadow-sm">NEW MODEL</div>
+</div>
+<h4 class="text-2xl font-headline font-bold text-on-surface mb-2">Final Distribution Boards</h4>
+<p class="text-on-surface-variant text-sm mb-6">Ultra-slim profile designs for high-density commercial infrastructure.</p>
+<a class="inline-flex items-center text-primary font-bold text-sm group-hover:translate-x-2 transition-transform" href="#">
+                        TECHNICAL DATASHEET <span class="material-symbols-outlined ml-2 text-sm" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+<!-- DB Card 2 -->
+<div class="group">
+<div class="aspect-square bg-surface-container-high rounded-2xl mb-6 overflow-hidden relative border border-outline-variant/10">
+<img alt="Submain Distribution" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" data-alt="A clean, industrial electrical panel in a well-lit facility with complex circuitry visible behind glass" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7wud3VIvEh0CfM766iWS_se2ru3sxYXVaGouf4CzL3L9EocMMfYcg3nzUcA4N0KYIIfSdOX7qO-5jc5OSoZdp5v9zBI22pcX8yJEGyoZ6UP-hPixusQXlkrNAHq2dv1LbiuVIittMxaFTA-QQjsNDz6UXezgxqYc0uZYpFPEwdvAp-BQlnDwHf4rJXNGMpkZ3H8c1cHPouqDJJD2XUxd3rqzgWyjfONZrflE8b1lLP4boBaHnXQU6QDP6ZZDQ_ZeNrTsbMFreLRY"/>
+</div>
+<h4 class="text-2xl font-headline font-bold text-on-surface mb-2">Submain Distribution</h4>
+<p class="text-on-surface-variant text-sm mb-6">Robust mid-tier routing with integrated thermal monitoring systems.</p>
+<a class="inline-flex items-center text-primary font-bold text-sm group-hover:translate-x-2 transition-transform" href="#">
+                        TECHNICAL DATASHEET <span class="material-symbols-outlined ml-2 text-sm" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+<!-- DB Card 3 -->
+<div class="group">
+<div class="aspect-square bg-surface-container-high rounded-2xl mb-6 overflow-hidden relative border border-outline-variant/10">
+<img alt="Weatherproof DB" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700" data-alt="Outdoor electrical enclosure with rugged, weather-resistant casing in a harsh environment" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXjuLJqceF3lva08mrkQLrOr743-qggs53fdf6ckbr27O_3kdfuO8ZWNe9v-u2H8S0uaqwo4J-C9hnP5tqm5cAYX2p6MSZEqCrxB_XoCVaWw5rj5pRJglAnRIlrlUB1tqfUWxgaziSzwnVmMXItOKzRK9Y4mafrjVXE1Phjhbp26nG0x76puEUHuWZROOOea4sSyzXJV7LVGfVtAWabcfY0UEEbMJUX8jgEW28HXVLmoBrC7nZiiOZnLonB7QYuHLzU1rrT3suyRw"/>
+</div>
+<h4 class="text-2xl font-headline font-bold text-on-surface mb-2">Weatherproof Series</h4>
+<p class="text-on-surface-variant text-sm mb-6">IP66 rated enclosures for extreme thermal and environmental exposure.</p>
+<a class="inline-flex items-center text-primary font-bold text-sm group-hover:translate-x-2 transition-transform" href="#">
+                        TECHNICAL DATASHEET <span class="material-symbols-outlined ml-2 text-sm" data-icon="arrow_forward">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Interactive CTA Section -->
+<section class="py-24 px-8 md:px-20">
+<div class="bg-primary rounded-3xl p-12 md:p-20 relative overflow-hidden text-white flex flex-col md:flex-row items-center justify-between gap-12">
+<div class="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-white/10 to-transparent opacity-50"></div>
+<div class="relative z-10 max-w-xl">
+<h2 class="text-4xl md:text-5xl font-headline font-bold mb-6">Ready to engineer your next project?</h2>
+<p class="text-primary-fixed-dim text-lg">Consult with our technical engineers for a custom configuration specific to your infrastructure needs.</p>
+</div>
+<div class="relative z-10 flex flex-col sm:flex-row gap-4">
+<button class="px-8 py-4 bg-white text-primary rounded-full font-bold font-headline hover:bg-surface-container-lowest transition-colors flex items-center justify-center">
+                        Schedule Consultation
+                    </button>
+<button class="px-8 py-4 border border-white/30 rounded-full font-bold font-headline hover:bg-white/10 transition-colors flex items-center justify-center">
+                        Download Catalog
+                    </button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer Shell -->
+<footer class="bg-slate-900 dark:bg-black w-full relative overflow-hidden">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-12 py-20 w-full">
+<div class="space-y-6">
+<div class="text-xl font-black text-white font-headline">Zainab Engineering</div>
+<p class="text-slate-400 font-['Space_Grotesk'] text-sm tracking-wide">© 2024 Zainab Engineering. Precision in Motion.</p>
+<div class="flex space-x-4">
+<span class="material-symbols-outlined text-white" data-icon="hub">hub</span>
+<span class="material-symbols-outlined text-white" data-icon="terminal">terminal</span>
+<span class="material-symbols-outlined text-white" data-icon="language">language</span>
+</div>
+</div>
+<div>
+<h5 class="text-white font-bold mb-6 uppercase text-xs tracking-[0.2em]">Operations</h5>
+<ul class="space-y-4 font-['Space_Grotesk'] text-sm tracking-wide">
+<li><a class="text-slate-400 hover:text-blue-300 hover:translate-x-1 transition-transform duration-200 block" href="#">Global Operations</a></li>
+<li><a class="text-slate-400 hover:text-blue-300 hover:translate-x-1 transition-transform duration-200 block" href="#">Technical Specs</a></li>
+<li><a class="text-slate-400 hover:text-blue-300 hover:translate-x-1 transition-transform duration-200 block" href="#">Manufacturing</a></li>
+</ul>
+</div>
+<div>
+<h5 class="text-white font-bold mb-6 uppercase text-xs tracking-[0.2em]">Compliance</h5>
+<ul class="space-y-4 font-['Space_Grotesk'] text-sm tracking-wide">
+<li><a class="text-slate-400 hover:text-blue-300 hover:translate-x-1 transition-transform duration-200 block" href="#">Legal Disclosure</a></li>
+<li><a class="text-slate-400 hover:text-blue-300 hover:translate-x-1 transition-transform duration-200 block" href="#">Privacy Policy</a></li>
+<li><a class="text-slate-400 hover:text-blue-300 hover:translate-x-1 transition-transform duration-200 block" href="#">Certifications</a></li>
+</ul>
+</div>
+<div>
+<h5 class="text-white font-bold mb-6 uppercase text-xs tracking-[0.2em]">Connect</h5>
+<div class="bg-white/5 p-6 rounded-lg">
+<p class="text-slate-400 text-xs mb-4">Subscribe to our Technical Insights journal.</p>
+<div class="flex border-b border-slate-700 pb-2">
+<input class="bg-transparent border-none text-white text-sm focus:ring-0 w-full placeholder:text-slate-600" placeholder="Email Address" type="email"/>
+<button class="material-symbols-outlined text-blue-500" data-icon="trending_flat">trending_flat</button>
+</div>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
+
+// contact page
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "tertiary": "#a33200",
+              "on-tertiary-fixed-variant": "#832600",
+              "primary-fixed-dim": "#b3c5ff",
+              "surface-variant": "#d7e3fc",
+              "on-surface-variant": "#424656",
+              "tertiary-fixed-dim": "#ffb59d",
+              "on-primary-container": "#f8f7ff",
+              "outline": "#727687",
+              "background": "#f9f9ff",
+              "outline-variant": "#c2c6d8",
+              "primary-container": "#0066ff",
+              "on-surface": "#101c2e",
+              "surface-container-highest": "#d7e3fc",
+              "surface-container": "#e7eeff",
+              "secondary": "#00677e",
+              "inverse-on-surface": "#ecf0ff",
+              "on-secondary": "#ffffff",
+              "surface-tint": "#0054d6",
+              "inverse-primary": "#b3c5ff",
+              "surface-dim": "#cfdaf3",
+              "on-tertiary-container": "#fff6f4",
+              "on-tertiary": "#ffffff",
+              "tertiary-container": "#c9450e",
+              "on-tertiary-fixed": "#390c00",
+              "on-error-container": "#93000a",
+              "tertiary-fixed": "#ffdbd0",
+              "on-secondary-fixed-variant": "#004e5f",
+              "on-error": "#ffffff",
+              "inverse-surface": "#253144",
+              "surface-container-low": "#f0f3ff",
+              "secondary-container": "#00d2fd",
+              "on-primary": "#ffffff",
+              "surface-container-high": "#dfe8ff",
+              "on-secondary-fixed": "#001f27",
+              "secondary-fixed": "#b4ebff",
+              "surface-bright": "#f9f9ff",
+              "error-container": "#ffdad6",
+              "primary": "#0050cb",
+              "on-secondary-container": "#005669",
+              "primary-fixed": "#dae1ff",
+              "surface": "#f9f9ff",
+              "secondary-fixed-dim": "#3cd7ff",
+              "on-primary-fixed-variant": "#003fa4",
+              "error": "#ba1a1a",
+              "on-background": "#101c2e",
+              "surface-container-lowest": "#ffffff",
+              "on-primary-fixed": "#001849"
+            },
+            fontFamily: {
+              "headline": ["Space Grotesk"],
+              "body": ["Inter"],
+              "label": ["Inter"]
+            },
+            borderRadius: {"DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem"},
+          },
+        },
+      }
+    </script>
+<style>
+        .glass-input {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(20px);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .glass-input:focus {
+            box-shadow: 0 0 15px rgba(0, 212, 255, 0.3);
+            background: rgba(255, 255, 255, 0.9);
+        }
+        .kinetic-grid-bg {
+            background-image: radial-gradient(circle at 2px 2px, #c2c6d8 1px, transparent 0);
+            background-size: 40px 40px;
+        }
+    </style>
+</head>
+<body class="bg-surface font-body text-on-surface selection:bg-primary-fixed-dim">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-white/70 backdrop-blur-xl shadow-[0_20px_40px_rgba(16,28,46,0.06)]">
+<div class="flex justify-between items-center px-8 py-4 max-w-screen-2xl mx-auto">
+<div class="text-2xl font-bold tracking-tighter text-slate-900 font-headline">Zainab Engineering</div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-slate-600 hover:text-blue-500 font-headline font-medium tracking-tight transition-all duration-300" href="#">Solutions</a>
+<a class="text-slate-600 hover:text-blue-500 font-headline font-medium tracking-tight transition-all duration-300" href="#">Technology</a>
+<a class="text-slate-600 hover:text-blue-500 font-headline font-medium tracking-tight transition-all duration-300" href="#">Projects</a>
+<a class="text-slate-600 hover:text-blue-500 font-headline font-medium tracking-tight transition-all duration-300" href="#">Sustainability</a>
+<a class="text-slate-600 hover:text-blue-500 font-headline font-medium tracking-tight transition-all duration-300" href="#">Insights</a>
+</div>
+<button class="bg-primary-container text-on-primary-container px-6 py-2.5 rounded-full font-headline font-medium scale-95 active:scale-90 transition-transform hover:opacity-80">
+                Request Quote
+            </button>
+</div>
+</nav>
+<main class="pt-24 min-h-screen kinetic-grid-bg">
+<div class="max-w-screen-2xl mx-auto px-8 py-12">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-0 overflow-hidden rounded-xl bg-surface-container-lowest shadow-2xl">
+<!-- Left Side: Inquiry Form -->
+<div class="p-12 lg:p-20 flex flex-col justify-center">
+<div class="mb-12">
+<span class="text-primary font-headline font-bold uppercase tracking-widest text-xs">Contact Us</span>
+<h1 class="text-5xl lg:text-6xl font-headline font-bold text-on-background mt-4 tracking-tighter leading-none">Let's build the <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary-container">future.</span></h1>
+<p class="text-on-surface-variant mt-6 max-w-md text-lg leading-relaxed">Have a technical inquiry or a complex project? Reach out to our engineering experts today.</p>
+</div>
+<form class="space-y-8">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="relative group">
+<input class="glass-input block w-full px-4 pt-6 pb-2 text-on-surface border-0 border-b-2 border-outline-variant focus:border-primary-container focus:ring-0 peer rounded-t-lg transition-all" id="name" placeholder=" " type="text"/>
+<label class="absolute text-sm text-outline duration-300 transform -translate-y-4 scale-75 top-4 z-10 origin-[0] left-4 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4 peer-focus:text-primary-container" for="name">Full Name</label>
+</div>
+<div class="relative group">
+<input class="glass-input block w-full px-4 pt-6 pb-2 text-on-surface border-0 border-b-2 border-outline-variant focus:border-primary-container focus:ring-0 peer rounded-t-lg transition-all" id="email" placeholder=" " type="email"/>
+<label class="absolute text-sm text-outline duration-300 transform -translate-y-4 scale-75 top-4 z-10 origin-[0] left-4 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4 peer-focus:text-primary-container" for="email">Email Address</label>
+</div>
+</div>
+<div class="relative group">
+<select class="glass-input block w-full px-4 pt-6 pb-2 text-on-surface border-0 border-b-2 border-outline-variant focus:border-primary-container focus:ring-0 peer rounded-t-lg transition-all appearance-none" id="subject">
+<option disabled="" selected="" value=""></option>
+<option value="technical">Technical Consultation</option>
+<option value="quote">Project Quote</option>
+<option value="sustainability">Sustainability Solutions</option>
+<option value="other">Other Inquiry</option>
+</select>
+<label class="absolute text-sm text-outline duration-300 transform -translate-y-4 scale-75 top-4 z-10 origin-[0] left-4 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4 peer-focus:text-primary-container" for="subject">Department / Subject</label>
+</div>
+<div class="relative group">
+<textarea class="glass-input block w-full px-4 pt-6 pb-2 text-on-surface border-0 border-b-2 border-outline-variant focus:border-primary-container focus:ring-0 peer rounded-t-lg transition-all" id="message" placeholder=" " rows="4"></textarea>
+<label class="absolute text-sm text-outline duration-300 transform -translate-y-4 scale-75 top-4 z-10 origin-[0] left-4 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-4 peer-focus:text-primary-container" for="message">Tell us about your project</label>
+</div>
+<button class="w-full md:w-auto bg-gradient-to-r from-primary to-primary-container text-white px-12 py-4 rounded-full font-headline font-bold text-lg shadow-xl shadow-primary/20 hover:scale-[1.02] active:scale-95 transition-all" type="submit">
+                            Send Inquiry
+                        </button>
+</form>
+<div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="flex items-start gap-4">
+<div class="w-10 h-10 rounded-xl bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">location_on</span>
+</div>
+<div>
+<p class="text-xs font-bold uppercase tracking-widest text-outline">Headquarters</p>
+<p class="text-sm font-medium mt-1">128 Industrial Way, Sector 4<br/>London, UK</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="w-10 h-10 rounded-xl bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">call</span>
+</div>
+<div>
+<p class="text-xs font-bold uppercase tracking-widest text-outline">Phone</p>
+<p class="text-sm font-medium mt-1">+44 (0) 20 7946 0123</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<div class="w-10 h-10 rounded-xl bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined">alternate_email</span>
+</div>
+<div>
+<p class="text-xs font-bold uppercase tracking-widest text-outline">Email</p>
+<p class="text-sm font-medium mt-1">eng@zainab.com</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Side: Interactive Map Visual -->
+<div class="relative min-h-[500px] lg:min-h-full overflow-hidden bg-slate-900">
+<div class="absolute inset-0 opacity-40 grayscale hover:grayscale-0 transition-all duration-700">
+<img class="w-full h-full object-cover" data-alt="high-tech dark satellite view of a metropolitan city grid with glowing blue data points and architectural precision" data-location="London" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAy47f5cGlird0u-zLTFeEgsAGTP_IreOsx_GIBlRngzfW9QnOzUrTJC_3T07TkX10nt_fPWz3G516SVHe_bTu9sSRYXZsVDkGZbTG30HHTOnSIJ3MhZMItvLVe_-FLkJpl-MnpkYNJ94FhbEZTZir7D4msvVPkqY8jiJCUhjKXBwLaFFOER_Mh8f9vEWmjaiAuAvzLIRfsw1Onks-zDb6ppaU5OrDOhSOCh5QPOxw62MU9ZRKTQmpT-HNpiJFmrFiwbSdrS-BaDOo"/>
+</div>
+<!-- Decorative Map Elements -->
+<div class="absolute inset-0 bg-gradient-to-l from-transparent to-slate-900/80"></div>
+<!-- Pulsing Marker -->
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+<div class="relative">
+<div class="absolute inset-0 rounded-full bg-primary-container animate-ping opacity-25"></div>
+<div class="absolute inset-0 rounded-full bg-primary-container animate-pulse opacity-50 scale-150"></div>
+<div class="w-6 h-6 rounded-full bg-primary-container border-4 border-white shadow-2xl relative z-10 flex items-center justify-center">
+<div class="w-1.5 h-1.5 rounded-full bg-white"></div>
+</div>
+<div class="absolute top-12 left-1/2 -translate-x-1/2 whitespace-nowrap bg-white/10 backdrop-blur-md border border-white/20 px-4 py-2 rounded-lg">
+<span class="text-white font-headline font-bold text-sm tracking-tight">Zainab Global HQ</span>
+</div>
+</div>
+</div>
+<!-- Tech Detail Overlay -->
+<div class="absolute bottom-12 right-12 text-right hidden md:block">
+<div class="bg-white/5 backdrop-blur-sm border-r-4 border-primary p-6 max-w-xs">
+<p class="text-white/60 text-xs font-bold tracking-[0.2em] uppercase mb-2">Technical Specs</p>
+<div class="space-y-3">
+<div class="flex justify-between items-center gap-8">
+<span class="text-white/40 text-[10px] font-mono">LAT_CORD</span>
+<span class="text-white font-mono text-xs">51.5074° N</span>
+</div>
+<div class="flex justify-between items-center gap-8">
+<span class="text-white/40 text-[10px] font-mono">LONG_CORD</span>
+<span class="text-white font-mono text-xs">0.1278° W</span>
+</div>
+<div class="flex justify-between items-center gap-8">
+<span class="text-white/40 text-[10px] font-mono">GRID_STATUS</span>
+<span class="text-secondary-container font-mono text-xs">OPTIMAL</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-slate-900 text-white w-full relative overflow-hidden">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 px-12 py-20 w-full max-w-screen-2xl mx-auto">
+<div class="space-y-6">
+<div class="text-xl font-black text-white font-headline">Zainab Engineering</div>
+<p class="text-slate-400 text-sm leading-relaxed">Pioneering tomorrow's energy infrastructure with precision engineering and sustainable foresight.</p>
+</div>
+<div>
+<h4 class="font-headline font-bold mb-6 text-blue-500 uppercase tracking-widest text-xs">Navigation</h4>
+<ul class="space-y-4">
+<li><a class="text-slate-400 hover:text-blue-300 transition-transform duration-200 hover:translate-x-1 inline-block text-sm" href="#">Global Operations</a></li>
+<li><a class="text-slate-400 hover:text-blue-300 transition-transform duration-200 hover:translate-x-1 inline-block text-sm" href="#">Technical Specs</a></li>
+<li><a class="text-slate-400 hover:text-blue-300 transition-transform duration-200 hover:translate-x-1 inline-block text-sm" href="#">Case Studies</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-headline font-bold mb-6 text-blue-500 uppercase tracking-widest text-xs">Legal</h4>
+<ul class="space-y-4">
+<li><a class="text-slate-400 hover:text-blue-300 transition-transform duration-200 hover:translate-x-1 inline-block text-sm" href="#">Legal Disclosure</a></li>
+<li><a class="text-slate-400 hover:text-blue-300 transition-transform duration-200 hover:translate-x-1 inline-block text-sm" href="#">Privacy Policy</a></li>
+<li><a class="text-slate-400 hover:text-blue-300 transition-transform duration-200 hover:translate-x-1 inline-block text-sm" href="#">Terms of Service</a></li>
+</ul>
+</div>
+<div class="space-y-6">
+<h4 class="font-headline font-bold mb-6 text-blue-500 uppercase tracking-widest text-xs">Newsletter</h4>
+<div class="relative">
+<input class="w-full bg-slate-800 border-0 rounded-lg px-4 py-3 text-sm focus:ring-2 focus:ring-blue-500" placeholder="Email address" type="email"/>
+<button class="absolute right-2 top-1.5 bg-blue-600 text-white p-1.5 rounded-md hover:bg-blue-500 transition-colors">
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+<div class="px-12 py-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-slate-400 text-sm">© 2024 Zainab Engineering. Precision in Motion.</p>
+<div class="flex gap-6">
+<a class="text-slate-400 hover:text-white transition-colors" href="#"><span class="material-symbols-outlined">public</span></a>
+<a class="text-slate-400 hover:text-white transition-colors" href="#"><span class="material-symbols-outlined">share</span></a>
+</div>
+</div>
+</footer>
+<!-- WhatsApp Quick Contact FAB -->
+<a class="fixed bottom-8 right-8 z-[60] flex items-center gap-3 bg-[#25D366] text-white px-6 py-3 rounded-full shadow-2xl shadow-green-500/30 hover:scale-110 active:scale-95 transition-all group" href="https://wa.me/yourphonenumber" target="_blank">
+<svg fill="currentColor" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.417-.003 6.557-5.338 11.892-11.893 11.892-1.997-.001-3.951-.5-5.688-1.448l-6.305 1.652zm6.599-3.835c1.406.836 2.965 1.282 4.551 1.283 4.904 0 8.895-3.991 8.898-8.895 0-2.376-.925-4.61-2.603-6.29s-3.914-2.602-6.291-2.602c-4.904 0-8.895 3.991-8.898 8.896-.001 1.666.463 3.287 1.341 4.706l-.882 3.223 3.334-.874zm11.171-4.88c-.237-.118-1.399-.691-1.617-.771-.217-.08-.376-.118-.535.118-.158.237-.611.771-.749.927-.138.158-.276.178-.514.059-.237-.118-1.003-.37-1.91-1.18-.707-.63-1.184-1.409-1.323-1.647-.138-.237-.015-.365.104-.483.107-.107.237-.276.356-.415.118-.138.158-.237.237-.395.079-.158.039-.296-.02-.415-.059-.118-.535-1.289-.733-1.765-.192-.464-.388-.401-.535-.408-.138-.007-.296-.008-.454-.008-.158 0-.415.059-.633.296-.217.237-.83.811-.83 1.977 0 1.166.849 2.293.967 2.451.118.158 1.67 2.55 4.045 3.575.565.244 1.006.39 1.35.499.567.18 1.083.155 1.492.093.455-.069 1.399-.571 1.597-1.126.197-.555.197-1.031.138-1.126-.059-.096-.217-.155-.454-.273z"></path></svg>
+<span class="font-headline font-bold text-sm">Quick Chat</span>
+</a>
+</body></html>
+

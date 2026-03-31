@@ -1,22 +1,22 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { supabase } from '@/lib/supabase'
+import { supabaseAdmin } from '@/lib/supabase-admin'
 
 // POST - Submit contact message
 export async function POST(request: NextRequest) {
   try {
     const body = await request.json()
-    const { name, email, phone, subject, message } = body
+    const { full_name, email, phone, message } = body
 
-    if (!name || !email || !message) {
+    if (!full_name || !email || !message) {
       return NextResponse.json(
         { error: 'Name, email, and message are required' },
         { status: 400 }
       )
     }
 
-    const { data, error } = await supabase
+    const { data, error } = await supabaseAdmin
       .from('contact_messages')
-      .insert([{ name, email, phone, subject, message }])
+      .insert([{ full_name, email, phone, message }])
       .select()
       .single()
 
@@ -39,7 +39,7 @@ export async function POST(request: NextRequest) {
 // GET - Get all contact messages (admin only)
 export async function GET() {
   try {
-    const { data, error } = await supabase
+    const { data, error } = await supabaseAdmin
       .from('contact_messages')
       .select('*')
       .order('created_at', { ascending: false })

@@ -8,7 +8,8 @@
 DROP POLICY IF EXISTS "Anyone can submit contact" ON contact_messages;
 DROP POLICY IF EXISTS "Authenticated can read messages" ON contact_messages;
 DROP POLICY IF EXISTS "Anyone can subscribe" ON email_subscribers;
-DROP POLICY IF EXISTS "Anyone can unsubscribe own email" ON email_subscribers;
+DROP POLICY IF EXISTS "Anyone can unsubscribe
+ own email" ON email_subscribers;
 DROP POLICY IF EXISTS "Admins can view subscribers" ON email_subscribers;
 DROP POLICY IF EXISTS "Admins can delete subscribers" ON email_subscribers;
 DROP POLICY IF EXISTS "Admins can view messages" ON contact_messages;
