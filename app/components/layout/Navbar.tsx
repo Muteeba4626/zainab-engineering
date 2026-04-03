@@ -4,9 +4,19 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState, useEffect } from 'react';
 
+const aboutSections = [
+  { id: "mission", label: "Our Mission" },
+  { id: "vision", label: "Our Vision" },
+  { id: "values", label: "Our Values" },
+  { id: "customer-care", label: "Customer Care" },
+  { id: "equal-opportunity", label: "Equal Opportunity Policy" },
+  { id: "team", label: "Our Team" },
+  { id: "quality-assurance", label: "Quality Assurance" },
+];
+
 const navLinks = [
   { href: '/', label: 'Home' },
-  { href: '/about', label: 'About' },
+  { href: '/about-us', label: 'About', hasDropdown: true },
   { href: '/products', label: 'Products' },
   { href: '/services', label: 'Services' },
   { href: '/clients', label: 'Clients' },
@@ -17,6 +27,9 @@ export default function Navbar() {
   const pathname = usePathname();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [aboutDropdownOpen, setAboutDropdownOpen] = useState(false);
+  const [mobileAboutOpen, setMobileAboutOpen] = useState(false);
+  const isAboutPage = pathname === '/about-us';
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
@@ -31,6 +44,33 @@ export default function Navbar() {
       document.body.style.overflow = '';
     }
   }, [mobileMenuOpen]);
+
+  // Close dropdown when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      const target = event.target as HTMLElement;
+      if (!target.closest('.about-dropdown')) {
+        setAboutDropdownOpen(false);
+      }
+    };
+    document.addEventListener('click', handleClickOutside);
+    return () => document.removeEventListener('click', handleClickOutside);
+  }, []);
+
+  const handleSectionClick = (sectionId: string) => {
+    setAboutDropdownOpen(false);
+    setMobileMenuOpen(false);
+    setMobileAboutOpen(false);
+
+    if (isAboutPage) {
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    } else {
+      window.location.href = `/about-us#${sectionId}`;
+    }
+  };
 
   return (
     <>
@@ -51,17 +91,66 @@ export default function Navbar() {
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-1">
             {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
-                  pathname === link.href
-                    ? 'text-primary bg-primary/5'
-                    : 'text-slate-600 hover:text-primary hover:bg-slate-50'
-                }`}
-              >
-                {link.label}
-              </Link>
+              link.hasDropdown ? (
+                <div key={link.href} className="relative about-dropdown">
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setAboutDropdownOpen(!aboutDropdownOpen);
+                    }}
+                    className={`flex items-center gap-1 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
+                      pathname === link.href || pathname === '/about-us'
+                        ? 'text-primary bg-primary/5'
+                        : 'text-slate-600 hover:text-primary hover:bg-slate-50'
+                    }`}
+                  >
+                    {link.label}
+                    <svg
+                      className={`w-4 h-4 transition-transform duration-200 ${aboutDropdownOpen ? 'rotate-180' : ''}`}
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                    </svg>
+                  </button>
+
+                  {/* Dropdown Menu */}
+                  {aboutDropdownOpen && (
+                    <div className="absolute left-0 mt-2 w-56 rounded-xl shadow-xl bg-white border border-slate-100 py-2 animate-fadeIn z-50">
+                      <Link
+                        href="/about-us"
+                        className="block px-4 py-2.5 text-sm text-slate-700 hover:bg-primary/5 hover:text-primary transition-colors"
+                        onClick={() => setAboutDropdownOpen(false)}
+                      >
+                        About Us Overview
+                      </Link>
+                      <div className="border-t border-slate-100 my-1"></div>
+                      {aboutSections.map((section) => (
+                        <button
+                          key={section.id}
+                          onClick={() => handleSectionClick(section.id)}
+                          className="w-full text-left px-4 py-2.5 text-sm text-slate-600 hover:bg-primary/5 hover:text-primary transition-colors"
+                        >
+                          {section.label}
+                        </button>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              ) : (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className={`px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
+                    pathname === link.href
+                      ? 'text-primary bg-primary/5'
+                      : 'text-slate-600 hover:text-primary hover:bg-slate-50'
+                  }`}
+                >
+                  {link.label}
+                </Link>
+              )
             ))}
           </div>
 
@@ -125,18 +214,61 @@ export default function Navbar() {
               {/* Navigation Links */}
               <div className="flex-1 overflow-y-auto px-4 py-3 bg-white">
                 {navLinks.map((link) => (
-                  <Link
-                    key={link.href}
-                    href={link.href}
-                    onClick={() => setMobileMenuOpen(false)}
-                    className={`block px-4 py-3 mb-1 rounded-lg text-sm font-medium transition-colors ${
-                      pathname === link.href
-                        ? 'text-primary bg-primary/10'
-                        : 'text-slate-700 hover:bg-slate-100'
-                    }`}
-                  >
-                    {link.label}
-                  </Link>
+                  link.hasDropdown ? (
+                    <div key={link.href}>
+                      <button
+                        onClick={() => setMobileAboutOpen(!mobileAboutOpen)}
+                        className={`flex items-center justify-between w-full px-4 py-3 mb-1 rounded-lg text-sm font-medium transition-colors ${
+                          pathname === link.href || pathname === '/about-us'
+                            ? 'text-primary bg-primary/10'
+                            : 'text-slate-700 hover:bg-slate-100'
+                        }`}
+                      >
+                        {link.label}
+                        <svg
+                          className={`w-4 h-4 transition-transform duration-200 ${mobileAboutOpen ? 'rotate-180' : ''}`}
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                        </svg>
+                      </button>
+                      {mobileAboutOpen && (
+                        <div className="pl-4 mb-2">
+                          <Link
+                            href="/about-us"
+                            onClick={() => setMobileMenuOpen(false)}
+                            className="block px-4 py-2.5 text-sm text-slate-600 hover:text-primary transition-colors"
+                          >
+                            About Us Overview
+                          </Link>
+                          {aboutSections.map((section) => (
+                            <button
+                              key={section.id}
+                              onClick={() => handleSectionClick(section.id)}
+                              className="block w-full text-left px-4 py-2.5 text-sm text-slate-500 hover:text-primary transition-colors"
+                            >
+                              {section.label}
+                            </button>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  ) : (
+                    <Link
+                      key={link.href}
+                      href={link.href}
+                      onClick={() => setMobileMenuOpen(false)}
+                      className={`block px-4 py-3 mb-1 rounded-lg text-sm font-medium transition-colors ${
+                        pathname === link.href
+                          ? 'text-primary bg-primary/10'
+                          : 'text-slate-700 hover:bg-slate-100'
+                      }`}
+                    >
+                      {link.label}
+                    </Link>
+                  )
                 ))}
                 
                 {/* Request Quote Button */}

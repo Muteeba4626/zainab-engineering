@@ -152,3 +152,24 @@ body {
   background: var(--color-primary-container);
   color: var(--color-on-primary-container);
 }
+
+/* Dropdown animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.2s ease-out;
+}
+
+/* Scroll margin for sections */
+.scroll-mt-40 {
+  scroll-margin-top: 10rem;
+}
