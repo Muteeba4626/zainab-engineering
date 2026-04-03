@@ -118,28 +118,6 @@ export default function AboutUsPage() {
           </div>
         </section>
 
-        {/* Quick Navigation */}
-        <section className="py-6 px-5 sm:px-8 border-y border-slate-200 bg-white/80 backdrop-blur-sm sticky top-16 z-40">
-          <div className="max-w-screen-2xl mx-auto">
-            <div className="flex flex-wrap justify-center gap-2 lg:gap-3">
-              {sections.map((section) => (
-                <button
-                  key={section.id}
-                  onClick={() => {
-                    const element = document.getElementById(section.id);
-                    if (element) {
-                      element.scrollIntoView({ behavior: "smooth", block: "start" });
-                    }
-                  }}
-                  className="px-3 lg:px-4 py-2 text-xs lg:text-sm font-medium text-slate-600 bg-white rounded-full border border-slate-200 hover:border-primary hover:text-primary transition-all hover:shadow-md"
-                >
-                  {section.title}
-                </button>
-              ))}
-            </div>
-          </div>
-        </section>
-
         {/* Sections */}
         <div className="max-w-screen-2xl mx-auto px-5 sm:px-8 lg:px-20 py-16 lg:py-24">
           <div className="space-y-20 lg:space-y-32">
