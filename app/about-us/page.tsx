@@ -5,6 +5,38 @@ import Image from "next/image";
 import Navbar from "../components/layout/Navbar";
 import Footer from "../components/layout/Footer";
 
+// Business Partners / Brands
+const businessPartners = [
+  { name: "HITACHI", logo: "/images/brands/hitachi.svg", type: "svg" },
+  { name: "ABB", logo: "/images/brands/abb.svg", type: "svg" },
+  { name: "Schneider Electric", logo: "/images/brands/schneider.svg", type: "svg" },
+  { name: "Fuji Electric", logo: "/images/brands/fuji.svg", type: "svg" },
+  { name: "HYUNDAI", logo: "/images/brands/hyundai.svg", type: "svg" },
+  { name: "Hager", logo: "/images/brands/hager.svg", type: "svg" },
+  { name: "Finder", logo: "/images/brands/finder.svg", type: "svg" },
+  { name: "Socomec", logo: "/images/brands/socomec.svg", type: "svg" },
+  { name: "SMC", logo: "/images/brands/smc.svg", type: "svg" },
+  { name: "Telergon", logo: null, type: "text" },
+  { name: "GAVE", logo: null, type: "text" },
+  { name: "ENTES", logo: "/images/brands/entes.png", type: "png" },
+  { name: "KEMAR", logo: null, type: "text" },
+  { name: "CIRCUTOR", logo: "/images/brands/circutor.png", type: "png" },
+  { name: "TRACON", logo: null, type: "text" },
+  { name: "T-gami", logo: null, type: "text" },
+  { name: "MARUYASU", logo: null, type: "text" },
+  { name: "Ricontro", logo: null, type: "text" },
+  { name: "CH", logo: null, type: "text" },
+  { name: "ETI", logo: "/images/brands/eti.png", type: "png" },
+  { name: "EFEN", logo: null, type: "text" },
+  { name: "Legrand", logo: null, type: "text" },
+  { name: "TECO", logo: "/images/brands/teco.png", type: "png" },
+  { name: "TERASAKI", logo: null, type: "text" },
+  { name: "Artesia", logo: null, type: "text" },
+  { name: "Lovato Electric", logo: null, type: "text" },
+  { name: "FICO", logo: null, type: "text" },
+  { name: "Mitsubishi", logo: null, type: "text" },
+];
+
 // Industries served
 const industries = [
   "Textile Processing", "Textile Spinning", "Textile Weaving", "Food Industries",
@@ -416,6 +448,80 @@ export default function AboutUsPage() {
                 We manufacture Electrical Panels in varied standard and customized configurations per client 
                 specification to meet the various industrial requirements.
               </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Business Partners - Infinite Scroll Animation */}
+        <section id="business-partners" className="py-16 lg:py-24 bg-white overflow-hidden scroll-mt-24">
+          <div className="max-w-screen-2xl mx-auto px-5 sm:px-8 lg:px-20 mb-12">
+            <div className="text-center">
+              <span className="text-primary font-semibold tracking-wide uppercase text-sm">Trusted By The Best</span>
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-headline font-bold text-slate-900 mt-3 tracking-tight">
+                Our Business <span className="text-primary">Partners</span>
+              </h2>
+              <p className="text-slate-600 mt-4 max-w-2xl mx-auto">
+                We partner with world-renowned electrical equipment manufacturers to deliver 
+                premium quality products and solutions to our clients.
+              </p>
+            </div>
+          </div>
+          
+          {/* First Row - Scrolling Left */}
+          <div className="relative mb-8">
+            <div className="flex animate-scroll-left">
+              {[...businessPartners.slice(0, 14), ...businessPartners.slice(0, 14)].map((partner, index) => (
+                <div
+                  key={`row1-${index}`}
+                  className="flex-shrink-0 mx-4 w-40 h-24 bg-slate-50 rounded-xl flex items-center justify-center p-4 border border-slate-100 hover:border-primary/30 hover:shadow-lg hover:scale-105 transition-all duration-300 group"
+                >
+                  {partner.logo && partner.type !== "text" ? (
+                    <img
+                      src={partner.logo}
+                      alt={partner.name}
+                      className="max-w-full max-h-full object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300"
+                    />
+                  ) : (
+                    <span className="text-slate-600 font-bold text-sm text-center group-hover:text-primary transition-colors">
+                      {partner.name}
+                    </span>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Second Row - Scrolling Right */}
+          <div className="relative">
+            <div className="flex animate-scroll-right">
+              {[...businessPartners.slice(14), ...businessPartners.slice(14), ...businessPartners.slice(0, 7), ...businessPartners.slice(0, 7)].map((partner, index) => (
+                <div
+                  key={`row2-${index}`}
+                  className="flex-shrink-0 mx-4 w-40 h-24 bg-slate-50 rounded-xl flex items-center justify-center p-4 border border-slate-100 hover:border-primary/30 hover:shadow-lg hover:scale-105 transition-all duration-300 group"
+                >
+                  {partner.logo && partner.type !== "text" ? (
+                    <img
+                      src={partner.logo}
+                      alt={partner.name}
+                      className="max-w-full max-h-full object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300"
+                    />
+                  ) : (
+                    <span className="text-slate-600 font-bold text-sm text-center group-hover:text-primary transition-colors">
+                      {partner.name}
+                    </span>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Brand Count */}
+          <div className="max-w-screen-2xl mx-auto px-5 sm:px-8 lg:px-20 mt-12">
+            <div className="text-center">
+              <div className="inline-flex items-center gap-3 bg-primary/5 px-6 py-3 rounded-full">
+                <span className="text-3xl font-bold text-primary">{businessPartners.length}+</span>
+                <span className="text-slate-600 font-medium">International Brands</span>
+              </div>
             </div>
           </div>
         </section>

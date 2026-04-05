@@ -11,6 +11,7 @@ const aboutSections = [
   { id: "equal-opportunity", label: "Equal Opportunity" },
   { id: "team", label: "Our Team" },
   { id: "quality-assurance", label: "Quality Assurance" },
+  { id: "business-partners", label: "Business Partners" },
 ];
 
 const navLinks = [

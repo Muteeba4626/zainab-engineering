@@ -1,0 +1,1021 @@
+<!DOCTYPE HTML>
+<html id="html" lang="de-DE">
+<head>
+	
+
+	
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<link rel="stylesheet" href="https://www.efen.com/wp-content/themes/EFEN-Relaunch/fontawesome-free-6.3.0-web/css/all.min.css" type="text/css" />
+<link rel="stylesheet" href="https://www.efen.com/wp-content/themes/EFEN-Relaunch/jquery-ui.css">
+<link rel="stylesheet" href="https://www.efen.com/wp-content/themes/EFEN-Relaunch/slicknav.css" type="text/css" />
+<link rel="stylesheet" href="https://www.efen.com/wp-content/themes/EFEN-Relaunch/style.css" type="text/css" />
+<link rel="stylesheet" href="https://www.efen.com/wp-content/themes/EFEN-Relaunch/slick-theme.css" type="text/css" />
+<link rel="stylesheet" href="https://www.efen.com/wp-content/themes/EFEN-Relaunch/slick.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="https://www.efen.com/wp-content/themes/EFEN-Relaunch/barrierefrei.css" />
+	
+<link rel="stylesheet" type="text/css" href="https://www.efen.com/wp-content/themes/EFEN-Relaunch/body_sw.css" />
+<link rel="stylesheet" type="text/css" href="https://www.efen.com/wp-content/themes/EFEN-Relaunch/body_bg.css" />
+<link rel="stylesheet" type="text/css" href="https://www.efen.com/wp-content/themes/EFEN-Relaunch/body_sg.css" />
+<link rel="stylesheet" type="text/css" href="https://www.efen.com/wp-content/themes/EFEN-Relaunch/body_a1.css" />
+<link rel="stylesheet" type="text/css" href="https://www.efen.com/wp-content/themes/EFEN-Relaunch/body_a2.css" />
+<link rel="stylesheet" type="text/css" href="https://www.efen.com/wp-content/themes/EFEN-Relaunch/body_a3.css" />	
+<link rel="stylesheet" href="https://www.efen.com/wp-content/themes/EFEN-Relaunch/coverpop.css" type="text/css" />
+<link rel="stylesheet" href="https://www.efen.com/wp-content/themes/EFEN-Relaunch/coverpop6.css" type="text/css" />
+<link rel="stylesheet" href="https://www.efen.com/wp-content/themes/EFEN-Relaunch/slick.css" type="text/css" />
+<link rel="stylesheet" href="https://www.efen.com/wp-content/themes/EFEN-Relaunch/slick.css" type="text/css" />
+<link rel="stylesheet" href="https://www.efen.com/wp-content/themes/EFEN-Relaunch/fancybox/jquery.fancybox.css" type="text/css" />	
+<link rel="shortcut icon" href="https://www.efen.com/wp-content/themes/EFEN-Relaunch/favicon.png" type="image/png" />
+
+		<!-- All in One SEO 4.9.5.1 - aioseo.com -->
+		<title></title>
+	<meta name="robots" content="noindex" />
+	<meta name="generator" content="All in One SEO (AIOSEO) 4.9.5.1" />
+		<script type="application/ld+json" class="aioseo-schema">
+			{"@context":"https:\/\/schema.org","@graph":[{"@type":"BreadcrumbList","@id":"https:\/\/www.efen.com\/fileadmin\/img\/logo-efen.svg\/#breadcrumblist","itemListElement":[{"@type":"ListItem","@id":"https:\/\/www.efen.com#listItem","position":1,"name":"Home","item":"https:\/\/www.efen.com","nextItem":{"@type":"ListItem","@id":"#listItem","name":"404 - Page Not Found"}}]},{"@type":"Organization","@id":"https:\/\/www.efen.com\/#organization","name":"EFEN GmbH","url":"https:\/\/www.efen.com\/"},{"@type":"WebPage","@id":"https:\/\/www.efen.com\/fileadmin\/img\/logo-efen.svg\/#webpage","url":"https:\/\/www.efen.com\/fileadmin\/img\/logo-efen.svg\/","inLanguage":"de-DE","isPartOf":{"@id":"https:\/\/www.efen.com\/#website"},"breadcrumb":{"@id":"https:\/\/www.efen.com\/fileadmin\/img\/logo-efen.svg\/#breadcrumblist"}},{"@type":"WebSite","@id":"https:\/\/www.efen.com\/#website","url":"https:\/\/www.efen.com\/","name":"EFEN GmbH","inLanguage":"de-DE","publisher":{"@id":"https:\/\/www.efen.com\/#organization"}}]}
+		</script>
+		<!-- All in One SEO -->
+
+<style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+/*# sourceURL=wp-emoji-styles-inline-css */
+</style>
+<style id='wp-block-library-inline-css' type='text/css'>
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=wp-block-library-inline-css */
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<link rel='stylesheet' id='contact-form-7-css' href='https://www.efen.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.5' type='text/css' media='all' />
+<link rel="https://api.w.org/" href="https://www.efen.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.efen.com/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.9.4" />
+	
+</head>
+<body>
+<svg style="position:fixed;height:0;width:0;left:0;top:0;"> <defs> <filter id="red" color-interpolation="linearRGB"><feColorMatrix type="matrix" values="1 0 0 0 0 0.47889679999999996 0.4769109 0.0441916 0 0 0.5972818 -0.6886920999999999 1.0914096 0 0 0 0 0 1 0"></feColorMatrix></filter> <filter id="green" color-interpolation="linearRGB"><feColorMatrix type="matrix" values="1.4366185 -0.6313967 0.1947789 0 0 0 1 0 0 0 -0.18423949999999997 0.1863093 0.9979298999999999 0 0 0 0 0 1 0"></feColorMatrix></filter> <filter id="blue" color-interpolation="linearRGB"><feColorMatrix type="matrix" values="0.7411589000000001 -0.4072078999999999 0.6660489999999999 0 0 0.0750979 0.5852341000000001 0.33966799999999997 0 0 0 0 1 0 0 0 0 0 1 0"></feColorMatrix></filter> <filter id="gamma" color-interpolation-filters="sRGB"> <feComponentTransfer> <feFuncR type="gamma" exponent="0.5"></feFuncR> <feFuncG type="gamma" exponent="0.5"></feFuncG> <feFuncB type="gamma" exponent="0.5"></feFuncB> </feComponentTransfer> </filter> <filter id="low-contrast" color-interpolation-filters="sRGB"> <feComponentTransfer> <feFuncR type="table" tableValues="0.2 0.8"></feFuncR> <feFuncG type="table" tableValues="0.2 0.8"></feFuncG> <feFuncB type="table" tableValues="0.2 0.8"></feFuncB> </feComponentTransfer> </filter> <filter id="high-contrast" color-interpolation-filters="sRGB"> <feComponentTransfer> <feFuncR type="table" tableValues="0 0 0.5 1 1"></feFuncR> <feFuncG type="table" tableValues="0 0 0.5 1 1"></feFuncG> <feFuncB type="table" tableValues="0 0 0.5 1 1"></feFuncB> </feComponentTransfer> </filter> </defs> </svg>
+	<!--<span id="test" style="
+    position: fixed;
+    bottom: 0;
+">1</span>-->
+	
+<!-- Cookiebanner -->
+
+<div id="CoverCookies-cover" class="splash">
+<div class="CoverCookies-content splash-center">
+<div class="container">
+<div class="row">
+<!-- Coookiemain -->	
+<div class="col cookiebanner">
+<div class="cookieform">
+<p id="cookie-headline"><a href="/en/"><span style="color:#c8102e;font-weight: bold;">E</span><span style="color:#012169;font-weight: bold;">N</span></a> | <a href="#">Diese Webseite verwendet Cookies</a></p>
+<p id="cookie-minitext" class="cookieminitext">
+Diese Seite verwendet unterschiedliche Cookie-Typen. Einige Cookies werden von Drittparteien platziert, die auf unseren Seiten erscheinen.
+<br />
+Sie können Ihre Einwilligung jederzeit von der Cookie-Erklärung auf unserer Website ändern oder widerrufen.
+<br />
+Erfahren Sie in unserer Datenschutzrichtlinie mehr darüber, wer wir sind, wie Sie uns kontaktieren können und wie wir personenbezogene Daten verarbeiten.</p>
+
+<!-- Einstellungen -->
+	
+<div id="cookie-settings" style="display:none;left: 0;top: 0;min-height:120px;z-index: 999999999999;height: auto;background: white;">
+<p class="erklaerung" style="margin-top:10px;">Einstellungen</p>		
+<p class="cookieminitext">Sie können Ihre Einwilligung zu ganzen Kategorien geben und so nur bestimmte Cookies auswählen.</p>
+<a href="#" onclick="alert_cookie()" style="
+    display: inline;
+    font-style: normal;
+    font-size: 16px;
+    float: left;
+    margin: 5px 0;
+    line-height: 25px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    padding-left: 20px;
+    text-decoration:none;
+    color: #000;
+    background-image: url(/checknotwendig.png);
+    background-repeat: no-repeat;
+    background-position: 0px 1px;
+">&nbsp;Notwendig</a>
+<label for="checkga"><input type="checkbox" id="checkga" onclick="FunctionCookieAnalytics()">&nbsp;Statistiken</label>
+<label for="checkmarketing"><input type="checkbox" id="checkmarketing" onclick="FunctionCookieMarketing()">&nbsp;Marketing</label>
+<button class="CoverCookies-close" onclick="saveCookieSettings()">Auswahl akzeptieren</button>
+</div>
+	
+<!-- Details -->	
+	
+<div id="cookie-details" style="display:none;left: 0;top: 0;z-index: 999999999999;height: auto;background: white;">
+<p class="erklaerung" style="margin-top:10px;">Cookie Erklärung</p>	
+<p>Notwendig</p>
+<p>Notwendige Cookies helfen dabei, eine Webseite nutzbar zu machen, indem sie Grundfunktionen wie Seitennavigation und Zugriff auf sichere Bereiche der Webseite ermöglichen. Die Webseite kann ohne diese Cookies nicht richtig funktionieren.</p>
+<ol>
+ 	<li><strong>Name:</strong> _CoverCookies,
+<strong>Anbieter:</strong> efen.com,
+<strong>Zweck:</strong> Speichert den Zustimmungsstatus des Benutzers für Cookies auf der aktuellen Domäne.
+<strong>Ablauf:</strong> 2 Jahre,
+<strong>Typ:</strong> HTTP</li>
+ 	<li><strong>Name:</strong> enable-analytics,
+<strong>Anbieter:</strong> efen.com,
+<strong>Zweck:</strong> Legt fest, ob Google Analytics auf der aktuellen Domäne aktiviert ist.
+<strong>Ablauf:</strong> 2 Jahre,
+<strong>Typ:</strong> HTTP</li>
+<li><strong>Name:</strong> enable-marketing,
+<strong>Anbieter:</strong> efen.com,
+<strong>Zweck:</strong> Legt fest, ob Marketing Cookies auf der aktuellen Domäne aktiviert sind.
+<strong>Ablauf:</strong> 2 Jahre,
+<strong>Typ:</strong> HTTP</li>
+ 	<li><strong>Name:</strong> PHPSESSID,
+<strong>Anbieter:</strong> efen.com,
+<strong>Zweck:</strong> Behält die Zustände des Benutzers bei allen Seitenanfragen bei.
+<strong>Ablauf:</strong> Session,
+<strong>Typ:</strong> HTTP</li>
+	<li><strong>Name:</strong> keyuser,
+<strong>Anbieter:</strong> efen.com,
+<strong>Zweck:</strong> Legt fest, ob die Webseite mit der Tastatur bedient wird.
+<strong>Ablauf:</strong> 1 Jahr,
+<strong>Typ:</strong> HTTP</li>
+	<li><strong>Name:</strong> bfsg,
+<strong>Anbieter:</strong> efen.com,
+<strong>Zweck:</strong> Legt fest, ob das Menü für Bedienungshilfen geöffnet ist.
+<strong>Ablauf:</strong> 1 Jahr,
+<strong>Typ:</strong> HTTP</li>
+<li><strong>Name:</strong> color_schema,
+<strong>Anbieter:</strong> efen.com,
+<strong>Zweck:</strong> Legt fest, welche Kontrasteinstellungen getroffen wurden.
+<strong>Ablauf:</strong> 1 Jahr,
+<strong>Typ:</strong> HTTP</li>	
+<li><strong>Name:</strong> font_schema,
+<strong>Anbieter:</strong> efen.com,
+<strong>Zweck:</strong> Legt fest, welche Schriftgrößen definiert wurden.
+<strong>Ablauf:</strong> 1 Jahr,
+<strong>Typ:</strong> HTTP</li>
+<li><strong>Name:</strong> wort_schema,
+<strong>Anbieter:</strong> efen.com,
+<strong>Zweck:</strong> Legt fest, welcher Wortabstand definiert wurde.
+<strong>Ablauf:</strong> 1 Jahr,
+<strong>Typ:</strong> HTTP</li>
+<li><strong>Name:</strong> bilder,
+<strong>Anbieter:</strong> efen.com,
+<strong>Zweck:</strong> Legt fest, ob Bilder ausgeblendet werden.	
+<strong>Ablauf:</strong> 1 Jahr,
+<strong>Typ:</strong> HTTP</li>	
+<li><strong>Name:</strong> cursor,
+<strong>Anbieter:</strong> efen.com,
+<strong>Zweck:</strong> Legt fest, ob der große Mauszeiger verwendet wird.	
+<strong>Ablauf:</strong> 1 Jahr,
+<strong>Typ:</strong> HTTP</li>
+<li><strong>Name:</strong> lineal,
+<strong>Anbieter:</strong> efen.com,
+<strong>Zweck:</strong> Legt fest, ob das Zeilenlineal verwendet wird.	
+<strong>Ablauf:</strong> 1 Jahr,
+<strong>Typ:</strong> HTTP</li>	
+<li><strong>Name:</strong> blaufilter,
+<strong>Anbieter:</strong> efen.com,
+<strong>Zweck:</strong> Legt fest, ob der Blaufilter verwendet wird.	
+<strong>Ablauf:</strong> 1 Jahr,
+<strong>Typ:</strong> HTTP</li>	
+<li><strong>Name:</strong> tastaturdeaktiv,
+<strong>Anbieter:</strong> efen.com,
+<strong>Zweck:</strong> Legt fest, ob die Tastaturbedienung für die Bedienungshilfen deaktiviert wurde.	
+<strong>Ablauf:</strong> 1 Jahr,
+<strong>Typ:</strong> HTTP</li>
+<li><strong>Name:</strong> stopanimations,
+<strong>Anbieter:</strong> efen.com,
+<strong>Zweck:</strong> Legt fest, ob Animationen gestoppt wurden.
+<strong>Ablauf:</strong> 1 Jahr,
+<strong>Typ:</strong> HTTP</li>
+</ol>
+<p>&nbsp;</p>	
+<p>Statistiken</p>
+<p>Statistik-Cookies helfen Webseiten-Besitzern zu verstehen, wie Besucher mit Webseiten interagieren, indem Informationen anonym gesammelt und gemeldet werden.</p>
+<ol>
+ 	<li><strong>Name:</strong> _ga,
+<strong>Anbieter:</strong> Google,
+<strong>Zweck:</strong> Registriert eine eindeutige ID, die verwendet wird um statistische Daten, wie der Besucher die Website nutzt, zu generieren.
+<strong>Host:</strong> efen.com,
+<strong>Ablauf:</strong> 399 Tage,
+<strong>Typ:</strong> HTTP</li>
+ 	<li><strong>Name:</strong> _gid,
+<strong>Anbieter:</strong> Google,
+<strong>Zweck:</strong> "
+<strong>Host:</strong> efen.com,
+<strong>Ablauf:</strong> 1 Tag,
+<strong>Typ:</strong> HTTP</li>
+ 	<li><strong>Name:</strong> _gat_gtag_UA_21639952_24,
+<strong>Anbieter:</strong> Google,
+<strong>Zweck:</strong> Behält die Zustände des Benutzers bei allen Seitenanfragen bei.
+<strong>Host: </strong>efen.com
+<strong>Ablauf:</strong> 1 Minute,
+<strong>Typ:</strong> HTTP</li>
+ 	<li><strong>Name:</strong> _ga_0Z0KWJ4B1B,
+<strong>Anbieter:</strong> Google,
+<strong>Zweck:</strong> Sammelt Daten dazu, wie oft ein Benutzer eine Website besucht hat, sowie Daten für den ersten und letzten Besuch.
+<strong>Host:</strong> efen.com,
+<strong>Ablauf:</strong> 399 Tage,
+<strong>Typ:</strong> HTTP</li>
+ 	<li><strong>Name:</strong> AnalyticsSyncHistory,
+<strong>Anbieter:</strong> LinkedIn,
+<strong>Zweck:</strong> Wird in Verbindung mit der Datensynchronisation mit dem Analysedienst eines Drittanbieters verwendet.,
+<strong>Host:</strong> efen.com,
+<strong>Ablauf:</strong>29 Tage,
+<strong>Typ:</strong> HTTP</li>
+</ol>
+<p>&nbsp;</p>
+<p>Marketing</p>
+<p>Marketing-Cookies werden verwendet, um Besuchern auf Webseiten zu folgen. Die Absicht ist, Anzeigen zu zeigen, die relevant und ansprechend für den einzelnen Benutzer sind und daher wertvoller für Publisher und werbetreibende Drittparteien sind.</p>
+<ol>
+	<li><strong>Name:</strong> _fbp,
+<strong>Anbieter:</strong> Meta Platforms, Inc.,
+<strong>Zweck:</strong> Wird von Facebook genutzt, um eine Reihe von Werbeprodukten anzuzeigen, zum Beispiel Echtzeitgebote dritter Werbetreibender.
+<strong>Host:</strong> efen.com,
+<strong>Ablauf:</strong> 3 Monate,
+<strong>Typ:</strong> HTTP</li>
+	<li><strong>Name:</strong> tr,
+<strong>Anbieter:</strong> Meta Platforms, Inc.,
+<strong>Zweck:</strong> Wird von Facebook genutzt, um eine Reihe von Werbeprodukten anzuzeigen, zum Beispiel Echtzeitgebote dritter Werbetreibender.
+<strong>Host:</strong> efen.com,
+<strong>Ablauf:</strong> Session,
+<strong>Typ:</strong> Pixel Tracker</li>	
+	<li><strong>Name:</strong> bcookie,
+<strong>Anbieter:</strong> LinkedIn,
+<strong>Zweck:</strong> Verwendet vom Social-Networking-Dienst LinkedIn für die Verfolgung der Verwendung von eingebetteten Dienstleistungen.
+<strong>Host:</strong> efen.com,
+<strong>Ablauf:</strong> 2 Jahre,
+<strong>Typ:</strong> HTTP</li>
+	<li><strong>Name:</strong> bscookie,
+<strong>Anbieter:</strong> LinkedIn,
+<strong>Zweck:</strong> Verwendet vom Social-Networking-Dienst LinkedIn für die Verfolgung der Verwendung von eingebetteten Dienstleistungen.
+<strong>Host:</strong> efen.com,
+<strong>Ablauf:</strong> 2 Jahre,
+<strong>Typ:</strong> HTTP</li>	
+	<li><strong>Name:</strong> lidc,
+<strong>Anbieter:</strong> LinkedIn,
+<strong>Zweck:</strong> Verwendet vom Social-Networking-Dienst LinkedIn für die Verfolgung der Verwendung von eingebetteten Dienstleistungen.
+<strong>Host:</strong> efen.com,
+<strong>Ablauf:</strong> 2 Jahre,
+<strong>Typ:</strong> HTTP</li>	
+	<li><strong>Name:</strong> UserMatchHistory,
+<strong>Anbieter:</strong> LinkedIn,
+<strong>Zweck:</strong> Wird verwendet, um Besucher auf mehreren Webseiten zu verfolgen, um relevante Werbung basierend auf den Präferenzen des Besuchers zu präsentieren.
+<strong>Host:</strong> efen.com,
+<strong>Ablauf:</strong> 29 Tage,
+<strong>Typ:</strong> HTTP</li>			
+</ol>
+<p>&nbsp;</p>
+<p class="erklaerung">Über Cookies</p>
+<p>Cookies sind kleine Textdateien, die von Webseiten verwendet werden, um die Benutzererfahrung effizienter zu gestalten.
+</p><p>
+Laut Gesetz können wir Cookies auf Ihrem Gerät speichern, wenn diese für den Betrieb dieser Seite unbedingt notwendig sind. Für alle anderen Cookie-Typen benötigen wir Ihre Erlaubnis.
+</p><p>
+Diese Seite verwendet unterschiedliche Cookie-Typen. Einige Cookies werden von Drittparteien platziert, die auf unseren Seiten erscheinen.
+</p><p>
+Sie können Ihre Einwilligung jederzeit von der <a href="/de/globaler-cookie-hinweis/" style="text-decoration:underline">Cookie-Erklärung auf unserer Website ändern oder widerrufen.</a>
+</p><p>
+Erfahren Sie in unserer Datenschutzrichtlinie mehr darüber, wer wir sind, wie Sie uns kontaktieren können und wie wir personenbezogene Daten verarbeiten.
+</p><p>
+Ihre Einwilligung trifft auf die folgenden Domains zu: efen.com, www.efen.com
+</p>
+</div>
+<!-- Details Ende -->	
+</div>
+	
+<div id="savecookies" style="float:left;">
+<div class="cookieform">
+<button class="CoverCookies-close" onclick="saveCookieSettingsandGo()">Alle Cookies akzeptieren</button>
+<button id="viewdetails">Details einblenden</button>
+<button id="cookie-details-hide" style="cursor: pointer;display:none;background: #bfbfbf;padding: 4px 10px;color: #000;text-align: center;margin: 4px 0 4px 10px;border: 0;">Details ausblenden</button>
+<button id="cookie-settings-hide" style="cursor: pointer;display:none;background: #bfbfbf;padding: 4px 10px;color: #000;text-align: center;margin: 4px 0 4px 10px;border: 0;">Einstellungen schließen</button>
+<button id="viewsettings" style="cursor: pointer;display: inline-block;background: rgb(191, 191, 191);padding: 4px 10px;color: rgb(0, 0, 0);text-align: center;margin: 4px 0px 4px 10px;border: 0px;
+">Einstellungen</button>
+<button id="ablehnen" class="CoverCookies-close" onclick="saveCookieSettingsNone()">Ablehnen</button>
+</div>
+</div>
+	
+</div>
+<!-- Ende Coookiemain -->
+</div>
+</div>
+<!-- ende container -->	
+</div>	
+</div>
+<!-- ende Cookiebanner -->
+	
+<!-- ende Cookiebanner -->	
+	
+<a href="#maincontent" class="sr-only">zum Hauptinhalt springen</a>
+<a href="#navi_trigger" class="sr-only mb-none">zur Navigation springen</a>
+<!--<a href="#slicknav" class="mb-only">jump to navigationzur Navigation springen</a>-->	
+<a href="#footer" class="sr-only">zur Fußzeile springen</a>
+	
+	
+	
+	
+<!-- Barrierefrei Menü -->
+
+<div class="barrierefrei">
+	
+<button id="bfsg_button" aria-label="Bedienungshilfen öffnen">&nbsp;</button><button id="bfsg_close" aria-label="Bedienungshilfen schließen">&nbsp;</button>
+
+<div id="bfsgmenu">
+
+<!-- Kontrast Menü -->
+
+	<div>	
+	<button id="kontrast_button" aria-label="Kontrasteinstellungen öffnen">&nbsp;</button><button aria-label="Kontrasteinstellungen schließen" id="kontrast_close">&nbsp;</button>
+	<div id="kontrastmenu">
+	<button id="k_sw" aria-label="Kontrastmodus schwarz/weiß">&nbsp;</button>
+	<button id="k_sg" aria-label="Kontrastmodus schwarz/gelb">&nbsp;</button>
+	<button id="k_bg" aria-label="Kontrastmodus blau/gelb">&nbsp;</button>
+	<button id="k_normal" aria-label="Kontrastmodus normal">&nbsp;</button>
+	</div>	
+	</div>
+	
+<!-- Font Menü 
+	
+	<div>
+	<button id="font_button" aria-label="Schriftgrößeneinstellungen öffnen">&nbsp;</button><button id="font_close" aria-label="Schriftgrößeneinstellungen schließen">&nbsp;</button>
+	<div class="clearfix" id="fontmenu">
+	<button id="f_normal" aria-label="Schriftgröße normal" class="font_active2">&nbsp;</button>
+	<button id="f_a1" aria-label="Schriftgröße groß">&nbsp;</button>
+	<button id="f_a2" aria-label="Schriftgröße größer">&nbsp;</button>
+	<button id="f_a3" aria-label="Schriftgröße größte">&nbsp;</button>
+	</div>
+	</div>
+-->	
+	
+<!-- Farbkorrektur Menü 
+
+	<div>	
+	<button id="farbk_button" aria-label="Farbkorrektureinstellungen öffnen">&nbsp;</button>
+	<button aria-label="Farbkorrektureinstellungen schließen" id="farbk_close">&nbsp;</button>
+	<div id="farbkmenu">
+	<button id="fk_r" title="Rotschwäche (Protanopie)" aria-label="Rotschwäche (Protanopie)">&nbsp;</button>
+	<button id="fk_g" title="Grünschwäche (Deuternopie)" aria-label="Grünschwäche (Deuternopie)">&nbsp;</button>
+	<button id="fk_b" title="Blauschwäche (Tritanopie)" aria-label="Blauschwäche (Tritanopie)">&nbsp;</button>
+	<button id="fk_s" title="Sättigungsmodus" aria-label="Farbkorrekturmodus Sättigungsmodus">&nbsp;</button>
+	<button id="fk_normal" title="Farbkorrekturmodus normal" aria-label="Farbkorrekturmodus normal">&nbsp;</button>
+	</div>	
+	</div>
+	-->
+<!-- Wortabstand Menü
+	
+	<div>
+	<button id="wort_button" aria-label="Wortabstandeinstellungen öffnen">&nbsp;</button><button aria-label="Wortabstandeinstellungen schließen" id="wort_close">&nbsp;</button>
+	<div class="clearfix" id="wortmenu">
+	<button id="wort_normal" aria-label="Wortabstand normal" class="activewort2">&nbsp;</button>
+	<button id="wort_1" aria-label="Wortabstand groß">&nbsp;</button>
+	<button id="wort_2" aria-label="Wortabstand größer">&nbsp;</button>
+	<button id="wort_3" aria-label="Wortabstand größter">&nbsp;</button>
+	</div>
+	</div> -->	
+	
+<!-- Bilder Menü -->		
+
+	<div>
+	<button id="bilder_ausblenden" aria-label="Bilder ausblenden">&nbsp;</button><button id="bilder_einblenden" aria-label="Bilder einblenden">&nbsp;</button>
+	</div>
+	
+<!-- Links Menü	
+
+	<div>
+	<button id="links_act" aria-label="Links highlighten">&nbsp;</button>
+	<button id="links_deact" aria-label="Links nicht highlighten">&nbsp;</button>
+	</div>	 -->	
+	
+<!-- blaufilter Menü -->		
+
+	<div>
+	<button id="blaufilter_einblenden" aria-label="Blaufilter einblenden">&nbsp;</button><button id="blaufilter_ausblenden" aria-label="Blaufilter ausblenden">&nbsp;</button>
+	</div>	
+	
+	
+<!-- Animationen Menü -->		
+
+	<div>
+	<button id="stopper" aria-label="Animationen anhalten">&nbsp;</button><button id="starter" aria-label="Animationen starten">&nbsp;</button>
+	</div>
+	
+<!-- Lineal Menü -->	
+
+	<div>
+	<button id="lineal_einblenden" aria-label="Zeilenlineal einblenden">&nbsp;</button><button id="lineal_ausblenden" aria-label="Zeilenlineal ausblenden">&nbsp;</button>
+	</div>
+	
+<!-- Cursor Menü -->	
+	
+	<div>
+	<button id="cursor_einblenden" aria-label="Größeren Mauszeiger aktivieren">&nbsp;</button><button id="cursor_ausblenden" aria-label="Größeren Mauszeiger deaktivieren">&nbsp;</button>
+	</div>
+	
+<!-- Tastatur Menü -->	
+
+	<div>
+	<button id="tastatur" aria-label="Tastenkombinationen für Bedienungshilfen deaktivieren">&nbsp;</button><button id="tastatur_aktivieren" aria-label="Tastenkombinationen für Bedienungshilfen aktivieren">&nbsp;</button>
+	</div>
+	
+<!-- Reset All Menü -->	
+
+	<div>
+	<button id="reset_all" aria-label="Alle Einstellungen zu Bedienungshilfen zurücksetzen">&nbsp;</button>
+	</div>
+
+</div>
+	
+</div>
+	
+<!-- Ende Barrierefrei Menü -->
+	
+<div id="kontaktbutton"><a title="Kontakt" href="mailto:efen@efen.com"><img src="https://www.efen.com/wp-content/themes/EFEN-Relaunch/icon-message-neu.png" alt="Nachricht an EFEN"></a><a target="blank" title="shop" href="https://www.efen-sales.com/"><img src="https://www.efen.com/wp-content/themes/EFEN-Relaunch/icon-shop-neu.png" alt="EFEN online Shop"></a></div>
+		
+<a class="logo_mobile_link" href="https://www.efen.com" aria-label="EFEN Logo zur Startseite">
+<img class="logo logo_mobile" src="https://www.efen.com/wp-content/themes/EFEN-Relaunch/EFEN-Logo-2023-02.svg" alt="EFEN Einfach Mehr Möglichkeiten">
+</a>
+	
+<header>
+<section class="navi_section">
+<div class="fullwidth navi_container" id="navi_container">
+<div class="container">
+<div class="row">
+<div class="col col-lg-1 col-md-1 col-sm-1 col-xs-1 space"></div>
+<div class="col col-lg-2 col-md-2 col-sm-3 col-xs-3 logo_container">
+	
+<a href="https://www.efen.com/#navi_container">
+<img class="logo" src="https://www.efen.com/wp-content/themes/EFEN-Relaunch/EFEN-Logo-2023-02.svg" alt="EFEN Einfach Mehr Möglichkeiten">
+</a>
+</div>
+<div class="col col-lg-5 col-md-4 col-sm-2 col-xs-2 space"></div>
+<div class="col col-lg-3 col-md-4 col-sm-5 col-xs-5">
+	
+<a href="https://efen-sales.com/" id="shop_icon" target="_blank"><img alt="EFEN Online Shop" src="https://www.efen.com/wp-content/themes/EFEN-Relaunch/icon-cart.png"></a>
+<div id="search_handler"><span id="search_trigger"><i class="fa fa-search"></i></span><span id="search_closer"><i class="fa fa-close"></i></span>
+</div>
+<div class="clearfix" id="search_wrapper"></div>
+<button id="navi_trigger" aria-label="Navigation öffnen (open)"><i></i></button><button aria-label="Navigation schließen (close)" id="navi_close"><i></i></button>
+</div>
+<div id="sprache_menu" class="col col-lg-1 col-md-1 col-sm-1 col-xs-1">
+	
+<span id="sprache_trigger"><img src="https://www.efen.com/assets/template/img/icons/de.svg" class="flag" alt="Sprache deutsch" /></span>
+	
+	
+<span id="sprache_close"><img src="https://www.efen.com/assets/template/img/icons/de.svg" alt="Sprache deutsch" class="flag" /></span>
+		
+	
+<div id="sprache_main">
+<a href="#"><img src="https://www.efen.com/assets/template/img/icons/de.svg" class="flag" alt="Sprache Deutsch" /></a>
+<br />
+
+<a href=""><img src="https://www.efen.com/assets/template/img/icons/en.svg" alt="language english" class="flag" /></a>
+	
+<br /><a href="https://efen.sk"><img src="https://www.efen.com/assets/template/img/icons/sk.svg" class="flag" alt="EFEN Slowakia" /></a><br /><a href="https://efen.com.pl/"><img src="https://www.efen.com/assets/template/img/icons/pl.svg" class="flag" alt="EFEN Poland" /></a></div>
+	
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="col col-lg-1 col-md-1 col-sm-1 col-xs-1 space"></div>
+<div class="col col-lg-11 col-md-11 col-sm-11 col-xs-11">
+<div id="navi_main">	
+	
+<ul id="mainnavi" class="navi"><li id="menu-item-176" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-176"><a href="https://www.efen.com/category/allgemein/">Aktuelles</a></li>
+<li id="menu-item-43" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-43"><a href="https://www.efen.com/de/unternehmen/">Unternehmen</a>
+<ul class="sub-menu">
+	<li id="menu-item-737" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-737"><a href="https://www.efen.com/de/unternehmen/services/">Services</a></li>
+	<li id="menu-item-577" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-577"><a href="https://www.efen.com/de/unternehmen/firmengeschichte/">Firmengeschichte</a></li>
+	<li id="menu-item-2104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2104"><a href="https://www.efen.com/de/unternehmen/nachhaltigkeit/">Nachhaltigkeit</a></li>
+</ul>
+</li>
+<li id="menu-item-2039" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2039"><a href="https://www.efen.com/de/solutions/">Solutions</a>
+<ul class="sub-menu">
+	<li id="menu-item-2040" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2040"><a href="https://www.efen.com/de/solutions/industrie/">Industrie</a></li>
+	<li id="menu-item-2041" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2041"><a href="https://www.efen.com/de/solutions/infrastruktur/">Infrastruktur</a></li>
+	<li id="menu-item-2042" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2042"><a href="https://www.efen.com/de/solutions/energieversorgung/">Energieversorgung</a></li>
+	<li id="menu-item-2084" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2084"><a href="https://www.efen.com/category/anwenderbeitraege/">Anwenderbeiträge</a></li>
+</ul>
+</li>
+<li id="menu-item-2043" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-2043"><a href="https://www.efen.com/de/produkte/">Produkte</a>
+<ul class="sub-menu">
+	<li id="menu-item-2045" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2045"><a href="https://www.efen.com/de/produkte/neuheiten/">Neuheiten</a></li>
+	<li id="menu-item-2046" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2046"><a href="https://www.efen.com/de/produkte/nh-sicherungs-lastschaltleisten/">NH-Sicherungs-Lastschaltleisten</a></li>
+	<li id="menu-item-2047" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2047"><a href="https://www.efen.com/de/produkte/nh-sicherungs-lasttrenner/">NH-Sicherungs-Lasttrenner</a></li>
+	<li id="menu-item-2049" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2049"><a href="https://www.efen.com/de/produkte/verteilersysteme/">Verteiler-Systeme</a></li>
+	<li id="menu-item-2048" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2048"><a href="https://www.efen.com/de/produkte/sicherungs-einsaetze/">Sicherungs-Einsätze</a></li>
+	<li id="menu-item-2044" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2044"><a href="https://www.efen.com/de/produkte/messen-energiemanagement/">Messen &#038; Energiemanagement</a></li>
+</ul>
+</li>
+<li id="menu-item-42" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-42"><a href="https://www.efen.com/de/downloads/">Downloads</a>
+<ul class="sub-menu">
+	<li id="menu-item-779" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-779"><a href="https://www.efen.com/de/downloads/produktinfos/">Produktinfos</a></li>
+	<li id="menu-item-881" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-881"><a href="https://www.efen.com/de/downloads/preislisten/">Preislisten</a></li>
+	<li id="menu-item-895" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-895"><a href="https://www.efen.com/de/downloads/broschueren/">Broschüren</a></li>
+	<li id="menu-item-900" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-900"><a href="https://www.efen.com/de/downloads/kataloge/">Kataloge</a></li>
+	<li id="menu-item-908" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-908"><a href="https://www.efen.com/de/downloads/zertifikate/">Zertifikate</a></li>
+	<li id="menu-item-1195" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1195"><a href="https://www.efen.com/de/downloads/ruecknahme-altgeraete-verpackungen/">Rücknahme Altgeräte/Verpackungen</a></li>
+	<li id="menu-item-914" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-914"><a href="https://www.efen.com/de/downloads/agb/">AGB</a></li>
+	<li id="menu-item-4288" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4288"><a href="https://www.efen.com/de/downloads/videos/">Videos</a></li>
+</ul>
+</li>
+<li id="menu-item-41" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-41"><a href="https://www.efen.com/de/karriere/">Karriere</a>
+<ul class="sub-menu">
+	<li id="menu-item-2076" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2076"><a href="https://www.efen.com/de/karriere/stellenausschreibungen/">Stellenausschreibungen</a></li>
+	<li id="menu-item-1900" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1900"><a href="https://www.efen.com/de/karriere/ausbildung/">Ausbildung</a></li>
+	<li id="menu-item-3561" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3561"><a href="https://www.efen.com/de/karriere/studiengaenge/">Studium</a></li>
+	<li id="menu-item-2066" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2066"><a href="https://www.efen.com/de/karriere/ferienarbeit/">Ferienarbeit</a></li>
+</ul>
+</li>
+<li id="menu-item-1927" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1927"><a href="#">Kontakt</a>
+<ul class="sub-menu">
+	<li id="menu-item-481" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-481"><a href="https://www.efen.com/de/kontakt/messekalender/">Messekalender</a></li>
+	<li id="menu-item-752" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-752"><a href="https://www.efen.com/de/kontakt/efen-deutschland/">EFEN Deutschland</a></li>
+	<li id="menu-item-751" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-751"><a href="https://www.efen.com/de/kontakt/efen-weltweit/">EFEN weltweit</a></li>
+</ul>
+</li>
+<li id="menu-item-267" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-267"><a href="#">DE</a>
+<ul class="sub-menu">
+	<li id="menu-item-365" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-365"><a href="https://www.efen.com/en/">EN</a></li>
+	<li id="menu-item-366" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-366"><a href="https://www.efen.sk/">SK</a></li>
+	<li id="menu-item-367" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-367"><a href="https://efen.com.pl/">PL</a></li>
+</ul>
+</li>
+</ul>	
+	
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="slider_section">
+<div class="fullwidth slider">
+<div>
+<img src="https://www.efen.com/wp-content/themes/EFEN-Relaunch/Slider-unterseite.jpg" alt="EFEN Einfach.Mehr.Möglichkeiten." />	
+	
+<div class="container">
+<div class="row">
+<div class="col col-lg-1 col-md-1 col-sm-1 col-xs-1 space"></div>
+<div class="col col-lg-4 col-md-4 col-sm-4 col-xs-4">
+	
+</div>
+<div class="col col-lg-6 col-md-6 col-sm-6 col-xs-6">
+<span>Einfach.Mehr.Möglichkeiten.</span>
+</div>
+<div class="col col-lg-1 col-md-1 col-sm-1 col-xs-1 space"></div>
+</div>
+</div>
+</div>
+</div>
+</section>	
+</header><main>
+<div class="container">
+<div class="row breadcrumb">
+<div class="col col-lg-1 col-md-1 col-sm-1 col-xs-1 space"></div>
+<div class="col col-lg-10 col-md-10 col-sm-10 col-xs-10"><p>&nbsp;</p></div>
+<div class="col col-lg-1 col-md-1 col-sm-1 col-xs-1 space"></div>
+</div>
+<div class="row">
+<div class="col col-lg-2 col-md-2 col-sm-1 col-xs-1 space"></div>
+<div class="col col-lg-8 col-md-8 col-sm-10 col-xs-10"><h1>Error 404</h1></div>
+<div class="col col-lg-2 col-md-2 col-sm-1 col-xs-1 space"></div>
+</div>
+<div class="row">
+<div class="col col-lg-2 col-md-2 col-sm-1 col-xs-1 space"></div>
+<div class="col col-lg-8 col-md-8 col-sm-10 col-xs-10 introtext">
+<p>Seite nicht gefunden.</p>
+<p><em>Page not found.</em></p>
+</div>
+<div class="col col-lg-2 col-md-2 col-sm-1 col-xs-1 space"></div>
+</div>
+</div>
+<div class="fullwidth calltoaction calltoaction_sub">
+<div class="container">
+<div class="row">
+<div class="col col-lg-2 col-md-2 col-sm-1 col-xs-1 space"></div>
+<div class="col col-lg-8 col-md-8 col-sm-10 col-xs-10"><h4>Das EFEN-Versprechen: <span>Einfach.Mehr.Möglichkeiten.</span></h4></div>
+<div class="col col-lg-2 col-md-2 col-sm-1 col-xs-1 space"></div>
+</div>
+<div class="row">
+<div class="col col-lg-2 col-md-2 col-sm-1 col-xs-1 space"></div>
+<div class="col col-lg-8 col-md-8 col-sm-10 col-xs-10 calltoaction_text"><p>Anwendungsorientierte Lösungen sind unsere besondere Stärke. Unsere Experten vor Ort stehen Ihnen mit<br />
+Fachkompetenz und innovativen Ideen zur Seite und finden für Sie die beste Lösung. Unser Unternehmen<br />
+legt großen Wert auf Nachhaltigkeit durch ressourcenschonende Produktions- und Lieferketten.</p>
+</div>
+<div class="col col-lg-2 col-md-2 col-sm-1 col-xs-1 space"></div>
+</div>
+<div class="row">
+<div class="col col-lg-2 col-md-2 col-sm-2 col-xs-2 space"></div>
+<div class="col col-lg-2 col-md-2 col-sm-2 col-xs-2">
+<img src="https://www.efen.com/wp-content/themes/EFEN-Relaunch/Die-EFEN-Qualität.png" /><h5>Qualität</h5>
+</div>
+<div class="col col-lg-2 col-md-2 col-sm-2 col-xs-2">
+<img src="https://www.efen.com/wp-content/themes/EFEN-Relaunch/Der-EFEN-Service.png" /><h5>Service</h5>
+</div>
+<div class="col col-lg-2 col-md-2 col-sm-2 col-xs-2">
+<img src="https://www.efen.com/wp-content/themes/EFEN-Relaunch/Die-EFEN-Zuverlässigkeit.png" /><h5>Zuverlässigkeit</h5>
+</div>
+<div class="col col-lg-2 col-md-2 col-sm-2 col-xs-2">
+<img src="https://www.efen.com/wp-content/themes/EFEN-Relaunch/Die-EFEN-Nachhaltigkeit.png" /><h5>Nachhaltigkeit</h5>
+</div>
+<div class="col col-lg-2 col-md-2 col-sm-2 col-xs-2 space"></div>
+</div>
+</div>
+</div>
+</main>
+<footer>
+<div class="fullwidth line"></div>
+<div class="container" id="footer">
+<div class="row">
+<div class="col col-lg-2 col-md-2 col-sm-1 col-xs-1 space"></div>
+<div class="col col-lg-8 col-md-8 col-sm-10 col-xs-10">
+<p class="metanavi">
+<a href="/de/impressum/">Impressum</a> 
+<a href="/de/globaler-datenschutzhinweis/">Datenschutz</a> 
+<a href="/de/globaler-cookie-hinweis/">Cookie-Hinweise</a> 
+	<a href="/de/barrierefreiheit/">Barrierefreiheitserklärung</a>
+<span class="socialmedia">
+<a target="_blank" href="https://www.facebook.com/efengmbh" aria-label="Efen auf facebook"><i class="fab fa-facebook"></i></a>
+<a target="_blank" href="https://www.instagram.com/efengmbh/" aria-label="Efen auf instagram"><i class="fab fa-instagram"></i></a>
+<a target="_blank" href="https://www.linkedin.com/company/efen-gmbh" aria-label="Efen auf linkedin"><i class="fab fa-linkedin"></i></a>
+<a target="_blank" href="https://www.xing.com/pages/efengmbh" aria-label="Efen auf xing"><i class="fab fa-xing"></i></a>
+<a target="_blank" href="https://www.youtube.com/channel/UCQMs5rZBunAws0kQEKWcaXw" aria-label="Efen auf youtube"><i class="fab fa-youtube"></i></a>
+</span>
+		
+</p>
+</div>
+<div class="col col-lg-2 col-md-2 col-sm-1 col-xs-1 space"></div>
+</div>
+<div class="row">
+<div class="col col-lg-5 col-md-4 col-sm-4 col-xs-4 space"></div>
+<div class="col col-lg-2 col-md-4 col-sm-4 col-xs-4 copyright">
+<p>Alle Rechte vorbehalten &copy; 2026 EFEN GmbH</p>
+	
+</div>
+<div class="col col-lg-5 col-md-4 col-sm-4 col-xs-4 space"></div>
+</div>
+</div>
+</footer>
+<script src="https://www.efen.com/wp-content/themes/EFEN-Relaunch/jquery-3.6.3.js"></script>
+<script src="https://www.efen.com/wp-content/themes/EFEN-Relaunch/jquery-ui.js"></script>
+<script src="https://www.efen.com/wp-content/themes/EFEN-Relaunch/jquery.slicknav.js"></script>
+
+<script src="https://www.efen.com/wp-content/themes/EFEN-Relaunch/fancybox/jquery.fancybox.pack.js"></script>
+<script>
+$(document).ready(function(){
+$("a#single_image").fancybox();
+});
+</script>
+<script src="https://www.efen.com/wp-content/themes/EFEN-Relaunch/slick.min.js"></script>
+<script src="https://www.efen.com/wp-content/themes/EFEN-Relaunch/scripts.js"></script>
+<script src="https://www.efen.com/wp-content/themes/EFEN-Relaunch/scripts2.js"></script>
+	
+<script type="text/javascript" src="https://www.efen.com/wp-content/themes/EFEN-Relaunch/cookiehandler.js"></script>
+<script type="text/javascript" src="https://www.efen.com/wp-content/themes/EFEN-Relaunch/cookiehandler2.js"></script>
+<script type="text/javascript" src="https://www.efen.com/wp-content/themes/EFEN-Relaunch/cookiehandler-save.js"></script>
+<script type="text/javascript" src="https://www.efen.com/wp-content/themes/EFEN-Relaunch/CoverPop.js"></script>
+<script>
+if(getCookie('stopanimations')) {} else {
+$('.slider_home').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  pauseOnHover:false,
+  pauseOnFocus:false,
+  autoplaySpeed: 3000,
+  dots: false,
+  infinite: true,
+  speed: 900,
+  fade: true,
+  cssEase: 'linear',
+  prevArrow: false,
+  nextArrow: false
+});
+}
+</script>
+
+<script type="text/javascript">
+CoverCookies.start();
+</script>
+
+<script>
+	
+if(getCookie('_CoverCookies')) {
+		$('.slick-track').attr('tabindex','-1');
+		$('.slick-slide').attr('tabindex','-1');
+		$('.slick-list').attr('tabindex','-1');
+}
+else {
+		$('a').attr('tabindex','-1');
+		$('#bfsg_button').attr('tabindex','-1');
+		$('#s').attr('tabindex','-1');
+		$('#searchsubmit').attr('tabindex','-1');
+		$('video').attr('tabindex','-1');
+		$('.search-field').attr('tabindex','-1');
+		$('#searchform input').attr('tabindex','-1');
+		$('#navi_trigger').attr('tabindex','-1');
+		$('#stopper-start').attr('tabindex','-1');
+		$('#starter-start').attr('tabindex','-1');
+		$('#bfsg_close').attr('tabindex','-1');
+		$('.slick-track').attr('tabindex','-1');
+		$('.slick-slide').attr('tabindex','-1');
+		$('.slick-slider').attr('tabindex','-1');
+		$('.slick-list').attr('tabindex','-1');
+		$('#cookie-headlinea').attr('tabindex','1');
+		$('#cookie-headline a').attr('tabindex','1');
+		$('#cookie-settings a').attr('tabindex','1');
+		$('#aendernlink').attr('tabindex','2');
+		$('#dslink').attr('tabindex','3');
+		$('#dslink2').attr('tabindex','1');
+		$('#aendernlink2').attr('tabindex','1');
+		$('#notwendiga').attr('tabindex','1');	
+}	
+	
+	
+if(getCookie('_CookieDetail')) {
+$('#cookie-details').css('display','block');
+$('#cookie-headline').css('display','none');
+$('#cookie-minitext').css('display','none');
+$('#cookie-details-hide').css('display','inline-block');
+$('#viewdetails').css('display','none');
+} 
+else {
+$("#viewdetails").click(function() {
+setCookie('_CookieDetail','true', 20000);
+deleteCookie('_CookieSettings');	
+window.location.href = "index.php";
+});
+}
+$("#cookie-details-hide").click(function() {
+deleteCookie('_CookieDetail');
+deleteCookie('_CookieSettings');
+window.location.href = "index.php";
+});	
+</script>
+
+<script>
+if(getCookie('_CookieSettings')) {
+$('#cookie-settings').css('display','block');
+$('#cookie-headline').css('display','none');
+$('#cookie-minitext').css('display','none');
+$('#cookie-settings-hide').css('display','inline-block');
+$('#viewsettings').css('display','none');	
+} 
+else {
+$("#viewsettings").click(function() {
+setCookie('_CookieSettings','true', 20000);
+deleteCookie('_CookieDetail');	
+window.location.href = "index.php";
+});
+}
+$("#cookie-settings-hide").click(function() {
+deleteCookie('_CookieSettings');
+deleteCookie('_CookieDetail');
+window.location.href = "index.php";
+});	
+	
+$("#plzbutton1").click(function() {	
+	var currentPLZ = $("#plz").val();
+  	$("#plz").val(currentPLZ + $(this).text());
+});
+$("#plzbutton2").click(function() {	
+	var currentPLZ = $("#plz").val();
+  	$("#plz").val(currentPLZ + $(this).text());
+});
+$("#plzbutton3").click(function() {	
+	var currentPLZ = $("#plz").val();
+  	$("#plz").val(currentPLZ + $(this).text());
+});
+$("#plzbutton4").click(function() {	
+	var currentPLZ = $("#plz").val();
+  	$("#plz").val(currentPLZ + $(this).text());
+});
+$("#plzbutton5").click(function() {	
+	var currentPLZ = $("#plz").val();
+  	$("#plz").val(currentPLZ + $(this).text());
+});
+$("#plzbutton6").click(function() {	
+	var currentPLZ = $("#plz").val();
+  	$("#plz").val(currentPLZ + $(this).text());
+});
+$("#plzbutton7").click(function() {	
+	var currentPLZ = $("#plz").val();
+  	$("#plz").val(currentPLZ + $(this).text());
+});
+$("#plzbutton8").click(function() {	
+	var currentPLZ = $("#plz").val();
+  	$("#plz").val(currentPLZ + $(this).text());
+});
+$("#plzbutton9").click(function() {	
+	var currentPLZ = $("#plz").val();
+  	$("#plz").val(currentPLZ + $(this).text());
+});
+$("#plzbutton0").click(function() {	
+	var currentPLZ = $("#plz").val();
+  	$("#plz").val(currentPLZ + $(this).text());
+});
+$("#plzbuttondel").click(function() {
+  	$("#plz").val('');
+});
+	
+$("#plz").click(function() {	
+  	$("#plzbuttons").css('display','block');
+});
+$("#plz").focus(function() {	
+  	$("#plzbuttons").css('display','block');
+});
+	
+	
+$("#landbutton_1").click(function() {	
+	var currentPLZ = $("#country").val();
+  	$("#country").val(currentPLZ + $(this).text());
+});
+$("#landbutton_2").click(function() {	
+	var currentPLZ = $("#country").val();
+  	$("#country").val(currentPLZ + $(this).text());
+});	
+$("#landbutton_3").click(function() {	
+	var currentPLZ = $("#country").val();
+  	$("#country").val(currentPLZ + $(this).text());
+});
+$("#landbutton_4").click(function() {	
+	var currentPLZ = $("#country").val();
+  	$("#country").val(currentPLZ + $(this).text());
+});
+$("#landbutton_5").click(function() {	
+	var currentPLZ = $("#country").val();
+  	$("#country").val(currentPLZ + $(this).text());
+});
+$("#landbutton_6").click(function() {	
+	var currentPLZ = $("#country").val();
+  	$("#country").val(currentPLZ + $(this).text());
+});
+$("#landbutton_7").click(function() {	
+	var currentPLZ = $("#country").val();
+  	$("#country").val(currentPLZ + $(this).text());
+});
+$("#landbutton_8").click(function() {	
+	var currentPLZ = $("#country").val();
+  	$("#country").val(currentPLZ + $(this).text());
+});
+$("#landbutton_9").click(function() {	
+	var currentPLZ = $("#country").val();
+  	$("#country").val(currentPLZ + $(this).text());
+});
+$("#landbutton_10").click(function() {	
+	var currentPLZ = $("#country").val();
+  	$("#country").val(currentPLZ + $(this).text());
+});
+$("#landbutton_11").click(function() {	
+	var currentPLZ = $("#country").val();
+  	$("#country").val(currentPLZ + $(this).text());
+});
+$("#landbutton_12").click(function() {	
+	var currentPLZ = $("#country").val();
+  	$("#country").val(currentPLZ + $(this).text());
+});
+$("#landbutton_13").click(function() {	
+	var currentPLZ = $("#country").val();
+  	$("#country").val(currentPLZ + $(this).text());
+});
+$("#landbutton_14").click(function() {	
+	var currentPLZ = $("#country").val();
+  	$("#country").val(currentPLZ + $(this).text());
+});
+$("#landbutton_15").click(function() {	
+	var currentPLZ = $("#country").val();
+  	$("#country").val(currentPLZ + $(this).text());
+});
+$("#landbutton_16").click(function() {	
+	var currentPLZ = $("#country").val();
+  	$("#country").val(currentPLZ + $(this).text());
+});
+$("#landbutton_17").click(function() {	
+	var currentPLZ = $("#country").val();
+  	$("#country").val(currentPLZ + $(this).text());
+});
+$("#landbutton_18").click(function() {	
+	var currentPLZ = $("#country").val();
+  	$("#country").val(currentPLZ + $(this).text());
+});
+$("#landbutton_19").click(function() {	
+	var currentPLZ = $("#country").val();
+  	$("#country").val(currentPLZ + $(this).text());
+});
+$("#landbutton_20").click(function() {	
+	var currentPLZ = $("#country").val();
+  	$("#country").val(currentPLZ + $(this).text());
+});
+$("#landbutton_21").click(function() {	
+	var currentPLZ = $("#country").val();
+  	$("#country").val(currentPLZ + $(this).text());
+});
+$("#landbutton_22").click(function() {	
+	var currentPLZ = $("#country").val();
+  	$("#country").val(currentPLZ + $(this).text());
+});
+$("#landbutton_23").click(function() {	
+	var currentPLZ = $("#country").val();
+  	$("#country").val(currentPLZ + $(this).text());
+});
+$("#landbutton_24").click(function() {	
+	var currentPLZ = $("#country").val();
+  	$("#country").val(currentPLZ + $(this).text());
+});
+$("#landbutton_25").click(function() {	
+	var currentPLZ = $("#country").val();
+  	$("#country").val(currentPLZ + $(this).text());
+});
+$("#landbutton_26").click(function() {	
+	var currentPLZ = $("#country").val();
+  	$("#country").val(currentPLZ + $(this).text());
+});
+$("#landbutton_27").click(function() {	
+	var currentPLZ = $("#country").val();
+  	$("#country").val(currentPLZ + $(this).text());
+});	
+$("#landbutton_28").click(function() {	
+	var currentPLZ = $("#country").val();
+  	$("#country").val(currentPLZ + $(this).text());
+});
+$("#landbutton_29").click(function() {	
+	var currentPLZ = $("#country").val();
+  	$("#country").val(currentPLZ + $(this).text());
+});	
+$("#landbutton_del").click(function() {
+  	$("#country").val('');
+});
+	
+$("#country").click(function() {	
+  	$("#landbuttons").css('display','block');
+});
+$("#country").focus(function() {	
+  	$("#landbuttons").css('display','block');
+});
+	
+$(".s-label").click(function() {	
+  	$(this).css('display','none');
+});	
+$(".search-field").focus(function() {	
+  	$(".s-label").css('display','none');
+});	
+	
+</script>
+
+
+<!--<script>
+if(getCookie('_CoverCookies')) {} 
+else {$("#html").keyup(function(event) {
+if (event.which === 9) {          
+setCookie('_CoverCookies','true', 20000);
+$('#ablehnen').css('background-color','#D10007');
+$('#ablehnen').css('color','#fff');
+$('#ablehnen').css('outline','#ff8a1e dashed 3px');
+window.location.href = "index.php";
+} });}
+</script>-->
+<!--<script>
+if(getCookie('_CoverCookies')) {} 
+else {$("#html").keyup(function(event) {
+if (event.which === 27) {          
+setCookie('_CoverCookies','true', 20000);
+$('#ablehnen').css('background-color','#D10007');
+$('#ablehnen').css('color','#fff');
+$('#ablehnen').css('outline','#ff8a1e dashed 3px');
+window.location.href = "index.php";
+} });}
+</script>-->
+<script>
+if(getCookie('keyuser')) {}	
+else {$("#html").keyup(function(event) {
+if (event.which === 9) {
+setCookie('keyuser','true', 20000);
+window.location.href = "index.php";	
+} });}
+if(getCookie('keyuser')) {
+$('#html').addClass('keyuser');	
+} else {}	
+</script>
+<div id="move_lineal"></div>
+<script src="/wp-content/themes/EFEN-Relaunch/barrierefrei.js"></script>
+<div id="ga-tags">
+ 
+</div>
+</body>
+<div id="blaufilter"></div>
+</html>

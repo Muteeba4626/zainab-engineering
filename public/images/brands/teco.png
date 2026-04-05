@@ -1,0 +1,1036 @@
+
+<!doctype html>
+<html lang="zh-tw">
+<head><meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/1546022605@global.css" media="all">
+<link rel="stylesheet" href="/css/1546022605@swiper-bundle.min.css" media="all">
+<script nonce="5hBkPoZ9qZGza3yv">const $base='/';</script>
+
+<script nonce="5hBkPoZ9qZGza3yv" async src="https://www.googletagmanager.com/gtag/js?id=UA-108751570-1"></script>
+<script nonce="5hBkPoZ9qZGza3yv">window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)};gtag('js',new Date());gtag('config', 'UA-108751570-1')</script>
+
+<script nonce="5hBkPoZ9qZGza3yv">!function (f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if (!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','240004803925665');fbq('track','PageView')</script>
+
+
+	<link rel="stylesheet" href="/css/1546022605@error.css" media="all">
+<title>
+	TECO 東元電機
+</title></head>
+<body>
+	
+
+<header class="header header--white">
+	<div class="container">
+		<div class="header-container header-container--white">
+			<div class="logo">
+				<a class="logo-link" href="/zh-tw/">首頁</a>
+				<div class="logo-main"></div>
+				
+			</div>
+
+			<div class="header-navContainer">
+				
+					<a class="header-lv1Link" href="/zh-tw/././solution/low-carbon/" data-lv1="解決方案"><span class="header-lv1LinkText">解決方案</span></a>
+				
+					<a class="header-lv1Link" href="/zh-tw/products/power-transmission/" data-lv1="產品"><span class="header-lv1LinkText">產品</span></a>
+				
+					<a class="header-lv1Link" href="/zh-tw/investor/announcement/" data-lv1="投資人關係"><span class="header-lv1LinkText">投資人關係</span></a>
+				
+					<a class="header-lv1Link" href="/zh-tw/press/" data-lv1="新聞中心"><span class="header-lv1LinkText">新聞中心</span></a>
+				
+					<a class="header-lv1Link" href="/zh-tw/about/group/" data-lv1="關於東元"><span class="header-lv1LinkText">關於東元</span></a>
+				
+					<a class="header-lv1Link" href="/zh-tw/sustainability-commitment/message-from-the-chairman/" data-lv1="東元永續承諾"><span class="header-lv1LinkText">東元永續承諾</span></a>
+				
+					<a class="header-lv1Link" href="/zh-tw/././join/family/" data-lv1="人才招募"><span class="header-lv1LinkText">人才招募</span></a>
+				
+			</div>
+
+			
+			<div class="header-navMenu">
+				<div class="lgContainer header-navMenuContainer">
+					<button class="header-navMenuClose"><i class="icon icon--close"></i></button>
+					
+						<a class="header-lv1Link header-lv1Link--mb" href="/zh-tw/././solution/low-carbon/" data-lv1="解決方案"><span class="header-lv1LinkText">解決方案</span></a>
+						
+							<div class="header-lv2Container header-lv2Container--hidden" data-lv1Child="解決方案">
+								
+									<a class="header-link " href="/zh-tw/solution/low-carbon/"  data-lv2="低碳永續解決方案"><span class="header-linkText">低碳永續解決方案</span></a>
+								
+									<a class="header-link header-link--hasChild" href="/zh-tw/solution/green-energy/"  data-lv2="綠色能源工程解決方案"><span class="header-linkText">綠色能源工程解決方案</span></a>
+								
+									<a class="header-link header-link--hasChild" href="/zh-tw/solution/electrification/"  data-lv2="電氣化解決方案"><span class="header-linkText">電氣化解決方案</span></a>
+								
+									<a class="header-link header-link--hasChild" href="/zh-tw/solution/power-plant/"  data-lv2="電廠營運及管理解決方案"><span class="header-linkText">電廠營運及管理解決方案</span></a>
+								
+									<a class="header-link header-link--hasChild" href="/zh-tw/solution/industrial-control-automation/"  data-lv2="工業控制自動化解決方案"><span class="header-linkText">工業控制自動化解決方案</span></a>
+								
+									<a class="header-link header-link--hasChild" href="/zh-tw/solution/ac-energy-saving/"  data-lv2="智慧商用空調節能解決方案"><span class="header-linkText">智慧商用空調節能解決方案</span></a>
+								
+									<a class="header-link " href="/zh-tw/solution/health-air/"  data-lv2="智慧家用空調節能解決方案"><span class="header-linkText">智慧家用空調節能解決方案</span></a>
+								
+									<a class="header-link " href="/zh-tw/solution/data-center/"  data-lv2="資料中心解決方案"><span class="header-linkText">資料中心解決方案</span></a>
+								
+									<a class="header-link header-link--hasChild" href="/zh-tw/solution/mechanical-and-electrical/"  data-lv2="機電工程解決方案"><span class="header-linkText">機電工程解決方案</span></a>
+								
+									<a class="header-link header-link--hasChild" href="/zh-tw/solution/ev/"  data-lv2="電動載具動力系統解決方案"><span class="header-linkText">電動載具動力系統解決方案</span></a>
+								
+									<a class="header-link " href="/zh-tw/solution/robot-power-solution/"  data-lv2="機器人(狗)動力系統解決方案"><span class="header-linkText">機器人(狗)動力系統解決方案</span></a>
+								
+							</div>
+						
+						<a class="header-lv1Link header-lv1Link--mb" href="/zh-tw/products/power-transmission/" data-lv1="產品"><span class="header-lv1LinkText">產品</span></a>
+						
+							<div class="header-lv2Container header-lv2Container--hidden" data-lv1Child="產品">
+								
+									<a class="header-link header-link--hasChild" href="/zh-tw/products/power-transmission/"  data-lv2="電力傳輸與配電系統"><span class="header-linkText">電力傳輸與配電系統</span></a>
+								
+									<a class="header-link header-link--hasChild" href="/zh-tw/products/power-management/"  data-lv2="電力管理系統"><span class="header-linkText">電力管理系統</span></a>
+								
+									<a class="header-link header-link--hasChild" href="/zh-tw/products/efficient-energy-system/"  data-lv2="高效馬達與節能系統"><span class="header-linkText">高效馬達與節能系統</span></a>
+								
+									<a class="header-link header-link--hasChild" href="/zh-tw/products/powertrain/"  data-lv2="電動載具動力系統"><span class="header-linkText">電動載具動力系統</span></a>
+								
+									<a class="header-link " href="/zh-tw/products/gear-reducer/"  data-lv2="減速機"><span class="header-linkText">減速機</span></a>
+								
+									<a class="header-link " href="/zh-tw/products/robot-joint-module-system/"  data-lv2="機器關節模組系統"><span class="header-linkText">機器關節模組系統</span></a>
+								
+									<a class="header-link header-link--hasChild" href="/zh-tw/products/industrial-control/"  data-lv2="工業自動化產品"><span class="header-linkText">工業自動化產品</span></a>
+								
+									<a class="header-link header-link--hasChild" href="/zh-tw/products/air-conditioning/"  data-lv2="全領域空調產品"><span class="header-linkText">全領域空調產品</span></a>
+								
+									<a class="header-link " href="/zh-tw/products/smart-home-appliances/"  data-lv2="智慧生活家電"><span class="header-linkText">智慧生活家電</span></a>
+								
+							</div>
+						
+						<a class="header-lv1Link header-lv1Link--mb" href="/zh-tw/investor/announcement/" data-lv1="投資人關係"><span class="header-lv1LinkText">投資人關係</span></a>
+						
+							<div class="header-lv2Container header-lv2Container--hidden" data-lv1Child="投資人關係">
+								
+									<a class="header-link " href="/zh-tw/investor/announcement/"  data-lv2="法人說明會資訊"><span class="header-linkText">法人說明會資訊</span></a>
+								
+									<a class="header-link " href="/zh-tw/investor/finance/"  data-lv2="財務資訊"><span class="header-linkText">財務資訊</span></a>
+								
+									<a class="header-link " href="/zh-tw/investor/shareholder/"  data-lv2="股東專欄"><span class="header-linkText">股東專欄</span></a>
+								
+									<a class="header-link " href="/zh-tw/investor/activity/"  data-lv2="投資人活動"><span class="header-linkText">投資人活動</span></a>
+								
+							</div>
+						
+						<a class="header-lv1Link header-lv1Link--mb" href="/zh-tw/press/" data-lv1="新聞中心"><span class="header-lv1LinkText">新聞中心</span></a>
+						
+							<div class="header-lv2Container header-lv2Container--hidden" data-lv1Child="新聞中心">
+								
+									<a class="header-link " href="/zh-tw/press/news/"  data-lv2="新聞訊息"><span class="header-linkText">新聞訊息</span></a>
+								
+									<a class="header-link " href="/zh-tw/press/our-stories/"  data-lv2="實績案例"><span class="header-linkText">實績案例</span></a>
+								
+							</div>
+						
+						<a class="header-lv1Link header-lv1Link--mb" href="/zh-tw/about/group/" data-lv1="關於東元"><span class="header-lv1LinkText">關於東元</span></a>
+						
+							<div class="header-lv2Container header-lv2Container--hidden" data-lv1Child="關於東元">
+								
+									<a class="header-link " href="/zh-tw/about/group/"  data-lv2="集團介紹"><span class="header-linkText">集團介紹</span></a>
+								
+									<a class="header-link " href="/zh-tw/about/business-philosophy-and-principles/"  data-lv2="經營理念與原則"><span class="header-linkText">經營理念與原則</span></a>
+								
+									<a class="header-link " href="/zh-tw/about/governance/"  data-lv2="公司治理"><span class="header-linkText">公司治理</span></a>
+								
+									<a class="header-link " href="/zh-tw/about/management-team-and-internal/"  data-lv2="經營團隊與組織內規"><span class="header-linkText">經營團隊與組織內規</span></a>
+								
+									<a class="header-link " href="/upload/att/2026-04/202604021743213927610591.pdf" target="_blank" rel="noopener noreferrer" data-lv2="公司簡介"><span class="header-linkText">公司簡介</span></a>
+								
+							</div>
+						
+						<a class="header-lv1Link header-lv1Link--mb" href="/zh-tw/sustainability-commitment/message-from-the-chairman/" data-lv1="東元永續承諾"><span class="header-lv1LinkText">東元永續承諾</span></a>
+						
+							<div class="header-lv2Container header-lv2Container--hidden" data-lv1Child="東元永續承諾">
+								
+									<a class="header-link " href="/zh-tw/sustainability-commitment/message-from-the-chairman/"  data-lv2="董事長的話"><span class="header-linkText">董事長的話</span></a>
+								
+									<a class="header-link " href="/zh-tw/sustainability-commitment/teco-sustainability-commitment/"  data-lv2="東元永續承諾"><span class="header-linkText">東元永續承諾</span></a>
+								
+									<a class="header-link " href="/zh-tw/sustainability-commitment/performance-highlights/"  data-lv2="績效亮點"><span class="header-linkText">績效亮點</span></a>
+								
+									<a class="header-link " href="/zh-tw/sustainability-commitment/esg-news/"  data-lv2="永續新聞"><span class="header-linkText">永續新聞</span></a>
+								
+									<a class="header-link " href="/zh-tw/sustainability-commitment/focus-on-sustainability-priorities/"  data-lv2="聚焦企業永續"><span class="header-linkText">聚焦企業永續</span></a>
+								
+									<a class="header-link " href="/zh-tw/sustainability-commitment/shared-vision/"  data-lv2="實現共享願景"><span class="header-linkText">實現共享願景</span></a>
+								
+									<a class="header-link " href="/zh-tw/sustainability-commitment/low-carbon-transition/"  data-lv2="促進低碳轉型"><span class="header-linkText">促進低碳轉型</span></a>
+								
+									<a class="header-link " href="/zh-tw/sustainability-commitment/report-by-year/"  data-lv2="永續報告書"><span class="header-linkText">永續報告書</span></a>
+								
+									<a class="header-link " href="/zh-tw/sustainability-commitment/certificates-by-year/"  data-lv2="歷年證書"><span class="header-linkText">歷年證書</span></a>
+								
+							</div>
+						
+						<a class="header-lv1Link header-lv1Link--mb" href="/zh-tw/././join/family/" data-lv1="人才招募"><span class="header-lv1LinkText">人才招募</span></a>
+						
+							<div class="header-lv2Container header-lv2Container--hidden" data-lv1Child="人才招募">
+								
+									<a class="header-link " href="/zh-tw/join/family/"  data-lv2="幸福在東元"><span class="header-linkText">幸福在東元</span></a>
+								
+									<a class="header-link " href="/zh-tw/join/training/"  data-lv2="成長在東元"><span class="header-linkText">成長在東元</span></a>
+								
+									<a class="header-link header-link--hasChild" href="/zh-tw/join/teco/"  data-lv2="成為東元人"><span class="header-linkText">成為東元人</span></a>
+								
+							</div>
+						
+									<div class="header-lv3Container header-lv3Container--hidden" data-lv2Child="綠色能源工程解決方案">
+										<button class="header-backBtn header-backBtn--lv3"><i class="icon icon--chevronLeft"></i><span class="header-backBtnText">返回</span></button>
+										<a class="header-link" href="/zh-tw/solution/green-energy/">綠色能源工程解決方案</a>
+										
+											<a class="header-link " href="/zh-tw/solution/green-energy/substation/"  data-lv3="變電站工程"><span class="header-linkText">變電站工程</span></a>
+										
+											<a class="header-link " href="/zh-tw/solution/green-energy/solar-energy-plus/"  data-lv3="光儲解決方案"><span class="header-linkText">光儲解決方案</span></a>
+										
+											<a class="header-link " href="/zh-tw/solution/green-energy/business-energy-storage/"  data-lv3="工商業儲能系統解決方案"><span class="header-linkText">工商業儲能系統解決方案</span></a>
+										
+											<a class="header-link " href="/zh-tw/solution/green-energy/grid-resilience/"  data-lv3="電網強韌解決方案"><span class="header-linkText">電網強韌解決方案</span></a>
+										
+											<a class="header-link " href="/zh-tw/solution/green-energy/hydrogen-energy/"  data-lv3="氫能應用解決方案"><span class="header-linkText">氫能應用解決方案</span></a>
+										
+									</div>
+								
+									<div class="header-lv3Container header-lv3Container--hidden" data-lv2Child="電氣化解決方案">
+										<button class="header-backBtn header-backBtn--lv3"><i class="icon icon--chevronLeft"></i><span class="header-backBtnText">返回</span></button>
+										<a class="header-link" href="/zh-tw/solution/electrification/">電氣化解決方案</a>
+										
+											<a class="header-link " href="/zh-tw/solution/electrification/power-management-system/"  data-lv3="電力管理系統解決方案"><span class="header-linkText">電力管理系統解決方案</span></a>
+										
+											<a class="header-link " href="/zh-tw/solution/electrification/ev-charger/"  data-lv3="電動車充電解決方案"><span class="header-linkText">電動車充電解決方案</span></a>
+										
+									</div>
+								
+									<div class="header-lv3Container header-lv3Container--hidden" data-lv2Child="電廠營運及管理解決方案">
+										<button class="header-backBtn header-backBtn--lv3"><i class="icon icon--chevronLeft"></i><span class="header-backBtnText">返回</span></button>
+										<a class="header-link" href="/zh-tw/solution/power-plant/">電廠營運及管理解決方案</a>
+										
+											<a class="header-link " href="/zh-tw/solution/power-plant/green-power-trading/"  data-lv3="綠電交易解決方案"><span class="header-linkText">綠電交易解決方案</span></a>
+										
+											<a class="header-link " href="/zh-tw/solution/power-plant/virtual-power-plant/"  data-lv3="虛擬電廠解決方案"><span class="header-linkText">虛擬電廠解決方案</span></a>
+										
+									</div>
+								
+									<div class="header-lv3Container header-lv3Container--hidden" data-lv2Child="工業控制自動化解決方案">
+										<button class="header-backBtn header-backBtn--lv3"><i class="icon icon--chevronLeft"></i><span class="header-backBtnText">返回</span></button>
+										<a class="header-link" href="/zh-tw/solution/industrial-control-automation/">工業控制自動化解決方案</a>
+										
+											<a class="header-link " href="/zh-tw/solution/industrial-control-automation/smart-energy-saving/"  data-lv3="智慧節能解決方案"><span class="header-linkText">智慧節能解決方案</span></a>
+										
+											<a class="header-link " href="/zh-tw/solution/industrial-control-automation/automation/"  data-lv3="自動化解決方案"><span class="header-linkText">自動化解決方案</span></a>
+										
+											<a class="header-link " href="/zh-tw/solution/industrial-control-automation/intelligent-process/"  data-lv3="製程智慧化解決方案"><span class="header-linkText">製程智慧化解決方案</span></a>
+										
+									</div>
+								
+									<div class="header-lv3Container header-lv3Container--hidden" data-lv2Child="智慧商用空調節能解決方案">
+										<button class="header-backBtn header-backBtn--lv3"><i class="icon icon--chevronLeft"></i><span class="header-backBtnText">返回</span></button>
+										<a class="header-link" href="/zh-tw/solution/ac-energy-saving/">智慧商用空調節能解決方案</a>
+										
+											<a class="header-link " href="/zh-tw/solution/ac-energy-saving/hvac/"  data-lv3="HVAC 節能績效保證顧問服務"><span class="header-linkText">HVAC 節能績效保證顧問服務</span></a>
+										
+											<a class="header-link " href="/zh-tw/solution/ac-energy-saving/ai-energy/"  data-lv3="AI節能冰水主機系統整合解決方案"><span class="header-linkText">AI節能冰水主機系統整合解決方案</span></a>
+										
+											<a class="header-link " href="/zh-tw/solution/ac-energy-saving/cold-and-heat-treatment/"  data-lv3="工廠製程冷熱處理"><span class="header-linkText">工廠製程冷熱處理</span></a>
+										
+											<a class="header-link " href="/zh-tw/solution/ac-energy-saving/refrigerated/"  data-lv3="冷凍冷藏場域解決方案"><span class="header-linkText">冷凍冷藏場域解決方案</span></a>
+										
+									</div>
+								
+									<div class="header-lv3Container header-lv3Container--hidden" data-lv2Child="機電工程解決方案">
+										<button class="header-backBtn header-backBtn--lv3"><i class="icon icon--chevronLeft"></i><span class="header-backBtnText">返回</span></button>
+										<a class="header-link" href="/zh-tw/solution/mechanical-and-electrical/">機電工程解決方案</a>
+										
+											<a class="header-link " href="/zh-tw/solution/mechanical-and-electrical/trans-and-railway/"  data-lv3="運輸及軌道工程"><span class="header-linkText">運輸及軌道工程</span></a>
+										
+											<a class="header-link " href="/zh-tw/solution/mechanical-and-electrical/biotech-medical/"  data-lv3="生技醫療工程"><span class="header-linkText">生技醫療工程</span></a>
+										
+											<a class="header-link " href="/zh-tw/solution/mechanical-and-electrical/industrial-fund/"  data-lv3="綜合機電工程"><span class="header-linkText">綜合機電工程</span></a>
+										
+									</div>
+								
+									<div class="header-lv3Container header-lv3Container--hidden" data-lv2Child="電動載具動力系統解決方案">
+										<button class="header-backBtn header-backBtn--lv3"><i class="icon icon--chevronLeft"></i><span class="header-backBtnText">返回</span></button>
+										<a class="header-link" href="/zh-tw/solution/ev/">電動載具動力系統解決方案</a>
+										
+											<a class="header-link " href="/zh-tw/solution/ev/EV-bus/"  data-lv3="電動巴士動力系統解決方案"><span class="header-linkText">電動巴士動力系統解決方案</span></a>
+										
+											<a class="header-link " href="/zh-tw/solution/ev/EV-commercial-vehicle/"  data-lv3="電動商用車動力系統解決方案"><span class="header-linkText">電動商用車動力系統解決方案</span></a>
+										
+											<a class="header-link " href="/zh-tw/solution/ev/eUAV/"  data-lv3="電動飛行載具動力系統解決方案"><span class="header-linkText">電動飛行載具動力系統解決方案</span></a>
+										
+											<a class="header-link " href="/zh-tw/solution/ev/EV-vessel/"  data-lv3="電動船舶動力系統解決方案"><span class="header-linkText">電動船舶動力系統解決方案</span></a>
+										
+											<a class="header-link " href="/zh-tw/solution/ev/EV-charger/"  data-lv3="電動車充電樁"><span class="header-linkText">電動車充電樁</span></a>
+										
+									</div>
+								
+									<div class="header-lv3Container header-lv3Container--hidden" data-lv2Child="電力傳輸與配電系統">
+										<button class="header-backBtn header-backBtn--lv3"><i class="icon icon--chevronLeft"></i><span class="header-backBtnText">返回</span></button>
+										<a class="header-link" href="/zh-tw/products/power-transmission/">電力傳輸與配電系統</a>
+										
+											<a class="header-link " href="/zh-tw/products/power-transmission/power-products/"  data-lv3="電力設備產品"><span class="header-linkText">電力設備產品</span></a>
+										
+											<a class="header-link " href="/zh-tw/products/power-transmission/transformer/"  data-lv3="變壓器"><span class="header-linkText">變壓器</span></a>
+										
+									</div>
+								
+									<div class="header-lv3Container header-lv3Container--hidden" data-lv2Child="電力管理系統">
+										<button class="header-backBtn header-backBtn--lv3"><i class="icon icon--chevronLeft"></i><span class="header-backBtnText">返回</span></button>
+										<a class="header-link" href="/zh-tw/products/power-management/">電力管理系統</a>
+										
+											<a class="header-link " href="/zh-tw/products/power-management/vb-skid/"  data-lv3="可移動式預裝電氣平台"><span class="header-linkText">可移動式預裝電氣平台</span></a>
+										
+											<a class="header-link " href="/zh-tw/products/power-management/ev-charger-products/"  data-lv3="電動車充電樁"><span class="header-linkText">電動車充電樁</span></a>
+										
+											<a class="header-link " href="/zh-tw/products/power-management/power-hub/"  data-lv3="充電樁電力集成樞紐"><span class="header-linkText">充電樁電力集成樞紐</span></a>
+										
+									</div>
+								
+									<div class="header-lv3Container header-lv3Container--hidden" data-lv2Child="高效馬達與節能系統">
+										<button class="header-backBtn header-backBtn--lv3"><i class="icon icon--chevronLeft"></i><span class="header-backBtnText">返回</span></button>
+										<a class="header-link" href="/zh-tw/products/efficient-energy-system/">高效馬達與節能系統</a>
+										
+											<a class="header-link " href="/zh-tw/products/efficient-energy-system/medium-voltage-motor/"  data-lv3="中高壓馬達"><span class="header-linkText">中高壓馬達</span></a>
+										
+											<a class="header-link header-link--hasChild" href="/zh-tw/products/efficient-energy-system/low-voltage-motor/"  data-lv3="低壓馬達"><span class="header-linkText">低壓馬達</span></a>
+										
+									</div>
+								
+									<div class="header-lv3Container header-lv3Container--hidden" data-lv2Child="電動載具動力系統">
+										<button class="header-backBtn header-backBtn--lv3"><i class="icon icon--chevronLeft"></i><span class="header-backBtnText">返回</span></button>
+										<a class="header-link" href="/zh-tw/products/powertrain/">電動載具動力系統</a>
+										
+											<a class="header-link " href="/zh-tw/products/powertrain/high-performance-ev-motors-and-drivers/"  data-lv3="高效能車用馬達及驅動器"><span class="header-linkText">高效能車用馬達及驅動器</span></a>
+										
+											<a class="header-link " href="/zh-tw/products/powertrain/electric-uav-powertrain/"  data-lv3="電動飛行載具動力系統"><span class="header-linkText">電動飛行載具動力系統</span></a>
+										
+											<a class="header-link " href="/zh-tw/products/powertrain/light-electric-uav-powertrain/"  data-lv3="輕型電動飛行載具動力系統 "><span class="header-linkText">輕型電動飛行載具動力系統 </span></a>
+										
+											<a class="header-link " href="/zh-tw/products/powertrain/ev-vessel-powertrain/"  data-lv3="電動船舶動力系統"><span class="header-linkText">電動船舶動力系統</span></a>
+										
+									</div>
+								
+									<div class="header-lv3Container header-lv3Container--hidden" data-lv2Child="工業自動化產品">
+										<button class="header-backBtn header-backBtn--lv3"><i class="icon icon--chevronLeft"></i><span class="header-backBtnText">返回</span></button>
+										<a class="header-link" href="/zh-tw/products/industrial-control/">工業自動化產品</a>
+										
+											<a class="header-link " href="/zh-tw/products/industrial-control/industrial-drive-systems/"  data-lv3="工業驅動系統"><span class="header-linkText">工業驅動系統</span></a>
+										
+											<a class="header-link header-link--hasChild" href="/zh-tw/products/industrial-control/industrial-automation-and-control-systems/"  data-lv3="工控自動化系統"><span class="header-linkText">工控自動化系統</span></a>
+										
+									</div>
+								
+									<div class="header-lv3Container header-lv3Container--hidden" data-lv2Child="全領域空調產品">
+										<button class="header-backBtn header-backBtn--lv3"><i class="icon icon--chevronLeft"></i><span class="header-backBtnText">返回</span></button>
+										<a class="header-link" href="/zh-tw/products/air-conditioning/">全領域空調產品</a>
+										
+											<a class="header-link " href="/zh-tw/products/air-conditioning/commercial-air-conditioning/"  data-lv3="商用空調產品"><span class="header-linkText">商用空調產品</span></a>
+										
+											<a class="header-link " href="/zh-tw/products/air-conditioning/home-air-conditioning/"  data-lv3="家用空調產品"><span class="header-linkText">家用空調產品</span></a>
+										
+									</div>
+								
+									<div class="header-lv3Container header-lv3Container--hidden" data-lv2Child="成為東元人">
+										<button class="header-backBtn header-backBtn--lv3"><i class="icon icon--chevronLeft"></i><span class="header-backBtnText">返回</span></button>
+										<a class="header-link" href="/zh-tw/join/teco/">成為東元人</a>
+										
+											<a class="header-link " href="/zh-tw/join/teco/sharing-leo/"  data-lv3="人力資源中心 | Leo 陳亮宇"><span class="header-linkText">人力資源中心 | Leo 陳亮宇</span></a>
+										
+											<a class="header-link " href="/zh-tw/join/teco/sharing-ray/"  data-lv3="行銷業務處 | Ray 孟昭睿"><span class="header-linkText">行銷業務處 | Ray 孟昭睿</span></a>
+										
+											<a class="header-link " href="/zh-tw/join/teco/sharing-jack/"  data-lv3="能源產品事業部 | Jack 周宸平"><span class="header-linkText">能源產品事業部 | Jack 周宸平</span></a>
+										
+											<a class="header-link " href="/zh-tw/join/teco/sharing-ching-khang/"  data-lv3="綜合研究所 | Ching-khang 葉慶康"><span class="header-linkText">綜合研究所 | Ching-khang 葉慶康</span></a>
+										
+											<a class="header-link " href="/zh-tw/join/teco/sharing-jason/"  data-lv3="智慧製造系統事業處 | Jason 宋承軒"><span class="header-linkText">智慧製造系統事業處 | Jason 宋承軒</span></a>
+										
+											<a class="header-link " href="/zh-tw/join/teco/sharing-max/"  data-lv3="家電產品經理小組 | Max 林正典"><span class="header-linkText">家電產品經理小組 | Max 林正典</span></a>
+										
+									</div>
+								
+											<div class="header-lv4Container header-lv4Container--hidden" data-lv3Child="低壓馬達">
+												<button class="header-backBtn header-backBtn--lv4"><i class="icon icon--chevronLeft"></i><span class="header-backBtnText">返回</span></button>
+												<a class="header-link" href="/zh-tw/products/efficient-energy-system/low-voltage-motor/">低壓馬達</a>
+												
+													<a class="header-link" href="/zh-tw/products/efficient-energy-system/low-voltage-motor/ie4-super-premium-efficiency-low-voltage-three-phase-induction-motors/"  >IE4 超優級能效 低壓三相感應馬達(CNS)</a>
+												
+													<a class="header-link" href="/zh-tw/products/efficient-energy-system/low-voltage-motor/cast-iron-frame-f-series-self-cooled-permanent-magnet-motors/"  >鑄鐵殼F系列自冷式永磁馬達</a>
+												
+													<a class="header-link" href="/zh-tw/products/efficient-energy-system/low-voltage-motor/cast-iron-frame-v-series-self-cooled-permanent-magnet-motors/"  >鑄鐵殼V系列自冷式永磁馬達</a>
+												
+													<a class="header-link" href="/zh-tw/products/efficient-energy-system/low-voltage-motor/aluminum-frame-force-cooled-permanent-magnet-motors/"  >鋁殼強冷式永磁馬達</a>
+												
+													<a class="header-link" href="/zh-tw/products/efficient-energy-system/low-voltage-motor/totally-enclosed-fan-cooled-tefc-ie4-super-premium-efficiency-motors-nema-compliant/"  >全密型 IE4 超優級效率馬達(NEMA)</a>
+												
+													<a class="header-link" href="/zh-tw/products/efficient-energy-system/low-voltage-motor/totally-enclosed-fan-cooled-tefc-single-phase-rolled-steel-motors/"  >全密型單相鐵板馬達 (TEFC)</a>
+												
+													<a class="header-link" href="/zh-tw/products/efficient-energy-system/low-voltage-motor/single-phase-rolled-steel-motors-odp-open-drip-proof/"  >半密型單相鐵板馬達 (ODP)</a>
+												
+													<a class="header-link" href="/zh-tw/products/efficient-energy-system/low-voltage-motor/totally-enclosed-fan-cooled-tefc-ie5-synchronous-reluctance-motors-synrm/"  >全密型IE5同步磁阻馬達</a>
+												
+											</div>
+										
+											<div class="header-lv4Container header-lv4Container--hidden" data-lv3Child="工控自動化系統">
+												<button class="header-backBtn header-backBtn--lv4"><i class="icon icon--chevronLeft"></i><span class="header-backBtnText">返回</span></button>
+												<a class="header-link" href="/zh-tw/products/industrial-control/industrial-automation-and-control-systems/">工控自動化系統</a>
+												
+													<a class="header-link" href="/zh-tw/products/industrial-control/industrial-automation-and-control-systems/ac-servo-motors-and-drivers/"  >交流伺服馬達與驅動器</a>
+												
+													<a class="header-link" href="/zh-tw/products/industrial-control/industrial-automation-and-control-systems/dc-servo-motors-and-drivers/"  >直流伺服馬達與驅動器</a>
+												
+											</div>
+										
+
+				</div>
+				<div class="header-mobileFunctionContainer">
+					
+							<a class="link link--dark header-mobileFunctionBtn" href="/zh-tw/contact-us/" >
+								<img class="" src="/Upload/pic/2025-10/202510141012242352368188.svg" alt="Contact Us" width="24" height="24" />
+								<span>Contact Us</span>
+							</a>
+						
+					<button class="header-mobileFunctionBtn header-mobileLanguageBtn">
+						<i class="icon icon--language"></i>
+						
+					</button>
+				</div>
+			</div>
+
+			<div class="header-iconsContainer">
+				
+					<div class="header-iconLinksContainer">
+						
+							<a class="header-iconLink" title="Contact Us" href="/zh-tw/contact-us/"  style="--icon-imageUrl: url('/Upload/pic/2025-10/202510141012242352368188.svg');"></a>
+						
+					</div>
+				
+				<div class="header-functionContainer">
+
+					
+					<button class="header-functionBtn header-functionBtn--search" title="顯示搜尋框"><i class="icon icon--search"></i></button>
+					<button class="header-functionBtn header-functionBtn--menu" title="顯示/隱藏選單"></button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+	<div class="header-languageContainer header-languageContainer--hidden">
+		<button class="header-backBtn header-backBtn--language"><i class="icon icon--chevronLeft"></i><span class="header-backBtnText">返回</span></button>
+		<div class="container header-languageInnerContainer">
+			
+		</div>
+	</div>
+	
+	<div class="header-searchContainer header-searchContainer--hidden">
+		<div class="container">
+			<form class="header-searchForm header-searchForm--hidden" action="/zh-tw/search/">
+				<input class="header-searchInput" type="search" required name="q" placeholder="請輸入關鍵字">
+				<button class="header-searchSentBtn"  title="送出"><i class="icon icon--search"></i></button>
+			</form>
+		</div>
+	</div>
+</header>
+
+	<script nonce="5hBkPoZ9qZGza3yv">
+		const header = document.querySelector('.header');
+		const headerContainer = document.querySelector('.header-container');
+		const navContainer = document.querySelector('.header-navContainer');
+		const dataLv1Links = document.querySelectorAll('.header-lv1Link[data-lv1]');
+		const dataLv2Links = document.querySelectorAll('.header-link[data-lv2]');
+		const dataLv3Links = document.querySelectorAll('.header-link[data-lv3]');
+		const lv2Containers = document.querySelectorAll(`.header-lv2Container`);
+		const lv3Containers = document.querySelectorAll(`.header-lv3Container`);
+		const lv4Containers = document.querySelectorAll(`.header-lv4Container`);
+		const navMenu = document.querySelector('.header-navMenu');
+		const mobileMenuBtn = document.querySelector('.header-functionBtn--menu');
+		const navMenuCloseBtn = document.querySelector('.header-navMenuClose');
+		const languageBtn = document.querySelector('.header-functionBtn--language');
+		const languageContainer = document.querySelector('.header-languageContainer');
+		const searchBtn = document.querySelector('.header-functionBtn--search');
+		const searchContainer = document.querySelector('.header-searchContainer');
+		const searchForm = document.querySelector('.header-searchForm');
+		const lv3BackBtns = document.querySelectorAll('.header-backBtn--lv3');
+		const lv4BackBtns = document.querySelectorAll('.header-backBtn--lv4');
+		const languageBackBtn = document.querySelector('.header-backBtn--language');
+		const mobileLanguageBtn = document.querySelector('.header-mobileLanguageBtn');
+		let lastScrollTop = 0;
+
+		// Monitor scroll event
+		window.addEventListener('scroll', function() {
+			const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+			if (scrollTop === 0) {
+				headerContainer.classList.remove('header-container--scrolling');
+				lastScrollTop = scrollTop;
+				return;
+			}else {
+				headerContainer.classList.add('header-container--scrolling');
+			}
+
+			lastScrollTop = scrollTop;
+		});
+
+		const hideAllContainers = (containers, className) => {
+			containers.forEach(container => container.classList.add(className));
+		};
+		const toggleContainer = (container, title, attributeName, className) => {
+			container.classList.toggle(className, container.getAttribute(attributeName) !== title);
+		};
+
+		// 點擊 lv1 連結時，顯示對應的 lv2 選單
+		dataLv1Links.forEach(lv1Link => {
+			lv1Link.addEventListener('click', (e) => {
+				e.preventDefault();
+				const lv1Title = lv1Link.getAttribute('data-lv1');
+				const targetContainer = document.querySelector(`.header-lv2Container[data-lv1Child="${lv1Title}"]`);
+				lv1Link.classList.toggle('header-lv1Link--active');
+				dataLv1Links.forEach(l => l!== lv1Link && l.classList.remove('header-lv1Link--active'));
+				hideAllContainers(lv3Containers, 'header-lv3Container--hidden');
+				hideAllContainers(lv4Containers, 'header-lv4Container--hidden');
+				dataLv2Links.forEach(l => l.classList.remove('header-link--active'));
+				dataLv3Links.forEach(l => l.classList.remove('header-link--active'));
+
+				lv2Containers.forEach(container => {
+					if (container === targetContainer) {
+						container.classList.toggle('header-lv2Container--hidden');
+					} else {
+						container.classList.add('header-lv2Container--hidden');
+					}
+				});
+				if (targetContainer && window.innerWidth >= 1200) {
+					navMenu.classList.toggle('header-navMenu--open',
+					!targetContainer.classList.contains('header-lv2Container--hidden'));
+					}
+			});
+		});
+
+		// 點擊 lv2 連結時，顯示對應的 lv3 選單
+		dataLv2Links.forEach(lv2Link => {
+			lv2Link.addEventListener('click', (e) => {
+				if(!lv2Link.classList.contains('header-link--hasChild')) return;
+				e.preventDefault();
+				dataLv2Links.forEach(l => l.classList.remove('header-link--active'));
+				dataLv3Links.forEach(l => l.classList.remove('header-link--active'));
+				lv2Link.classList.add('header-link--active');
+				const lv2Title = lv2Link.getAttribute('data-lv2');
+				hideAllContainers(lv4Containers, 'header-lv4Container--hidden');
+				lv3Containers.forEach(container =>
+					toggleContainer(container, lv2Title, 'data-lv2Child', 'header-lv3Container--hidden'));
+			});
+		});
+
+		// 點擊 lv3 連結時，顯示對應的 lv4 選單
+		dataLv3Links.forEach(lv3Link => {
+			lv3Link.addEventListener('click', (e) => {
+				if(!lv3Link.classList.contains('header-link--hasChild')) return;
+				e.preventDefault();
+				dataLv3Links.forEach(l => l.classList.remove('header-link--active'));
+				lv3Link.classList.add('header-link--active');
+				const lv3Title = lv3Link.getAttribute('data-lv3');
+				lv4Containers.forEach(container =>
+					toggleContainer(container, lv3Title, 'data-lv3Child', 'header-lv4Container--hidden'));
+			});
+		});
+
+       	// 關閉選單
+		const closeNavMenu = () => {
+			navMenu.classList.remove('header-navMenu--open');
+			mobileMenuBtn.classList.remove('header-functionBtn--menuOpen');
+			dataLv1Links.forEach(link => link.classList.remove('header-lv1Link--active'));
+			dataLv2Links.forEach(l => l.classList.remove('header-link--active'));
+			dataLv3Links.forEach(l => l.classList.remove('header-link--active'));
+			hideAllContainers(lv2Containers, 'header-lv2Container--hidden');
+			hideAllContainers(lv3Containers, 'header-lv3Container--hidden');
+			hideAllContainers(lv4Containers, 'header-lv4Container--hidden');
+		};
+
+		navMenuCloseBtn.addEventListener('click', closeNavMenu);
+
+		function hideSearch() {
+			searchContainer.classList.add('header-searchContainer--hidden');
+			searchForm.classList.add('header-searchForm--hidden');
+		}
+
+		function hideLanguage() {
+			languageContainer.classList.add('header-languageContainer--hidden');
+		}
+
+		languageBtn.addEventListener('click', (e) => {
+			e.stopPropagation();
+			hideSearch();
+			closeNavMenu();
+			languageContainer.classList.toggle('header-languageContainer--hidden');
+		});
+
+		mobileLanguageBtn.addEventListener('click', (e) => {
+			e.stopPropagation();
+			languageContainer.classList.remove('header-languageContainer--hidden');
+			languageContainer.classList.add('header-languageContainer--mobileOpen');
+		});
+
+		languageBackBtn.addEventListener('click', (e) => {
+			e.stopPropagation();
+			languageContainer.classList.add('header-languageContainer--hidden');
+			languageContainer.classList.remove('header-languageContainer--mobileOpen');
+		});
+
+		searchBtn.addEventListener('click', (e) => {
+			e.stopPropagation();
+			hideLanguage();
+			closeNavMenu();
+			searchContainer.classList.toggle('header-searchContainer--hidden');
+			const hide = searchForm.classList.toggle('header-searchForm--hidden');
+			const input = searchForm.querySelector('input');
+			input.value = '';
+			if (!hide) { input.focus(); }
+		});
+
+		// mobile menu button
+		mobileMenuBtn.addEventListener('click', (e) => {
+			e.stopPropagation();
+			hideSearch();
+			if(mobileMenuBtn.classList.contains('header-functionBtn--menuOpen')){
+				mobileMenuBtn.classList.remove('header-functionBtn--menuOpen');
+				navMenu.classList.remove('header-navMenu--open');
+				languageContainer.classList.add('header-languageContainer--hidden');
+				languageContainer.classList.remove('header-languageContainer--mobileOpen');
+				closeNavMenu()
+			}else{
+				mobileMenuBtn.classList.add('header-functionBtn--menuOpen');
+				navMenu.classList.add('header-navMenu--open');
+			}
+		});
+
+		// 點擊 lv3 返回按鈕
+		lv3BackBtns.forEach(btn => {
+			btn.addEventListener('click', (e) => {
+				const parentContainer = btn.closest('.header-lv3Container');
+				parentContainer.classList.add('header-lv3Container--hidden');
+				const dataLv2Name = parentContainer.getAttribute('data-lv2Child');
+				const matchingLv2Link = document.querySelector(`.header-link[data-lv2="${dataLv2Name}"]`);
+				if (matchingLv2Link) {
+					matchingLv2Link.classList.remove('header-link--active');
+				}
+			});
+		});
+
+		// 點擊 lv4 返回按鈕
+		lv4BackBtns.forEach(btn => {
+			btn.addEventListener('click', (e) => {
+				console.log('LV4 Back button clicked');
+				const parentContainer = btn.closest('.header-lv4Container');
+				parentContainer.classList.add('header-lv4Container--hidden');
+				const dataLv3Name = parentContainer.getAttribute('data-lv3Child');
+				const matchingLv3Link = document.querySelector(`.header-link[data-lv3="${dataLv3Name}"]`);
+				if (matchingLv3Link) {
+					matchingLv3Link.classList.remove('header-link--active');
+				}
+			});
+		});
+
+		// 點擊外部關閉
+		document.addEventListener('click', (e) => {
+			if (!searchContainer.contains(e.target) && !searchBtn.contains(e.target)) hideSearch();
+			if (!languageContainer.contains(e.target) && !languageBtn.contains(e.target)) hideLanguage();
+			if (!navMenu.contains(e.target) && !navContainer.contains(e.target)) {
+				closeNavMenu()
+			};
+		});
+
+		// resize 關閉行為
+		window.addEventListener('resize', () => {
+			if (window.innerWidth >= 1200) {
+				languageContainer.classList.add('header-languageContainer--hidden');
+				languageContainer.classList.remove('header-languageContainer--mobileOpen');
+				closeNavMenu();
+			}
+		});
+	</script>
+
+	<main class="container pt-16">
+		<div class="py-15 md:py-20 lg:py-25 flex flex-col gap-15">
+			<div class="gridContainer">
+				<div class="col-span-4 md:col-start-4 md:col-end-10 lg:col-start-5 lg:col-end-9">
+					<img class="mx-auto" srcset="/images/1546022605@img-404.png 1x,/images/1546022605@img-404@2x.png 2x,/images/1546022605@img-404@3x.png 3x" alt="404 Not Found">
+				</div>
+			</div>
+			<div class="flex flex-col gap-16 items-center">
+				<div class="error-content">
+					<p>很抱歉，您嘗試瀏覽的網頁並不存在。</p>
+					<p>可能原因如下：</p>
+					<br/>
+					<ul class="error-list">
+						<li>網址輸入錯誤</li>
+						<li>連結已過期</li>
+					</ul>
+				</div>
+				<a class="button button--mainDark" href="/zh-tw/">回首頁</a>
+			</div>
+		</div>
+	</main>
+	
+<footer class="footer">
+	<div class="footer-menuContainer">
+		<div class="container">
+			<ul class="footer-lv1List">
+				
+					<li class="footer-lv1ItemContainer">
+						<div class="footer-lv1Item " data-lv1="解決方案" data-has-child="True">
+							<p class="footer-lv1ItemTitle">解決方案</p>
+							
+								<button class="footer-lv1ItemButton"><i class="icon icon--chevronBelow footer-lv1ItemButtonIcon"></i></button>
+							
+						</div>
+						
+							<ul class="footer-lv2List" data-lv1="解決方案">
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/solution/low-carbon/"  >低碳永續解決方案</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/solution/green-energy/"  >綠色能源工程解決方案</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/solution/electrification/"  >電氣化解決方案</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/solution/power-plant/"  >電廠營運及管理解決方案</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/solution/industrial-control-automation/"  >工業控制自動化解決方案</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/solution/ac-energy-saving/"  >智慧商用空調節能解決方案</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/solution/health-air/"  >智慧家用空調節能解決方案</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/solution/data-center/"  >資料中心解決方案</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/solution/mechanical-and-electrical/"  >機電工程解決方案</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/solution/ev/"  >電動載具動力系統解決方案</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/solution/robot-power-solution/"  >機器人(狗)動力系統解決方案</a>
+									</li>
+								
+							</ul>
+						
+					</li>
+				
+					<li class="footer-lv1ItemContainer">
+						<div class="footer-lv1Item " data-lv1="產品" data-has-child="True">
+							<p class="footer-lv1ItemTitle">產品</p>
+							
+								<button class="footer-lv1ItemButton"><i class="icon icon--chevronBelow footer-lv1ItemButtonIcon"></i></button>
+							
+						</div>
+						
+							<ul class="footer-lv2List" data-lv1="產品">
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/products/power-transmission/"  >電力傳輸與配電系統</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/products/power-management/"  >電力管理系統</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/products/efficient-energy-system/"  >高效馬達與節能系統</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/products/powertrain/"  >電動載具動力系統</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/products/gear-reducer/"  >減速機</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/products/robot-joint-module-system/"  >機器關節模組系統</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/products/industrial-control/"  >工業自動化產品</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/products/air-conditioning/"  >全領域空調產品</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/products/smart-home-appliances/"  >智慧生活家電</a>
+									</li>
+								
+							</ul>
+						
+					</li>
+				
+					<li class="footer-lv1ItemContainer">
+						<div class="footer-lv1Item " data-lv1="投資人關係" data-has-child="True">
+							<p class="footer-lv1ItemTitle">投資人關係</p>
+							
+								<button class="footer-lv1ItemButton"><i class="icon icon--chevronBelow footer-lv1ItemButtonIcon"></i></button>
+							
+						</div>
+						
+							<ul class="footer-lv2List" data-lv1="投資人關係">
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/investor/announcement/"  >法人說明會資訊</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/investor/finance/"  >財務資訊</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/investor/shareholder/"  >股東專欄</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/investor/activity/"  >投資人活動</a>
+									</li>
+								
+							</ul>
+						
+					</li>
+				
+					<li class="footer-lv1ItemContainer">
+						<div class="footer-lv1Item " data-lv1="新聞中心" data-has-child="True">
+							<p class="footer-lv1ItemTitle">新聞中心</p>
+							
+								<button class="footer-lv1ItemButton"><i class="icon icon--chevronBelow footer-lv1ItemButtonIcon"></i></button>
+							
+						</div>
+						
+							<ul class="footer-lv2List" data-lv1="新聞中心">
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/press/news/"  >新聞訊息</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/press/our-stories/"  >實績案例</a>
+									</li>
+								
+							</ul>
+						
+					</li>
+				
+					<li class="footer-lv1ItemContainer">
+						<div class="footer-lv1Item " data-lv1="關於東元" data-has-child="True">
+							<p class="footer-lv1ItemTitle">關於東元</p>
+							
+								<button class="footer-lv1ItemButton"><i class="icon icon--chevronBelow footer-lv1ItemButtonIcon"></i></button>
+							
+						</div>
+						
+							<ul class="footer-lv2List" data-lv1="關於東元">
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/about/group/"  >集團介紹</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/about/business-philosophy-and-principles/"  >經營理念與原則</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/about/governance/"  >公司治理</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/about/management-team-and-internal/"  >經營團隊與組織內規</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/upload/att/2026-04/202604021743213927610591.pdf" target="_blank" rel="noopener noreferrer" >公司簡介</a>
+									</li>
+								
+							</ul>
+						
+					</li>
+				
+					<li class="footer-lv1ItemContainer">
+						<div class="footer-lv1Item " data-lv1="東元永續承諾" data-has-child="True">
+							<p class="footer-lv1ItemTitle">東元永續承諾</p>
+							
+								<button class="footer-lv1ItemButton"><i class="icon icon--chevronBelow footer-lv1ItemButtonIcon"></i></button>
+							
+						</div>
+						
+							<ul class="footer-lv2List" data-lv1="東元永續承諾">
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/sustainability-commitment/message-from-the-chairman/"  >董事長的話</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/sustainability-commitment/teco-sustainability-commitment/"  >東元永續承諾</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/sustainability-commitment/performance-highlights/"  >績效亮點</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/sustainability-commitment/esg-news/"  >永續新聞</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/sustainability-commitment/focus-on-sustainability-priorities/"  >聚焦企業永續</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/sustainability-commitment/shared-vision/"  >實現共享願景</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/sustainability-commitment/low-carbon-transition/"  >促進低碳轉型</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/sustainability-commitment/report-by-year/"  >永續報告書</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/sustainability-commitment/certificates-by-year/"  >歷年證書</a>
+									</li>
+								
+							</ul>
+						
+					</li>
+				
+					<li class="footer-lv1ItemContainer">
+						<div class="footer-lv1Item " data-lv1="人才招募" data-has-child="True">
+							<p class="footer-lv1ItemTitle">人才招募</p>
+							
+								<button class="footer-lv1ItemButton"><i class="icon icon--chevronBelow footer-lv1ItemButtonIcon"></i></button>
+							
+						</div>
+						
+							<ul class="footer-lv2List" data-lv1="人才招募">
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/join/family/"  >幸福在東元</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/join/training/"  >成長在東元</a>
+									</li>
+								
+									<li class="footer-lv2Item">
+										<a class="link link--dark footer-lv2ItemLink" href="/zh-tw/join/teco/"  >成為東元人</a>
+									</li>
+								
+							</ul>
+						
+					</li>
+				
+			</ul>
+		</div>
+	</div>
+	
+<div class="footer-infoContainer">
+	<div class="container pt-15 pb-10 lg:py-10">
+		<div class="flex flex-col gap-5 lg:flex-row lg:items-end lg:pb-5">
+			<div class="footer-logoContainer">
+				<img class="footer-logo" src="/images/logo-TECO-light.svg" alt="TECO">
+				<img class="footer-logoSlogan" src="/images/logo-slogan-light.svg" alt="together, we empower the Future">
+			</div>
+			<div class="footer-infoLinksContainer">
+				
+				<a class="link link--light footer-infoLink" href="http://eb-teco.itts.com.tw/" target="_blank" rel="noopener noreferrer" ><span>電子採購專區</span></a>
+				
+				<a class="link link--light footer-infoLink" href="http://www.tecofound.org.tw/" target="_blank" rel="noopener noreferrer" ><span>東元科技文教基金會</span></a>
+				
+				<a class="link link--light footer-infoLink" href="/zh-tw/privacy/"  ><span>隱私權政策</span></a>
+				
+				<a class="link link--light footer-infoLink" href="/zh-tw/locations/"  ><span>全球據點</span></a>
+				
+				<a class="link link--light footer-infoLink" href="/zh-tw/contact-us/"  ><span>聯絡我們</span></a>
+				
+				<a class="link link--light footer-infoLink" href="/zh-tw/subscription/"  ><span>訂閱服務</span></a>
+				
+			</div>
+			
+			<div class="footer-socialContainer">
+				
+				<a class="footer-socialLink" href="https://www.facebook.com/profile.php?id=100064759026954&amp;fref=ts%E2%80%8B#" target="_blank" rel="noopener noreferrer">
+					<i class="footer-socialIcon" title="Facebook" style="--footer-socialIcon:url('/Upload/pic/2025-09/202509250933272083119431.svg');"></i>
+				</a>
+				
+				<a class="footer-socialLink" href="https://www.youtube.com/channel/UC7FbWKEZ4EzI_RSD1h-fYgw/featured" target="_blank" rel="noopener noreferrer">
+					<i class="footer-socialIcon" title="Youtube" style="--footer-socialIcon:url('/Upload/pic/2025-09/202509250933272131869374.svg');"></i>
+				</a>
+				
+				<a class="footer-socialLink" href="https://www.linkedin.com/company/teco-electric-&amp;-machinery-co--ltd-/" target="_blank" rel="noopener noreferrer">
+					<i class="footer-socialIcon" title="LinkedIn" style="--footer-socialIcon:url('/Upload/pic/2025-09/202509250931011640600186.svg');"></i>
+				</a>
+				
+				<a class="footer-socialLink" href="https://www.instagram.com/teco.taiwan/" target="_blank" rel="noopener noreferrer">
+					<i class="footer-socialIcon" title="Instagram" style="--footer-socialIcon:url('/Upload/pic/2025-09/202509250934166846401369.svg');"></i>
+				</a>
+				
+			</div>
+			
+		</div>
+		<p class='footer-copyright'>&copy;2026 東元電機股份有限公司。保留所有權利。</p>
+	</div>
+</div>
+
+</footer>
+
+<script type="module" nonce="5hBkPoZ9qZGza3yv">
+	const lv1Items = document.querySelectorAll('.footer-lv1Item');
+	const lv2Lists = document.querySelectorAll('.footer-lv2List');
+	lv1Items.forEach((item) => {
+		item.addEventListener('click', () => {
+			lv1Items.forEach((btn) => {
+				if (btn !== item) {
+					btn.classList.remove('footer-lv1ItemButton--expanded');
+				}
+				item.classList.toggle('footer-lv1ItemButton--expanded');
+			});
+			lv2Lists.forEach((list) => {
+				if (list.dataset.lv1 !== item.dataset.lv1) {
+					list.classList.remove('footer-lv2List--expanded');
+				}else{
+					list.classList.toggle('footer-lv2List--expanded');
+				}
+			});
+		});
+	});
+</script>
+
+	
+</body>
+</html>

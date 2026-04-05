@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html  class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html  class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html  class="ie8"> <![endif]-->
+<!--[if (gt IE 8)|!(IE)]><!--> <html> <!--<![endif]-->
+ 	<head>
+		<title>404 Page Entes - Industrial Plants Construction & Erection Constracting Co. Inc </title>
+		<meta charset=utf-8 >
+		<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<![endif]-->
+		<meta name="robots" content="index, follow" > 
+		<meta name="keywords" content="Entes, Entes Firması, Entes İnşaat " > 
+		<meta name="description" content="Entes - Industrial Plants Construction & Erection Constracting Co. Inc" > 
+		<meta name="author" content="Eda & Onur">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="shortcut icon" href="images/favicon.ico"> 
+		
+		
+<!-- CSS begin -->
+
+	<!-- Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap.min.css.php">
+	
+	<!--GOOGLE FONT-->		
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,700,300,400' rel='stylesheet' type='text/css'>
+	
+	<!-- IE warning CSS -->
+		<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie-warning.css.php" ><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" type="text/css" href="css/ie8-fix.css.php" ><![endif]-->
+		
+	<!--Icons ELEGANT FONT & FONT AWESOME-->		
+		<link rel="stylesheet" href="css/icons-fonts.css.php" >		
+		<!--[if lte IE 7]><script src="js/lte-ie7.js"></script><![endif]-->
+	
+	<!-- Magnific popup  in style.css-->	
+
+	<!-- Owl Carousel Assets in style.css -->
+
+	<!--CSS theme-->		
+		<link rel="stylesheet" href="css/style.css.php" >
+		
+	<!--STILE SWITCHER in style.css-->	
+		<link rel="stylesheet" href="css/layout/wide.css" id="layout">
+		<link rel="stylesheet" href="css/colors/blue.css" id="colors">		
+	
+	<!-- ANIMATE -->
+		<link rel='stylesheet' href="css/animate.min.css.php">
+ 
+<!-- CSS end -->
+
+<!-- JS begin some js files in bottom of the file-->
+
+		<!--[if lte IE 7]><script src="js/lte-ie7.js"></script><![endif]-->
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+<!-- MODERNIZR -->		
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>		
+		
+	</head>
+	<body class="fixed-header">
+	
+<div id="wrap" class="boxed ">
+	<div class="grey-bg "> <!-- Grey bg  -->	
+	
+	<!--[if lte IE 7]>
+	<div id="ie-container">
+		<div id="ie-cont-close">
+			<a href='#' onclick='javascript&#058;this.parentNode.parentNode.style.display="none"; return false;'><img src='images/ie-warn/ie-warning-close.jpg' style='border: none;' alt='Close'></a>
+		</div>
+		<div id="ie-cont-content" >
+			<div id="ie-cont-warning">
+				<img src='images/ie-warn/ie-warning.jpg' alt='Warning!'>
+			</div>
+			<div id="ie-cont-text" >
+				<div id="ie-text-bold">
+					You are using an outdated browser
+				</div>
+				<div id="ie-text">
+					For a better experience using this site, please upgrade to a modern web browser.
+				</div>
+			</div>
+			<div id="ie-cont-brows" >
+				<a href='http://www.firefox.com' target='_blank'><img src='images/ie-warn/ie-warning-firefox.jpg' alt='Download Firefox'></a>
+				<a href='http://www.opera.com/download/' target='_blank'><img src='images/ie-warn/ie-warning-opera.jpg' alt='Download Opera'></a>
+				<a href='http://www.apple.com/safari/download/' target='_blank'><img src='images/ie-warn/ie-warning-safari.jpg' alt='Download Safari'></a>
+				<a href='http://www.google.com/chrome' target='_blank'><img src='images/ie-warn/ie-warning-chrome.jpg' alt='Download Google Chrome'></a>
+			</div>
+		</div>
+	</div>
+	<![endif]-->
+	
+<!-- HEADER 1 -->
+
+<header id="nav" class="header header-1">
+  <div  class="header-wrapper">
+	<div class="container">
+	  
+	  <div class="logo-row"> 
+		<!-- LOGO --> 
+		<div class="logo-container">
+		   <a href="index.html">
+			  <div class="logo">
+				  <img src="images/entesLogo.png" class="logo-img buyukLogo" alt="Entes Logo" width="95" height="123">
+                  <img src="images/stickyEntesLogo.png" alt="Logo Entes" width="95" height="22" class="kucukLogo">
+                  <span>SINCE 1969</span>
+			  </div>
+		  </a>
+		</div>
+		<!-- BUTTON --> 
+		<div class="menu-btn-respons-container">
+			<button type="button" class="navbar-toggle btn-navbar collapsed" data-toggle="collapse" data-target=".main-menu .navbar-collapse">
+				<span class="text">MENU</span>
+				<span aria-hidden="true" class="icon_menu main-menu-icon"></span>
+			</button>
+		</div> 
+		
+	  </div>
+
+	</div><!-- END CONTAINER -->
+
+<div class="main-menu-container">
+		
+		  <div class="container">	
+						<!-- MAIN MENU -->
+				<div class="main-menu">
+				  <div class="navbar navbar-default" role="navigation">
+
+		  <!-- MAIN MENU LIST-->
+					<nav class="collapse collapsing navbar-collapse right">
+					  <ul class="nav navbar-nav">
+						<li class="parent ">
+						  <a href="index.html"><span aria-hidden="true" class="icon_house_alt main-menu-icon"></span><div class="main-menu-title">HOME</div></a> 
+						</li>
+
+						<li class="parent  megamenu">
+						  <a href="about.html"><span aria-hidden="true" class="icon_profile main-menu-icon"></span><div class="main-menu-title">ABOUT</div></a>
+						  <ul class="sub">
+							<li> 
+							  <div class="menu-sub-container">
+								<div class="box col-md-3 closed">
+								  <h5 class="title">Our Company</h5>
+								  <ul>
+									<li><a href="about.html">About Us</a></li> 
+                                    <li><a href="certificates.html">Certificates</a></li>
+								  </ul>
+								</div>
+								
+								<div class="box col-md-3 closed">
+								  <h5 class="title" style="color:#fff">ENTES</h5>
+								  <ul> 
+										<li><a href="quality-policy.html">Quality Policy</a></li>
+                                        <li><a href="hse-policy.html">Health and Safety Policy</a></li>
+										<li><a href="env-policy.html">Environment Policy</a></li>
+								  </ul>
+								</div>
+                                
+								
+								<div class="box col-md-3 closed">
+								  <h5 class="title">Some Facts</h5>
+                                  <div class="someFacts">
+                                        <span class="icon_group counter-icon icon"></span>
+                                        <span class="sayi">143</span>
+                                        <p class="yazi">HAPPY CLIENTS</p> 
+                                  </div>  
+								</div>
+                                
+                                <div class="box col-md-3 closed">
+								  <h5 class="title" style="color:#fff">Some Facts</h5>
+                                  <div class="someFacts">
+                                        <span class="icon_globe_alt counter-icon icon"></span>
+                                        <span class="sayi">10</span>
+                                        <p class="yazi">DIFFERENT COUNTRIES</p> 
+                                  </div>  
+								</div> 
+								 
+
+							  </div>
+
+							</li>
+						  </ul>
+						</li>			 
+                        
+                        <li class="parent  megamenu">
+						  <a href="projects.html"><span aria-hidden="true" class="icon_building main-menu-icon"></span><div class="main-menu-title">PROJECTS</div></a>
+						  <ul class="sub">
+							<li>
+							
+							  <div class="menu-sub-container">
+								<div class="box col-md-3 closed">
+								  <h5 class="title">Our Projects</h5>
+								  <ul>
+									<li><a href="ongoing-projects-c5.html">Ongoing Projects</a></li>
+                                    <li><a href="completed-projects-c12.html">Completed Projects</a></li>
+                                    <li><a href="all-projects.html">List of Our Projects</a></li>
+								  </ul>
+								</div> 
+                                
+								<div class="box col-md-3 closed">
+								  <h5 class="title">FIELDS OF ACTIVITY</h5>
+								  <ul>
+									<li><a href="industrial-plants-c9.html">Industrial Plants</a></li>
+                                    <li><a href="roads-and-infrastructure-projects-c32.html">Roads &amp; Infrastructure</a></li>
+                                    <li><a href="buildings-projects-c8.html">Buildings</a></li>
+								  </ul>
+								</div>
+                                
+                                <div class="box col-md-3 closed">
+								  <h5 class="title">Some Facts</h5>
+                                  <div class="someFacts">
+                                        <span class="icon_calendar counter-icon icon"></span>
+                                        <span class="sayi">45+</span>
+                                        <p class="yazi">SUCCESSFUL YEARS</p> 
+                                  </div>  
+								</div> 
+								 
+                                 <div class="box col-md-3 closed">
+								  <h5 class="title" style="color:#fff">Some Facts</h5>
+                                  <div class="someFacts">
+                                        <span class="icon_building counter-icon icon"></span>
+                                        <span class="sayi">15</span>
+                                        <p class="yazi">PARTICULAR SERVICES</p> 
+                                  </div>  
+								</div>
+                                 
+							  </div>
+
+							</li>
+						  </ul>
+						</li> 
+                        
+                        <li class="parent  megamenu">
+						  <a href="companies.html"><span aria-hidden="true" class="icon_star_alt main-menu-icon"></span><div class="main-menu-title">COMPANIES</div></a>
+						  <ul class="sub">
+							<li>
+							
+							  <div class="menu-sub-container">
+								<div class="box col-md-3 closed">
+								  <h5 class="title">Associated Companies</h5>
+								  <ul>
+									<li><a href="companies.html">OZKOSEOGLU HEAT INDUSTRY</a></li>
+									<li><a href="companies.html">PALMIYE RESORT & TOURISM</a></li> 
+								  </ul>
+								</div>
+								
+								<div class="box col-md-3 closed">
+								  <h5 class="title" style="color:#fff">ENTES</h5>
+								  <ul>
+										<li><a href="companies.html">MARMARA PAPER & PACKAGING</a></li>
+										<li><a href="companies.html">REMSAN REFRACTORY INDUSTRY</a></li>
+								  </ul>
+								</div>
+								
+								<div class="box col-md-3 closed">
+								  <h5 class="title" style="color:#fff">ENTES</h5>
+								  <ul>
+                                  		
+										<li><a href="companies.html">SAMSUN ILKADIM BAKERY PLANT</a></li>
+										<li><a href="companies.html">INTEMAR INT'L TRADE</a></li>
+								  </ul>
+								</div>
+								
+								<div class="box col-md-3 closed">
+								  <h5 class="title" style="color:#fff">ENTES</h5>
+								  <ul> 
+                                   		<li><a href="companies.html">TUKSAN PAPER INDUSTRY</a></li> 
+								  </ul>
+								</div>
+
+							  </div>
+
+							</li>
+						  </ul>
+						</li> 	
+						
+						<li class="parent ">
+						  <a href="news.html"><span aria-hidden="true" class="icon_pens main-menu-icon"></span><div class="main-menu-title">ENTES NEWS</div></a>
+						 
+						</li>	
+						
+						<li id="menu-contact-info-big" class="parent  megamenu">
+						  <a href="contact.html"><span aria-hidden="true" class="icon_mail_alt main-menu-icon"></span><div class="main-menu-title">CONTACT</div></a>
+						  <ul class="sub">
+							<li>
+							  <div class="menu-sub-container">
+
+								<div class="box col-md-3 menu-demo-info closed">
+								  <h5 class="title">Our Office</h5>
+								  <ul>
+									<li><a href="contact.html">Ankara Office</a></li>
+									<li><a href="contact.html">Algeria Office</a></li>
+                                    <li><a href="contact.html">Libya Office</a></li>
+                                    <li><a href="contact.html">Turkmenistan Office</a></li>
+								  </ul>
+								</div>
+								
+								<div class="col-md-3 menu-contact-info"> 
+									<ul class="contact-list">
+										<li class="contact-loc clearfix">
+											<div class="loc-icon-container">
+												<span aria-hidden="true" class="icon_pin_alt main-menu-contact-icon"></span>
+											</div>
+											<div class="menu-contact-text-container">Buyukdere Cad. Bengun Plaza No:107/5 34349 Gayrettepe Sisli-İstanbul / TURKEY</div>
+										</li>
+										<li class="contact-phone clearfix">
+											<div class="loc-icon-container">
+												<span aria-hidden="true" class="icon_phone main-menu-contact-icon"></span>
+											</div>	
+											<div class="menu-contact-text-container"><strong>P:</strong> +90 212 217 81 00 <br> <strong>F:</strong> +90 212 217 65 60  </div>
+										</li>
+										<li class="contact-mail clearfix" >
+											<div class="loc-icon-container">
+												<span aria-hidden="true" class="icon_mail_alt main-menu-contact-icon"></span>
+											</div>
+											<div class="menu-contact-text-container">	
+                                            	<strong>e-mail:</strong> <br>			
+												<a class="a-mail" href="#">construction@entes.com</a>    
+												<a class="a-mail" href="#">entes@entes.com</a> 
+											</div>	
+										</li> 
+									</ul>
+								</div> 
+								<div class="col-md-6 menu-map-container hide-respons">
+									<img src="images/map.jpg" alt="map">					
+								</div>
+							  </div>
+							</li>
+						  </ul>
+						</li> 
+                        
+                         <!-- SEARCH MOBILE READ DOCUMENTATION-->	
+                                        <li class="hide-desck">
+                                            <form class="form-search-respons" id="searchForm-respons" action="http://www.google.com/search" method="get">
+                                             		<input type="hidden" name="sitesearch" value="entes.com" />
+                                                    <input class="sb-search-input-respons" placeholder="SEARCH HERE..." type="text" value="" name="q" id="a">
+                                                    <input class="sb-search-submit-respons" type="submit" value="SEARCH" >
+                                            </form>
+                                        </li>
+						
+					  </ul>
+                      
+                      <!-- SEARCH READ DOCUMENTATION -->
+						<div id="sb-search" class="search sb-search right hide-respons">
+							
+							<form class="form-search" id="searchForm" action="http://www.google.com/search" method="get">
+                            	<input type="hidden" name="sitesearch" value="entes.com" />
+								<input class="sb-search-input" placeholder="SEARCH HERE..." type="text" value="" name="q" id="q"> 
+								<input class="sb-search-submit" type="submit" value="SEARCH" >
+								<span class="sb-icon-search"><span aria-hidden="true" class="icon_search main-menu-icon"></span></span>
+							</form>
+								
+						</div>	  
+			 
+					  
+					</nav>
+
+				  </div>
+				</div><!-- main-menu -->		  </div><!-- container -->
+		
+	</div><!--main-menu-container -->
+
+  </div><!-- header-wrapper -->
+</header><!-- header -->
+
+<!-- PAGE TITLE 1 -->
+	<div class="page-title-bg indent-header-1 page-main-content m-bot-40">
+		<div class="container">
+			<div class="page-title-container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>404-PAGE NOT FOUND</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="breadcrumb">
+							<li><a class="a-invert" href="index.html">HOME</a></li>
+							<li class="active">404-PAGE NOT FOUND</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- COTENT CONTAINER -->
+	<div class="container maintenance-container">
+
+		<div class="row m-bot-40">
+			<div class="col-md-12 text-center">
+				<div id="clock"></div>
+			</div>
+			<div class="col-md-6 text-center img-container-404">
+				<img alt="img" src="images/content/404.png">
+			</div>
+			<div class="col-md-6 m-top-10">
+				<h3>OOPS! THE PAGE YOU WERE LOOKING FOR, COULDN'T BE FOUND</h3>
+				<p>We're sorry, but the page you were looking for doesn't exist. Here are some useful links</p>
+				<div class="row m-top-20">
+					<div class="col-md-6">
+						<ul class="icon-list">
+							<li><i class="fa fa-angle-right"></i><a class="a-invert" href="index.html">Home</a></li>
+							<li><i class="fa fa-angle-right"></i><a class="a-invert" href="about.html">About Us</a></li>
+							<li><i class="fa fa-angle-right"></i><a class="a-invert" href="projects.html">Projects</a></li>
+						</ul>
+					</div>
+					<div class="col-md-6">
+						<ul class="icon-list">
+                            <li><i class="fa fa-angle-right"></i><a class="a-invert" href="companies.html">Group Companies</a></li>
+                            <li><i class="fa fa-angle-right"></i><a class="a-invert" href="blog.html">News</a></li>
+                            <li><i class="fa fa-angle-right"></i><a class="a-invert" href="contact.html">Contact</a></li>
+                        </ul>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+
+	</div>
+		 
+
+ 
+	
+
+
+<!-- FOOTER -->
+
+<!-- FOOTER BOLUMU -->
+
+<div id="footer-offset">
+<!-- NEWS LETTER -->
+	<div class="title-lines-container">
+		<div class="container wow pulse animated">
+
+			<div class="nl-container nl-lines" >
+				<div class="nl-icon-container-bg" >
+					<div class="nl-icon-container" >
+						<span aria-hidden="true" class="icon_mail_alt main-menu-icon"></span>
+					</div>
+				</div>
+				<div class="nl-main-container-bg" >
+					<div class="nl-main-container clearfix" >
+						<div class="nl-caption">NEWSLETTER</div>
+						<div id="mc_embed_signup" class="nl-form-container clearfix">
+
+							<form action="bulten-kaydet.php" id="bultenform" method="post" class="newsletterform validate" target="_blank" novalidate> 
+								<input type="email" value="" name="email" class="email nl-email-input" id="mce-EMAIL" placeholder="YOUR EMAIL HERE" required>
+								<input type="submit" value="SIGN UP" name="subscribe" class="nl-button">
+							</form>
+							<div id="notification_container"  ></div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div><!-- container end -->
+	</div>	
+<!-- FOOTER 1 - LIGHT -->
+	
+    
+<footer>  
+	<!-- FOOTER 2-->
+		<div class="footer-white-bg title-lines-container">
+			<div class="container">
+				<div class="row">
+			<!-- LOGO  -->	
+					<div class="col-md-4 wow fadeInLeft animated">
+						<div class="logo-row-footer-2 clearfix">
+							<div class="logo-container left">
+								<a href="index.html">
+									<div class="logo">
+										<img src="images/entesLogo.png" class="logo-img" alt="Entes Logo" width="95" height="123">
+									</div>
+								</a>
+							</div>
+							<div class="logo-text-container">
+								<div class="logo-text" style="font-size:22px; line-height:35px">INDUSTRIAL PLANTS<br> CONSTRUCTION & ERECTION <br> CONTRACTING CO. INC.</div>
+							</div>	
+						</div>	
+						<div class="social-icons-container-footer">
+							<ul class="social-icons-ul">
+								<li>
+									<a href="#">
+										<span aria-hidden="true" class="social_facebook main-menu-icon"></span>
+									</a>
+								</li>	
+								<li>	
+									<a href="#">
+										<span aria-hidden="true" class="social_twitter main-menu-icon"></span>
+									</a>
+								</li>	
+								<li>	
+									<a href="#">
+										<span aria-hidden="true" class="social_linkedin main-menu-icon"></span>
+									</a>
+								</li>	
+								<li>	
+									<a href="#">
+										<span aria-hidden="true" class="social_youtube main-menu-icon"></span>
+									</a>
+								</li>	
+							</ul>		
+						</div>						
+					</div>
+			<!-- LATEST TWEETS -->
+					<div class="col-md-4 wow fadeIn animated">
+						<h3 class="title-block footer-2-block">AROUND THE WORLD</h3>
+						<div class="lite-grey-bg full-col-container" style="padding-bottom:15px">
+							<a href="entes-map.html" target="_blank"><img src="images/entesWorld.png" alt="entes world" width="370" height="180" style="margin-top:25px; margin-left:20px"> </a>
+						</div>					
+					</div>	
+			<!-- CONTACT INFO -->
+					<div class="col-md-4 wow fadeInRight animated">
+				
+						<h3 class="title-block title-full-width footer-block title-bg-after">CONTACT INFO</h3>
+						<div class="main-color-bg contact-bg-after">
+						
+								<ul class="contact-list-footer">
+									<li class="contact-list-item clearfix">
+										<div class="contact-icon-container">
+											<span aria-hidden="true" class="icon_pin_alt main-menu-contact-icon"></span>
+										</div>
+										<div class="contact-text-container"> 
+											<strong>Entes Head Office</strong> <br>
+											Buyukdere Cad. Bengun Plaza No:107/5 34349 Gayrettepe Sisli-İstanbul / TURKEY	
+										</div>
+									</li>
+									<li class="contact-list-item clearfix">
+										<div class="contact-icon-container">
+											<span aria-hidden="true" class="icon_phone main-menu-contact-icon"></span>
+										</div>	
+										<div class="contact-text-container">
+											<strong>P:</strong> +90 212 217 81 00 <br> <strong>F:</strong> +90 212 217 65 60  
+										</div>
+									</li>
+									<li class="contact-list-item clearfix">
+										<div class="contact-icon-container">
+											<span aria-hidden="true" class="icon_mail_alt main-menu-contact-icon"></span>
+										</div>
+										<div class="contact-text-container">	
+											<strong>e-mail:</strong> <br>		
+											<a class="a-mail" href="#" style="font-size:13px">construction@entes.com</a>  |    
+											<a class="a-mail" href="#" style="font-size:13px">entes@entes.com</a>
+										</div>	
+									</li>
+								</ul>
+		
+						</div>					
+								
+					</div> 
+				</div>
+			</div>
+		</div>
+		<!-- COPYRIGHT  -->	
+		<div class="copyright-container title-lines-container">
+			<div class="container">
+				<div class="row">	
+					<div class="col-md-8 wow fadeInUp animated">
+						<div class="footer-menu-container">
+							<nav class="clearfix" id="footer-nav">
+								<ul class="footer-menu">
+									<li><a href="index.html">HOME</a></li>
+									<li><a href="about.html">ABOUT</a></li>
+									<li><a href="works.html">PROJECTS</a></li>
+									<li><a href="career.html">CAREER</a></li> 
+									<li><a href="companies.html">ASSOCIATED COMPANIES</a></li> 
+									<li><a href="blog.html">ENTES NEWS</a></li> 
+									<li><a href="contact.html">CONTACT</a></li> 
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="col-md-4 wow fadeInUp animated">
+						<div class="footer-copyright-container">
+							<div class="footer-2-copyright-text">
+							A Member of <strong>Ozkoseoglu Group</strong>&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;© Copyright 2015.
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>				
+		</div>
+	<!-- COPYRIGHT -->
+		<p id="back-top">
+			<a href="#top" title="Back to Top"><span></span></a>
+		</p>
+	</footer></div>
+	</div><!-- End BG -->	
+</div><!-- End wrap -->	
+
+<!-- JS begin -->
+		<!-- jQuery  -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+ 
+		<script src="js/jquery-ui.min.js"></script>
+
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
+		
+	 
+		 
+
+			<!-- MAGNIFIC POPUP -->
+			<script src='js/jquery.magnific-popup.js'></script>
+			
+			<!-- MAIN SCRIPT -->
+			<script src="js/main.js"></script>	
+			
+			<!-- IMPORTANT SCRIPTS SETTINGS -->
+			 
+		
+<!-- JS end -->	 
+
+	</body>
+</html>		
