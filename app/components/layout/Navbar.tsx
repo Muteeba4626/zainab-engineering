@@ -5,11 +5,10 @@ import { usePathname } from 'next/navigation';
 import { useState, useEffect } from 'react';
 
 const aboutSections = [
-  { id: "mission", label: "Our Mission" },
-  { id: "vision", label: "Our Vision" },
-  { id: "values", label: "Our Values" },
+  { id: "about-company", label: "About Company" },
+  { id: "mission", label: "Mission & Vision" },
   { id: "customer-care", label: "Customer Care" },
-  { id: "equal-opportunity", label: "Equal Opportunity Policy" },
+  { id: "equal-opportunity", label: "Equal Opportunity" },
   { id: "team", label: "Our Team" },
   { id: "quality-assurance", label: "Quality Assurance" },
 ];
