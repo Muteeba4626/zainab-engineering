@@ -131,6 +131,79 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Welcome & Company Overview */}
+        <section className="py-16 lg:py-24 px-5 sm:px-8 bg-white">
+          <div className="max-w-screen-2xl mx-auto">
+            <div className="max-w-3xl">
+              <span className="text-primary font-semibold tracking-wide uppercase text-xs">WELCOME</span>
+              <p className="text-slate-600 text-base lg:text-lg leading-relaxed mt-4">
+                Since 1991 The Zainab Engineering is a Specialized Electrical Panels &amp; Distribution Boards Manufacturer and Services Provider at client&apos;s door step and we have learned through our long-term experience in the manufacturing and services industry, to meet and exceed each customer&apos;s expectations by providing quality products and services.
+              </p>
+              <div className="flex flex-wrap gap-3 mt-6">
+                <Link
+                  href="/about-us"
+                  className="bg-primary text-white px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-primary-container transition-all"
+                >
+                  See Profile
+                </Link>
+                <Link
+                  href="/products"
+                  className="bg-slate-900 text-white px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-slate-800 transition-all"
+                >
+                  Our Products
+                </Link>
+                <Link
+                  href="/services"
+                  className="bg-white border border-slate-200 text-slate-700 px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-slate-50 transition-all"
+                >
+                  Our Services
+                </Link>
+              </div>
+            </div>
+
+            <div className="mt-12 lg:mt-16">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6">
+                {[
+                  'Pre-Treatment & Painting',
+                  'Good Fabrication Facility',
+                  'Assembling & Wiring Facility',
+                  'Testing & Quality Assurance',
+                ].map((title) => (
+                  <div key={title} className="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                    <h3 className="text-base lg:text-lg font-bold text-slate-900">{title}</h3>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="mt-12 lg:mt-16">
+              <h3 className="text-xl lg:text-2xl font-bold text-slate-900 mb-6">Our Partners</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
+                {[
+                  { name: 'Ducati Italy', details: ['Sole Importer & Authorized Dealer', 'Power Capacitors 400-440V'] },
+                  { name: 'ABB Power & Automation', details: ['Channel Partner', 'All Type of Electrical Accessories'] },
+                  { name: 'Electronicon Germany', details: ['Sole Importer & Authorized Dealer', 'Power Capacitors 400-440V-400-480'] },
+                  { name: 'Bremas Italy', details: ['Sole Importer & Authorized Dealer', 'Changeover Switches & Selector Switches'] },
+                  { name: 'MBS Germany', details: ['Sole Importer & Authorized Dealer', 'Current Transformers'] },
+                ].map((partner) => (
+                  <div key={partner.name} className="bg-white border border-slate-100 rounded-2xl p-6">
+                    <h4 className="text-base font-bold text-slate-900 mb-3">{partner.name}</h4>
+                    <ul className="space-y-1 text-sm text-slate-600">
+                      {partner.details.map((detail) => (
+                        <li key={detail}>{detail}</li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="mt-12 lg:mt-16">
+              <h3 className="text-xl lg:text-2xl font-bold text-slate-900">Our Brands</h3>
+            </div>
+          </div>
+        </section>
+
         {/* CTA Section */}
         <section className="relative px-5 sm:px-8 lg:px-24 py-16 sm:py-20 lg:py-32 bg-slate-900 text-white overflow-hidden rounded-t-[2rem] lg:rounded-t-[4rem]">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,_rgba(0,80,203,0.15),_transparent_50%)]"></div>

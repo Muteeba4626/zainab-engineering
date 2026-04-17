@@ -4,7 +4,7 @@ import { supabase } from '@/lib/supabase'
 // This cron job runs every 3 days to keep Supabase active
 // Prevents Supabase free tier from pausing after 1 week of inactivity
 
-export async function GET(request: Request) {
+export async function GET() {
   try {
     // Ping 1: Fetch services count
     const { count: servicesCount, error: servicesError } = await supabase
@@ -43,13 +43,14 @@ export async function GET(request: Request) {
       }
     })
 
-  } catch (error: any) {
-    console.error('[CRON] Supabase keep-alive ping failed:', error.message)
+  } catch (error: unknown) {
+    const message = error instanceof Error ? error.message : 'Unknown error'
+    console.error('[CRON] Supabase keep-alive ping failed:', message)
     
     return NextResponse.json({
       success: false,
       message: 'Supabase keep-alive ping failed',
-      error: error.message
+      error: message
     }, { status: 500 })
   }
 }

@@ -68,7 +68,7 @@ export default function Navbar() {
         element.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
     } else {
-      window.location.href = `/about-us#${sectionId}`;
+      window.location.assign(`/about-us#${sectionId}`);
     }
   };
 

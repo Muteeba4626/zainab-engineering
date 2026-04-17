@@ -140,7 +140,7 @@ export default function ProductsPage() {
         <section className="py-24 px-8 md:px-20 bg-on-background text-white">
           <div className="max-w-screen-2xl mx-auto">
             <div className="mb-16">
-              <h3 className="text-sm font-mono text-secondary-container uppercase tracking-widest mb-4">// Technical_Specifications_Matrix</h3>
+              <h3 className="text-sm font-mono text-secondary-container uppercase tracking-widest mb-4">Technical_Specifications_Matrix</h3>
               <div className="electric-trace"></div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-px bg-outline/20">
@@ -216,6 +216,34 @@ export default function ProductsPage() {
                   <p className="text-xs font-mono text-tertiary font-bold mb-2">SOLAR EFFICIENCY</p>
                   <p className="text-xl font-headline font-bold text-on-surface">+24.8% Yield Gain</p>
                 </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Contact Information */}
+        <section className="py-20 px-8 md:px-20 bg-surface-container-low">
+          <div className="max-w-screen-2xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-headline font-bold text-on-surface mb-6">Contact Information</h2>
+            <div className="text-on-surface-variant text-sm md:text-base leading-relaxed space-y-3">
+              <div>
+                <span className="font-semibold text-on-surface">Address:</span>{' '}
+                2-KM JHANG ROAD, GULFISHAN MORR, OPPOSITE OPAL ONE FAISALABAD.
+              </div>
+              <div>
+                <span className="font-semibold text-on-surface">Phone:</span>{' '}
+                +92-41-2658851 / +92-41-2651336
+              </div>
+              <div>
+                <span className="font-semibold text-on-surface">Fax:</span>{' '}
+                +92-41-2659981 / +92-41-2651337
+              </div>
+              <div className="font-semibold text-on-surface">Muhammad Irfan MAjeed</div>
+              <div className="font-semibold text-on-surface">Compnay Advisor</div>
+              <div className="font-semibold text-on-surface">(Attorney At Law)</div>
+              <div>
+                <span className="font-semibold text-on-surface">E-mail:</span>{' '}
+                zec2001@hotmail.com
               </div>
             </div>
           </div>

@@ -97,6 +97,20 @@ export default function ContactPage() {
               </div>
             </div>
           </div>
+
+          <section className="mt-10 lg:mt-12 bg-white rounded-2xl border border-slate-100 shadow-sm p-6 sm:p-8 lg:p-10">
+            <h2 className="text-xl sm:text-2xl font-bold text-slate-900 mb-4">Our Offices</h2>
+            <div className="space-y-3 text-sm sm:text-base text-slate-600 leading-relaxed">
+              <div><span className="font-semibold text-slate-900">Address:</span> 2-KM JHANG ROAD, GULFISHAN MORR, OPPOSITE OPAL ONE FAISALABAD.</div>
+              <div><span className="font-semibold text-slate-900">Phone:</span> +92-41-2658851 / +92-41-2651336</div>
+              <div><span className="font-semibold text-slate-900">Fax:</span> +92-41-2659981 / +92-41-2651337</div>
+              <div className="font-semibold text-slate-900">Muhammad Irfan MAjeed</div>
+              <div className="font-semibold text-slate-900">Compnay Advisor</div>
+              <div className="font-semibold text-slate-900">(Attorney At Law)</div>
+              <div><span className="font-semibold text-slate-900">E-mail:</span> zec2001@hotmail.com</div>
+              <div><span className="font-semibold text-slate-900">URL</span> www.zainabengineering.com</div>
+            </div>
+          </section>
         </div>
       </main>
       <Footer />

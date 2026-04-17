@@ -18,7 +18,10 @@ export function getSupabaseAdmin(): SupabaseClient {
 
 // For backward compatibility - lazy getter
 export const supabaseAdmin = new Proxy({} as SupabaseClient, {
-  get(_, prop) {
-    return (getSupabaseAdmin() as any)[prop]
+  get(_, prop: string | symbol) {
+    if (typeof prop === 'string') {
+      return getSupabaseAdmin()[prop as keyof SupabaseClient]
+    }
+    return undefined
   }
 })

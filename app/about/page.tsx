@@ -159,6 +159,123 @@ export default function AboutPage() {
             </div>
           </div>
         </section>
+
+        {/* About Our Company */}
+        <section className="py-16 lg:py-24 px-5 sm:px-8 bg-white">
+          <div className="max-w-screen-2xl mx-auto">
+            <div className="text-center mb-10 lg:mb-14">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900">About Our Company</h2>
+              <div className="mt-4 flex flex-wrap justify-center gap-4 text-xs sm:text-sm font-semibold text-primary uppercase tracking-wide">
+                <span>History</span>
+                <span>Founders</span>
+                <span>Our Mission</span>
+              </div>
+            </div>
+
+            <div className="space-y-8 text-slate-600 leading-relaxed text-sm lg:text-base">
+              <p>
+                The third and last distinctive attribute is sensuality. This is a startling word, and requires some explanation. In the first place, every line is voluptuous, floating, and wavy in its form; deep, rich, and exquisitely soft in its color; drowsy in its effect; like slow wild music; letting the eye repose on it, as on a wreath of cloud, without one feature of harshness to hurt, or of contrast to awaken. In the second place, the cultivation, which, in the simple blue country, has the forced formality of growth which evidently is to supply the necessities of man, here seems to leap into the spontaneous luxuriance of life, which is fitted to minister to his pleasures.
+              </p>
+              <blockquote className="border-l-4 border-primary/30 pl-4 text-slate-700">
+                <h4 className="text-base lg:text-lg font-bold text-slate-900">
+                  Change is the law of life. And those who look only to the past or present are certain to miss the future.
+                </h4>
+              </blockquote>
+              <p>
+                Let us suppose, however, that the design is yielded entirely to the architect&apos;s discretion. Being a piece of domestic architecture, the chief object in its exterior design will be to arouse domestic feelings, which, as we saw before, it will do most distinctly by corresponding with the first part of character. Yet it is still more necessary that it should correspond with its situation; and hence arises another difficulty, the reconciliation of correspondence with contraries; for such, it is deeply to be regretted, are too often the individual&apos;s mind, and the dwelling-place it chooses. The polished courtier brings his refinement and duplicity with him to ape the Arcadian rustic in Devonshire; the romantic rhymer takes a[Pg 121] plastered habitation, with one back window looking into the Green Park; the soft votary of luxury endeavors to rise at seven, in some Ultima Thule of frosts and storms; and the rich stock-jobber calculates his percentages among the soft dingles and woody shores of Westmoreland.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-6 mt-8">
+              {[
+                { value: '2789', label: 'Working Hours' },
+                { value: '7523', label: 'Lines Of Code' },
+                { value: '935', label: 'Testimonials Received' },
+                { value: '9356', label: 'Retina Ready Icons' },
+              ].map((stat) => (
+                <div key={stat.label} className="bg-slate-50 border border-slate-100 rounded-2xl p-4 text-center">
+                  <div className="text-xl lg:text-2xl font-bold text-slate-900">{stat.value}</div>
+                  <div className="text-xs uppercase tracking-wide text-slate-500 mt-1">{stat.label}</div>
+                </div>
+              ))}
+            </div>
+
+            <div className="space-y-8 text-slate-600 leading-relaxed text-sm lg:text-base mt-8">
+              <p>
+                Again, wherever the soil breaks out in simple blue country, whether in the river shore, or the broken roadside bank, or the plowed field, in nine cases out of ten it is excessively warm in its color, being either gravel or clay, the black vegetable soil never remaining free of vegetation. The warm tone of these beds of soil is an admirable relief to the blue of the distances, which we have taken as the distinctive feature of the country, tending to produce the perfect light without which no landscape can be complete.
+              </p>
+              <p>
+                Such a system (supposing that it could be carried fully into effect, and that there were no such animals as sentimental stone-masons to give technical assistance) might, at first, seem rather an encroachment on the liberty of the subject, inasmuch as it would prevent people from indulging their edificatorial fancies, unless they knew something about the matter, or, as the sufferers would probably complain, from doing what they liked with their own. But the mistake would evidently lie in their supposing, as people too frequently do, that the outside of their house is their own, and that they have a perfect right therein to make fools of themselves in any manner, and to any extent, they may think proper.
+              </p>
+              <blockquote className="border-l-4 border-primary/30 pl-4 text-slate-700">
+                <h4 className="text-base lg:text-lg font-bold text-slate-900">
+                  You will never be happy if you continue to search for what happiness consists of. You will never live if you are looking for the meaning of life.
+                </h4>
+              </blockquote>
+              <p>
+                The florist may delight in this: the true lover of flowers never will. He who has taken lessons from nature, who has observed the real purpose and operation of flowers; how they flush forth from the brightness of the earth&apos;s being, as the melody rises up from among the moved strings of the instrument; how the wildness of their pale colors passes over her, like the evidence of a various emotion; how the quick fire of their life and their delight glows along the green banks, where the dew falls the thickest, and the mists of incense pass slowly through the twilight of the leaves, and the intertwined roots make the earth tremble with strange joy at the feeling of their motion.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-6 mt-8">
+              {[
+                { value: '3629', label: 'Lines Of Code' },
+                { value: '327', label: 'Testimonials Received' },
+                { value: '1385', label: 'Retina Ready Icons' },
+                { value: '289', label: 'Working Hours' },
+              ].map((stat) => (
+                <div key={stat.label} className="bg-slate-50 border border-slate-100 rounded-2xl p-4 text-center">
+                  <div className="text-xl lg:text-2xl font-bold text-slate-900">{stat.value}</div>
+                  <div className="text-xs uppercase tracking-wide text-slate-500 mt-1">{stat.label}</div>
+                </div>
+              ))}
+            </div>
+
+            <div className="space-y-8 text-slate-600 leading-relaxed text-sm lg:text-base mt-8">
+              <p>
+                The general rule by which we are to determine the size is, to select the largest mass which will not overwhelm any object of fine form, within two hundred yards of it; and if it does not do this, we may be quite sure it is not too large for the distant features: for it is one of Nature&apos;s most beautiful adaptations, that she is never out of proportion with herself; that is, the minor details of scenery of the first class bear exactly the proportion to the same species of detail in scenery of the second class, that the large features of the first bear to the large features of the second.
+              </p>
+              <p>
+                The impression produced by a given effect or influence depends upon its degree and its duration. Degree always means the proportionate energy exerted. Duration is either into time, or into space, or into both. The duration of color is in space alone, forming what is commonly called extent. The duration of sound is in space and time; the space being in the size of the waves of air, which give depth to the tone. The duration of mental emotion is in time alone. Now in all influences, as is the degree, so is the impression; as is the duration, so is the effect of the impression.
+              </p>
+              <blockquote className="border-l-4 border-primary/30 pl-4 text-slate-700">
+                <h4 className="text-base lg:text-lg font-bold text-slate-900">
+                  My formula for living is quite simple. I get up in the morning and I go to bed at night. In between, I occupy myself as best I can.
+                </h4>
+              </blockquote>
+              <p>
+                Fourthly, when the general energy, instead of pervading simultaneously the multitude of objects, as with one spirit, is independently possessed and manifested by every individual object, the result is repetition, not unity; and contrast is not merely agreeable, but necessary. Thus, a number of objects, forming the line of beauty, is pervaded by one simple energy; but if that energy is separately manifested in each, the result is painful monotony. Parallel right lines, without grouping, are always liable to this objection.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 lg:gap-6 mt-8">
+              {[
+                { value: '6498', label: 'Retina Ready Icons' },
+                { value: '254', label: 'Working Hours' },
+                { value: '8795', label: 'Lines Of Code' },
+                { value: '3647', label: 'Testimonials Received' },
+              ].map((stat) => (
+                <div key={stat.label} className="bg-slate-50 border border-slate-100 rounded-2xl p-4 text-center">
+                  <div className="text-xl lg:text-2xl font-bold text-slate-900">{stat.value}</div>
+                  <div className="text-xs uppercase tracking-wide text-slate-500 mt-1">{stat.label}</div>
+                </div>
+              ))}
+            </div>
+
+            <div className="space-y-6 text-slate-600 leading-relaxed text-sm lg:text-base mt-8">
+              <p>
+                Our lines are to be horizontal; then the roof must be as flat as possible. We need not think of snow, because, however much we may slope the roof, it will not slip off from the material, which, here, is the only proper one; and the roof of the cottage is always very flat, which it would not be if there were any inconvenience attending such a form. But, for the sake of the second contrast, we are to have gracefulness and ease, as well as horizontality. Then we must break the line of the roof into different elevations, yet not making the difference great, or we shall have visible verticals. This must not be done at random.
+              </p>
+            </div>
+
+            <div className="mt-10">
+              <h3 className="text-xl lg:text-2xl font-bold text-slate-900 mb-3">Our Offices</h3>
+              <p className="text-slate-600 text-sm lg:text-base">
+                Talent wins games, but teamwork and intelligence wins championships.
+              </p>
+            </div>
+          </div>
+        </section>
       </main>
       <Footer />
     </>
